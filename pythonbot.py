@@ -93,7 +93,7 @@ async def h(ctx):
 **awardult ID1 ID2 ID3 ID4 ID5 ID6**: *Award correct rewards to the top 6 in the raid*\n\
 **awardwarwin**: *Award a diceroll to everyone for winning a war*\n\
 **awardwarmvp ID**: *Award 2 dicerolls to the War MVP*\n\
-**showchallenges** : *Show all the people with available challenges*")
+**showinfo** : *Show all the people with available challenges*")
 
 @bot.command(pass_context = True)
 async def fullstats(ctx):
@@ -394,9 +394,8 @@ async def veto(ctx):
 ################# ADMIN ######################
 
 @bot.command(pass_context = True)
-async def showchallenges(ctx):
+async def showinfo(ctx):
 
-    #REFACTOR THIS
     if is_allowed(ctx):
         output = "**Challenges**\n"
         f=open("challenges.txt", "r")
@@ -420,7 +419,7 @@ async def showchallenges(ctx):
             if int(split[3]) > 0:
                 output += split[0] + " : " + split[3] + "\n"
         await channel.send(output)
-        log("Show Challenges " + str(ctx.message.author))
+        log("Show Info " + str(ctx.message.author))
     else:
         await channel.send("Admin Permissions Required")
 

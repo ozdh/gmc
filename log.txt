@@ -704,5 +704,9 @@
 2019-08-21 01:12:40.038747 : Defence SolarDaz3[Sakaaran Rebellion]#3498 ScatCuvSmuv#1441
 2019-08-21 01:13:03.095896 : Claim Challenge ScatCuvSmuv#1441 Random Character Power Level (Level)
 2019-08-21 01:16:59.583462 : New Champ ScatCuvSmuv#1441
-2019-08-21 01:18:33.492136 : My Info ScatCuvSmuv#1441
-2019-08-21 01:19:03.787424 : My Info SolarDaz3[Sakaaran Rebellion]#3498
+2019-08-21 13:13:03.095896 : Claim Challenge GeauxRagnar#8795 Highest S6 Team
+2019-08-21 15:15:40.038747 : Defence ScatCuvSmuv#1441 GeauxRagnar#8795
+2019-08-21 15:27:44.434216 : Claim Challenge KyReezy#2003 Discord Leaderboard [#]
+2019-08-21 15:36:44.434216 : New Champ KyReezy#2003
+2019-08-21 23:13:40.622029 : Startup : Logged in as Grandmaster
+2019-08-21 23:13:47.658787 : Champ OzDH#3266(Author)
