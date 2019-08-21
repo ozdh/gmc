@@ -1,2 +1,4 @@
 config.py
+.pythonbot.py.swp
+nohup.out
 __pycache__/
