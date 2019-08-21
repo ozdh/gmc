@@ -4,6 +4,7 @@ import datetime
 import calendar
 import time
 import operator
+import config
 from discord.ext import commands
 from discord.utils import get
 bot = commands.Bot(command_prefix="=")
@@ -765,4 +766,4 @@ def get_member(ctx, id):
     member = server.get_member(int(member))
     return member
 
-bot.run("NTc1ODY1NjM0NzI3MDAyMTQy.XNOKyw.m3QJqH4U1ghn1imcCkWKvsRSh_U")
+bot.run(config.token)
