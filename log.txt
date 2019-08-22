@@ -710,3 +710,21 @@
 2019-08-21 15:36:44.434216 : New Champ KyReezy#2003
 2019-08-21 23:13:40.622029 : Startup : Logged in as Grandmaster
 2019-08-21 23:13:47.658787 : Champ OzDH#3266(Author)
+2019-08-21 18:20:35.516715 : Startup : Logged in as Grandmaster
+2019-08-21 18:20:43.424800 : Champ OzDH#3266(Author)
+2019-08-21 18:20:53.146212 : Show Info OzDH#3266
+2019-08-21 18:21:51.338942 : Champ OzDH#3266(Author)
+2019-08-21 18:24:10.827640 : Show Info OzDH#3266
+2019-08-21 18:24:17.895001 : Award War Win OzDH#3266
+2019-08-21 18:24:36.334854 : Dice Roll OzDH#3266 9 False False
+2019-08-21 18:30:15.123811 : Dice Roll Wagon King#7785 16 False False
+2019-08-21 19:03:19.606051 : New Challenger calmskitzo#9471 Random Character Power Level (Level)
+2019-08-21 19:35:04.172884 : Dice Roll Shadowsrisen#0269 7 False False
+2019-08-21 21:14:30.258435 : Defence KyReezy#2003 calmskitzo#9471
+2019-08-21 23:02:08.402389 : Claim Challenge Wagon King#7785 Characters at 5+ Stars
+2019-08-21 23:02:41.047483 : Dice Roll ScatCuvSmuv#1441 6 False False
+2019-08-22 00:13:32.299606 : New Champ Wagon King#7785
+2019-08-22 01:47:47.511368 : My Info owinfrey#4648
+2019-08-22 01:47:59.248941 : Dice Roll owinfrey#4648 9 False False
+2019-08-22 01:48:08.870701 : Claim Challenge owinfrey#4648 Random Character Power Level (Level)
+2019-08-22 04:31:56.001012 : Defence Wagon King#7785 owinfrey#4648
