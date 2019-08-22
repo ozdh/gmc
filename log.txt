@@ -728,3 +728,23 @@
 2019-08-22 01:47:59.248941 : Dice Roll owinfrey#4648 9 False False
 2019-08-22 01:48:08.870701 : Claim Challenge owinfrey#4648 Random Character Power Level (Level)
 2019-08-22 04:31:56.001012 : Defence Wagon King#7785 owinfrey#4648
+2019-08-22 09:43:55.711749 : New Challenger SolarDaz3[Sakaaran Rebellion]#3498 Dark Dimension Nodes Completed (inc. Timed Run)
+2019-08-22 09:44:25.010638 : New Champ SolarDaz3[Sakaaran Rebellion]#3498
+2019-08-22 12:39:47.941944 : Award Ult Shadowsrisen#0269 KyReezy#2003 FatMichael#7853 Bootanka#1145 Wagon King#7785 Talon#7280
+2019-08-22 12:40:55.131337 : Dice Roll FatMichael#7853 14 False False
+2019-08-22 12:41:08.100854 : Dice Roll FatMichael#7853 10 False False
+2019-08-22 12:41:26.985946 : Dice Roll FatMichael#7853 11 False False
+2019-08-22 12:41:44.422112 : Dice Roll FatMichael#7853 12 False False
+2019-08-22 12:41:57.920209 : Dice Roll FatMichael#7853 8 False False
+2019-08-22 12:42:10.974948 : Claim Challenge FatMichael#7853 Gold Hoarder
+2019-08-22 12:44:41.231531 : Defence SolarDaz3[Sakaaran Rebellion]#3498 FatMichael#7853
+2019-08-22 12:46:13.076538 : Dice Roll KyReezy#2003 16 False False
+2019-08-22 12:46:24.729788 : Dice Roll KyReezy#2003 13 False False
+2019-08-22 12:46:37.953619 : Dice Roll KyReezy#2003 11 False False
+2019-08-22 13:08:13.676304 : Dice Roll Wagon King#7785 5 False False
+2019-08-22 13:14:30.577716 : Claim Challenge Shadowsrisen#0269 Highest Power Minion
+2019-08-22 13:15:03.384556 : Veto Shadowsrisen#0269 Gear 1 Characters
+2019-08-22 13:33:45.964260 : Defence SolarDaz3[Sakaaran Rebellion]#3498 Shadowsrisen#0269
+2019-08-22 14:44:05.402280 : Claim Challenge Wagon King#7785 10+ Gold & Red Stars (Total Characters)
+2019-08-22 17:35:56.733559 : Defence SolarDaz3[Sakaaran Rebellion]#3498 Wagon King#7785
+2019-08-22 17:37:20.783289 : Dice Roll H1CKROSS#0846 8 False False
