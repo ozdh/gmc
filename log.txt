@@ -748,3 +748,67 @@
 2019-08-22 14:44:05.402280 : Claim Challenge Wagon King#7785 10+ Gold & Red Stars (Total Characters)
 2019-08-22 17:35:56.733559 : Defence SolarDaz3[Sakaaran Rebellion]#3498 Wagon King#7785
 2019-08-22 17:37:20.783289 : Dice Roll H1CKROSS#0846 8 False False
+2019-08-22 17:41:32.333054 : Claim Challenge Wagon King#7785 Highest Wakandans Team
+2019-08-22 17:43:36.561685 : Veto Wagon King#7785 All Time Arena Rank [#]
+2019-08-22 17:46:59.448684 : Defence SolarDaz3[Sakaaran Rebellion]#3498 Wagon King#7785
+2019-08-22 19:27:07.059056 : Show Info OzDH#3266
+2019-08-22 19:53:55.412149 : Dice Roll GeauxRagnar#8795 11 False False
+2019-08-22 20:24:24.999418 : Dice Roll Talon#7280 13 False False
+2019-08-22 20:24:41.968770 : Dice Roll Talon#7280 10 False False
+2019-08-23 10:43:16.113390 : My Info KyReezy#2003
+2019-08-23 10:43:24.027494 : Champ KyReezy#2003(Author)
+2019-08-23 10:43:48.161535 : Claim Challenge KyReezy#2003 Highest S6 Team
+2019-08-23 14:39:15.120351 : Defence SolarDaz3[Sakaaran Rebellion]#3498 KyReezy#2003
+2019-08-24 08:40:45.272999 : New Challenger Deadpool#0292 Last / Current Ultimus Raid Ranking
+2019-08-24 15:48:53.887550 : My Info ScatCuvSmuv#1441
+2019-08-25 04:42:44.952664 : Defence SolarDaz3[Sakaaran Rebellion]#3498 Deadpool#0292
+2019-08-25 12:19:24.520527 : New Challenger OzDH#3266 Gear 13 Characters
+2019-08-25 12:22:52.738324 : Veto SolarDaz3[Sakaaran Rebellion]#3498 Highest Defenders Team
+2019-08-25 12:25:48.972336 : New Champ OzDH#3266
+2019-08-25 12:25:55.340013 : My Info SolarDaz3[Sakaaran Rebellion]#3498
+2019-08-25 12:26:06.763973 : Dice Roll SolarDaz3[Sakaaran Rebellion]#3498 6 False False
+2019-08-25 13:24:17.639381 : Award Ult OzDH#3266 GeauxRagnar#8795 FatMichael#7853 owinfrey#4648 ColbysGotMoore#1776 Wagon King#7785
+2019-08-25 14:32:20.815184 : Dice Roll Wagon King#7785 10 False False
+2019-08-26 10:44:13.853240 : Award War Win OzDH#3266
+2019-08-26 11:42:23.461234 : Dice Roll Shadowsrisen#0269 11 False False
+2019-08-26 11:42:53.743773 : Dice Roll OzDH#3266 11 False False
+2019-08-26 12:37:17.584377 : Dice Roll GeauxRagnar#8795 9 False False
+2019-08-26 12:37:30.689537 : Dice Roll GeauxRagnar#8795 4 False False
+2019-08-26 12:37:44.932093 : Dice Roll GeauxRagnar#8795 15 False False
+2019-08-26 12:44:06.969686 : Dice Roll SolarDaz3[Sakaaran Rebellion]#3498 6 True False
+2019-08-26 13:49:57.381566 : New Challenger TrickJames#9614 Gear 12+ Characters
+2019-08-26 16:03:09.525346 : Award Ult Wagon King#7785 OzDH#3266 FatMichael#7853 KyReezy#2003 Artikhopper#2517 Talon#7280
+2019-08-26 16:15:40.026293 : Dice Roll H1CKROSS#0846 12 False False
+2019-08-26 18:14:28.763631 : Defence OzDH#3266 TrickJames#9614
+2019-08-26 18:14:44.604639 : Claim Challenge SolarDaz3[Sakaaran Rebellion]#3498 Random Team Power Level
+2019-08-26 18:18:25.659313 : New Champ SolarDaz3[Sakaaran Rebellion]#3498
+2019-08-28 13:04:32.820295 : New Challenger OzDH#3266 Discord Leaderboard [#]
+2019-08-28 13:04:48.413514 : Veto SolarDaz3[Sakaaran Rebellion]#3498 Characters Unlocked [#]
+2019-08-28 13:05:49.716937 : Category OzDH#3266 Random Character Power Level (Character)
+2019-08-28 13:25:10.143317 : New Champ OzDH#3266
+2019-08-28 13:25:25.439757 : Show Info OzDH#3266
+2019-08-28 13:29:57.525784 : Claim Challenge SolarDaz3[Sakaaran Rebellion]#3498 Most 0 Red Stars
+2019-08-28 13:32:17.754455 : New Champ SolarDaz3[Sakaaran Rebellion]#3498
+2019-08-28 13:37:43.726326 : Dice Roll ScatCuvSmuv#1441 14 False False
+2019-08-28 13:37:59.545406 : Dice Roll OzDH#3266 14 False False
+2019-08-28 13:38:08.128309 : Dice Roll OzDH#3266 8 False False
+2019-08-28 14:01:59.683215 : Dice Roll Talon#7280 6 False False
+2019-08-28 14:02:35.521797 : Dice Roll Talon#7280 16 False False
+2019-08-28 14:04:24.058246 : Award Dice Roll OzDH#3266
+2019-08-28 14:07:05.326725 : Dice Roll Wagon King#7785 3 True False
+2019-08-28 15:21:56.439620 : Dice Roll ColbysGotMoore#1776 15 False False
+2019-08-28 15:52:02.699180 : Dice Roll KyReezy#2003 12 False False
+2019-08-28 15:52:13.419548 : Dice Roll KyReezy#2003 9 False False
+2019-08-28 15:52:20.502081 : Champ KyReezy#2003(Author)
+2019-08-28 15:52:38.244405 : Claim Challenge KyReezy#2003 Characters at 10K+
+2019-08-28 16:55:31.613123 : Defence SolarDaz3[Sakaaran Rebellion]#3498 KyReezy#2003
+2019-08-28 20:32:51.540920 : Claim Challenge GeauxRagnar#8795 Highest Spiderverse Team
+2019-08-28 20:33:02.073679 : Veto GeauxRagnar#8795 Blitz Wins [#]
+2019-08-28 21:01:01.777941 : Defence SolarDaz3[Sakaaran Rebellion]#3498 GeauxRagnar#8795
+2019-08-29 09:04:23.787221 : Award Ult H1CKROSS#0846 Shadowsrisen#0269 OzDH#3266 KyReezy#2003 Wagon King#7785 ColbysGotMoore#1776
+2019-08-29 09:10:07.507229 : Dice Roll OzDH#3266 11 False False
+2019-08-29 09:10:17.627294 : Dice Roll OzDH#3266 7 False False
+2019-08-29 09:11:55.572991 : Dice Roll Wagon King#7785 4 False False
+2019-08-29 09:13:10.012922 : New Challenger Talon#7280 Highest Power AIM Or Hydra Team
+2019-08-29 09:20:46.204906 : Defence SolarDaz3[Sakaaran Rebellion]#3498 Talon#7280
+2019-08-29 09:29:06.763738 : Dice Roll KyReezy#2003 7 False False
