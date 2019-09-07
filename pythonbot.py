@@ -19,11 +19,12 @@ sakrebIds=["<@344661859275898882>", "<@353914644613693451>", "<@2159814718426972
 "<@450729572569186324>", "<@266447975146848257>", "<@568471080742682626>", \
 "<@473822789854560266>", "<@451373900069076993>"]
 categories=["Collection Power [#]", "Strongest Team Power [#]", \
-    "Highest Power Character", "Lowest Power Character", "Highest Power Worst Character", \
+    "Highest Power Character", "Lowest Power Character", \
     "Gold + Red Stars (Single Character)", "10+ Gold & Red Stars (Total Characters)", \
     "Alliance MVP Ranking [#]", \
-    "Dark Dimension Nodes Completed (inc. Timed Run)", \
+    "Dark Dimension Nodes Completed (inc. Timed Runs)", \
     "Characters Unlocked [#]", \
+    "Characters with Multiple T4s", "Most 6664+", "Highest Power non-6664", \
     "Characters at 7 Stars [#]", "Characters at 6+ Stars", "Characters at 5+ Stars", "Characters at 4+ Stars", \
     "Characters at 50K+", "Characters at 40K+", "Characters at 30K+", "Characters at 20K+", "Characters at 10K+", \
     "All Time Arena Rank [#]", "Current Arena Rank [#]", \
