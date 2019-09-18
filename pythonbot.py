@@ -14,7 +14,7 @@ channel="abc"
 
 sakrebIds=["<@344661859275898882>", "<@353914644613693451>", "<@215981471842697217>", \
 "<@273279044454187009>", "<@479513428638040086>", "<@473691876680269824>", "<@483755276873498644>", \
-"<@476781105828069386>", "<@187617865996828673>", "<@592861817534152719>", \
+"<@476781105828069386>", "<@187617865996828673>", \
 "<@465324594597986304>", "<@468054768502439947>", \
 "<@450729572569186324>", "<@266447975146848257>", "<@568471080742682626>", \
 "<@473822789854560266>", "<@451373900069076993>"]
@@ -29,7 +29,7 @@ categories=["Collection Power [#]", "Strongest Team Power [#]", \
     "Characters at 50K+", "Characters at 40K+", "Characters at 30K+", "Characters at 20K+", "Characters at 10K+", \
     "All Time Arena Rank [#]", "Current Arena Rank [#]", \
     "Gear 13 Characters", "Gear 12+ Characters", "Gear 11+ Characters", "Gear 1 Characters", \
-    "Last Completed Blitz Rank", "Last / Current Ultimus Raid Ranking", \
+i    "Last Completed Blitz Rank", "Last / Current Ultimus Raid Ranking", \
     "Gold Spent", "Character Rank Ups", "Arena Battles", "Days Logged In", \
     "Highest Power Minion", "Highest Power AIM Or Hydra Team", \
     "Power Core Hoarder", "Gold Hoarder", "Most 0 Red Stars", \

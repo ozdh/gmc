@@ -906,3 +906,200 @@
 2019-09-06 15:49:54.998709 : Dice Roll FatMichael#7853 11 False False
 2019-09-06 15:50:06.126951 : Dice Roll FatMichael#7853 15 False False
 2019-09-06 17:40:17.093482 : New Champ H1CKROSS#0846
+2019-09-07 18:35:26.520770 : Startup : Logged in as Grandmaster
+2019-09-07 18:35:33.569651 : New Challenger Bootanka#1145 Highest Spiderverse Team
+2019-09-07 20:08:00.077096 : Award Ult OzDH#3266 SolarDaz3[Sakaaran Rebellion]#3498 FatMichael#7853 Talon#7280 Wagon King#7785 ScatCuvSmuv#1441
+2019-09-07 20:43:16.502067 : Dice Roll Wagon King#7785 11 False False
+2019-09-07 20:43:16.587756 : Dice Roll owinfrey#4648 11 False True
+2019-09-07 20:44:19.360318 : My Info owinfrey#4648
+2019-09-08 20:30:30.613365 : Defence H1CKROSS#0846 Bootanka#1145
+2019-09-08 20:40:58.747012 : New Challenger FatMichael#7853 Characters at 40K+
+2019-09-08 20:46:44.472905 : Award Ult OzDH#3266 Shadowsrisen#0269 Talon#7280 FatMichael#7853 calmskitzo#9471 SolarDaz3[Sakaaran Rebellion]#3498
+2019-09-08 20:48:30.924368 : Dice Roll Shadowsrisen#0269 9 False False
+2019-09-08 20:48:43.476152 : Dice Roll Shadowsrisen#0269 13 False False
+2019-09-08 20:51:06.765198 : Dice Roll owinfrey#4648 14 False False
+2019-09-08 20:54:04.837416 : Dice Roll FatMichael#7853 17 False False
+2019-09-08 20:54:15.342361 : Dice Roll FatMichael#7853 8 False False
+2019-09-08 21:21:09.958510 : Category OzDH#3266 Gear 12+ Characters
+2019-09-08 21:36:49.669921 : Defence H1CKROSS#0846 FatMichael#7853
+2019-09-08 21:36:56.424633 : New Challenger Artikhopper#2517 Highest GotG Team
+2019-09-08 21:44:16.692768 : Defence H1CKROSS#0846 Artikhopper#2517
+2019-09-08 21:44:55.426072 : Claim Challenge FatMichael#7853 Hulk Shards
+2019-09-08 21:53:42.116042 : Dice Roll SolarDaz3[Sakaaran Rebellion]#3498 15 False False
+2019-09-08 22:01:29.399073 : Defence H1CKROSS#0846 FatMichael#7853
+2019-09-08 22:43:13.964754 : Claim Challenge Shadowsrisen#0269 Last / Current Ultimus Raid Ranking
+2019-09-08 23:04:21.160766 : Defence H1CKROSS#0846 Shadowsrisen#0269
+2019-09-08 23:06:50.738228 : Claim Challenge SolarDaz3[Sakaaran Rebellion]#3498 Level 1 Characters
+2019-09-08 23:15:03.409696 : Category KyReezy#2003 Discord Leaderboard [#]
+2019-09-08 23:15:20.427380 : Veto H1CKROSS#0846 Gear 13 Characters
+2019-09-08 23:28:26.633496 : New Champ SolarDaz3[Sakaaran Rebellion]#3498
+2019-09-09 11:57:31.205159 : Startup : Logged in as Grandmaster
+2019-09-09 11:57:35.943635 : Category OzDH#3266 Characters at 30K+
+2019-09-09 11:57:59.873261 : Category OzDH#3266 Last / Current Ultimus Raid Ranking
+2019-09-09 11:58:07.611380 : Category OzDH#3266 Highest Kree Team
+2019-09-09 11:58:30.427700 : New Challenger H1CKROSS#0846 Highest Defenders Team
+2019-09-11 16:55:43.234045 : Startup : Logged in as Grandmaster
+2019-09-11 16:56:05.507326 : New Champ H1CKROSS#0846
+2019-09-11 16:56:38.454194 : Dice Roll SolarDaz3[Sakaaran Rebellion]#3498 11 False False
+2019-09-11 16:56:46.481637 : Claim Challenge SolarDaz3[Sakaaran Rebellion]#3498 Random Character Power Level (Character)
+2019-09-11 17:15:15.358498 : New Champ SolarDaz3[Sakaaran Rebellion]#3498
+2019-09-11 17:15:31.418309 : My Info KyReezy#2003
+2019-09-11 17:15:51.264713 : Dice Roll KyReezy#2003 8 False False
+2019-09-11 17:16:01.309473 : Dice Roll KyReezy#2003 5 False False
+2019-09-11 17:16:25.308321 : Dice Roll KyReezy#2003 12 False False
+2019-09-12 16:05:21.297432 : Champ OzDH#3266(Author)
+2019-09-12 16:05:22.447658 : Startup : Logged in as Grandmaster
+2019-09-12 16:05:37.702865 : Champ OzDH#3266(Author)
+2019-09-12 16:06:00.626702 : My Info GeauxRagnar#8795
+2019-09-12 16:06:15.852336 : Dice Roll GeauxRagnar#8795 10 False False
+2019-09-12 16:08:34.681556 : My Info H1CKROSS#0846
+2019-09-12 16:08:56.466750 : Claim Challenge H1CKROSS#0846 Last/Current War Battles [#]
+2019-09-12 16:09:20.642840 : Award War Win OzDH#3266
+2019-09-12 16:09:24.077215 : Award War Win OzDH#3266
+2019-09-12 16:09:28.902537 : Award War Win OzDH#3266
+2019-09-12 16:10:19.692925 : Defence SolarDaz3[Sakaaran Rebellion]#3498 H1CKROSS#0846
+2019-09-12 17:59:40.617393 : Dice Roll KyReezy#2003 7 False False
+2019-09-12 17:59:52.348437 : Dice Roll KyReezy#2003 14 False False
+2019-09-12 18:00:00.544174 : Dice Roll KyReezy#2003 10 False False
+2019-09-12 18:00:08.326642 : My Info KyReezy#2003
+2019-09-12 18:00:19.216602 : Claim Challenge KyReezy#2003 Random Character Power Level (Character)
+2019-09-12 18:28:12.298510 : Dice Roll H1CKROSS#0846 14 False False
+2019-09-12 18:28:25.558779 : Dice Roll H1CKROSS#0846 13 False False
+2019-09-12 18:28:37.096507 : Dice Roll H1CKROSS#0846 12 False False
+2019-09-12 18:35:16.962782 : Defence SolarDaz3[Sakaaran Rebellion]#3498 KyReezy#2003
+2019-09-12 18:35:24.023345 : Claim Challenge KyReezy#2003 Collection Power [#]
+2019-09-12 18:35:52.166590 : Veto KyReezy#2003 Random Character Power Level (Level)
+2019-09-12 18:39:00.079429 : New Champ KyReezy#2003
+2019-09-12 19:33:50.567056 : Dice Roll Shadowsrisen#0269 9 True False
+2019-09-12 19:34:19.827644 : Dice Roll Shadowsrisen#0269 9 False False
+2019-09-12 19:34:24.543736 : Dice Roll SolarDaz3[Sakaaran Rebellion]#3498 10 False False
+2019-09-12 19:34:50.229228 : Dice Roll SolarDaz3[Sakaaran Rebellion]#3498 9 False False
+2019-09-12 19:35:01.737667 : Dice Roll SolarDaz3[Sakaaran Rebellion]#3498 12 False False
+2019-09-12 19:35:06.673914 : Claim Challenge SolarDaz3[Sakaaran Rebellion]#3498 Character Rank Ups
+2019-09-12 19:37:37.944893 : Dice Roll Shadowsrisen#0269 14 False False
+2019-09-12 19:37:56.781536 : Dice Roll Shadowsrisen#0269 8 False False
+2019-09-12 19:45:49.575120 : New Champ SolarDaz3[Sakaaran Rebellion]#3498
+2019-09-12 19:46:19.013317 : Claim Challenge KyReezy#2003 Lowest Power Character
+2019-09-12 19:48:07.153413 : Defence SolarDaz3[Sakaaran Rebellion]#3498 KyReezy#2003
+2019-09-12 19:51:26.174477 : My Info OzDH#3266
+2019-09-12 19:52:33.056253 : Claim Challenge OzDH#3266 Random Team Power Level
+2019-09-12 19:59:44.169799 : My Info SolarDaz3[Sakaaran Rebellion]#3498
+2019-09-12 19:59:55.146470 : New Champ OzDH#3266
+2019-09-12 20:06:05.144285 : Claim Challenge Shadowsrisen#0269 Most 0 Red Stars
+2019-09-12 20:08:08.635252 : New Champ Shadowsrisen#0269
+2019-09-13 01:39:12.670086 : New Challenger FatMichael#7853 Gear 12+ Characters
+2019-09-13 02:38:02.203414 : Defence Shadowsrisen#0269 FatMichael#7853
+2019-09-13 02:39:06.502911 : Claim Challenge FatMichael#7853 Highest Power Minion
+2019-09-13 02:40:56.994736 : New Champ FatMichael#7853
+2019-09-13 02:41:30.155482 : Claim Challenge Shadowsrisen#0269 Arena Battles
+2019-09-13 02:56:43.623523 : New Champ Shadowsrisen#0269
+2019-09-13 05:31:17.314608 : My Info ScatCuvSmuv#1441
+2019-09-13 05:31:40.333847 : Dice Roll ScatCuvSmuv#1441 11 False False
+2019-09-13 05:31:54.868965 : Dice Roll ScatCuvSmuv#1441 12 False False
+2019-09-13 05:32:08.405288 : Dice Roll ScatCuvSmuv#1441 12 False False
+2019-09-13 05:32:24.631787 : Dice Roll ScatCuvSmuv#1441 5 False False
+2019-09-13 05:32:37.407695 : Claim Challenge ScatCuvSmuv#1441 Last Completed Blitz Rank
+2019-09-13 05:49:05.116919 : Dice Roll owinfrey#4648 7 False False
+2019-09-13 05:49:16.044831 : Dice Roll owinfrey#4648 12 False False
+2019-09-13 05:49:26.723506 : Dice Roll owinfrey#4648 7 False False
+2019-09-13 13:15:12.009435 : Defence Shadowsrisen#0269 ScatCuvSmuv#1441
+2019-09-13 14:18:12.799176 : New Champ ScatCuvSmuv#1441
+2019-09-13 15:43:57.334465 : New Challenger Talon#7280 Dark Dimension Nodes Completed (inc. Timed Runs)
+2019-09-13 18:31:22.734834 : New Champ Talon#7280
+2019-09-14 14:33:45.118883 : Claim Challenge ScatCuvSmuv#1441 Gold + Red Stars (Single Character)
+2019-09-14 14:41:56.945449 : Defence Talon#7280 ScatCuvSmuv#1441
+2019-09-14 14:42:17.755161 : Claim Challenge ScatCuvSmuv#1441 Ultimus Shards
+2019-09-14 14:57:12.564331 : Defence Talon#7280 ScatCuvSmuv#1441
+2019-09-14 17:08:02.572632 : Claim Challenge FatMichael#7853 Last / Current Ultimus Raid Ranking
+2019-09-14 18:20:35.645769 : New Champ FatMichael#7853
+2019-09-14 18:21:22.604408 : Dice Roll SolarDaz3[Sakaaran Rebellion]#3498 13 False False
+2019-09-14 18:21:28.380084 : Claim Challenge SolarDaz3[Sakaaran Rebellion]#3498 Random Character Power Level (Level)
+2019-09-14 20:12:30.316323 : New Champ SolarDaz3[Sakaaran Rebellion]#3498
+2019-09-14 20:58:57.538073 : Claim Challenge FatMichael#7853 Highest Spiderverse Team
+2019-09-14 21:00:46.857396 : Veto FatMichael#7853 Gold + Red Stars (Single Character)
+2019-09-14 21:20:14.475098 : Category OzDH#3266 Random Character Shards
+2019-09-14 23:30:01.330825 : Category KyReezy#2003 Strongest Team Power [#]
+2019-09-14 23:34:12.017653 : New Champ FatMichael#7853
+2019-09-14 23:50:36.927817 : My Info Shadowsrisen#0269
+2019-09-14 23:50:44.782430 : Claim Challenge Shadowsrisen#0269 Highest Power Character
+2019-09-14 23:54:22.956371 : Defence FatMichael#7853 Shadowsrisen#0269
+2019-09-14 23:54:34.944641 : Claim Challenge Shadowsrisen#0269 Highest X-Men Team
+2019-09-14 23:58:24.966964 : Defence FatMichael#7853 Shadowsrisen#0269
+2019-09-15 13:29:43.218439 : Award Dice Roll SolarDaz3[Sakaaran Rebellion]#3498
+2019-09-15 13:29:44.164767 : Award Dice Roll SolarDaz3[Sakaaran Rebellion]#3498
+2019-09-15 13:30:12.962585 : Award Veto SolarDaz3[Sakaaran Rebellion]#3498
+2019-09-15 13:30:34.947405 : Award Dice Roll FatMichael#7853
+2019-09-15 13:31:00.723986 : Award Dice Roll OzDH#3266
+2019-09-15 13:31:05.090535 : Award Dice Roll OzDH#3266
+2019-09-15 17:44:54.793412 : Award Ult OzDH#3266 SolarDaz3[Sakaaran Rebellion]#3498 ScatCuvSmuv#1441 Wagon King#7785 Talon#7280 FatMichael#7853
+2019-09-15 18:29:40.576242 : Dice Roll Talon#7280 11 False False
+2019-09-15 18:29:57.236770 : Dice Roll Talon#7280 9 False False
+2019-09-15 18:30:31.823331 : Dice Roll Talon#7280 7 False False
+2019-09-15 18:30:57.082766 : Dice Roll Talon#7280 11 False False
+2019-09-15 18:31:12.551788 : Dice Roll Talon#7280 9 False False
+2019-09-15 18:31:29.398361 : Dice Roll Talon#7280 11 False False
+2019-09-15 18:31:38.423337 : My Info Talon#7280
+2019-09-15 18:43:35.449848 : Dice Roll OzDH#3266 14 False False
+2019-09-15 18:43:44.477328 : Dice Roll OzDH#3266 13 False False
+2019-09-15 18:43:53.663742 : Dice Roll OzDH#3266 10 False False
+2019-09-15 18:44:03.122583 : Dice Roll OzDH#3266 14 False False
+2019-09-15 18:44:16.638136 : Dice Roll OzDH#3266 11 False False
+2019-09-15 21:22:25.847732 : Dice Roll Wagon King#7785 8 False False
+2019-09-15 21:22:41.066819 : Dice Roll Wagon King#7785 11 False False
+2019-09-15 21:22:45.601810 : Dice Roll Wagon King#7785 12 False False
+2019-09-15 21:22:54.174213 : Dice Roll Wagon King#7785 15 False False
+2019-09-15 21:23:02.130519 : Dice Roll Wagon King#7785 10 False False
+2019-09-15 21:23:10.324829 : Dice Roll Wagon King#7785 14 False False
+2019-09-15 21:23:24.052915 : Dice Roll SolarDaz3[Sakaaran Rebellion]#3498 14 False False
+2019-09-15 21:23:35.073734 : Dice Roll SolarDaz3[Sakaaran Rebellion]#3498 5 False False
+2019-09-15 21:23:44.522127 : Dice Roll SolarDaz3[Sakaaran Rebellion]#3498 14 False False
+2019-09-15 21:24:17.860082 : Claim Challenge SolarDaz3[Sakaaran Rebellion]#3498 Characters at 40K+
+2019-09-15 21:57:16.053361 : Defence FatMichael#7853 SolarDaz3[Sakaaran Rebellion]#3498
+2019-09-15 22:00:34.202934 : Award War MVP OzDH#3266
+2019-09-15 22:00:40.143313 : Award War Win OzDH#3266
+2019-09-16 03:08:11.047277 : Dice Roll Shadowsrisen#0269 10 False False
+2019-09-17 09:31:32.038990 : Dice Roll OzDH#3266 11 False True
+2019-09-17 09:33:14.366232 : Claim Challenge OzDH#3266 Characters Unlocked [#]
+2019-09-17 09:38:17.628494 : Category OzDH#3266 Hulk Shards
+2019-09-17 09:39:31.799489 : Veto FatMichael#7853 Characters at 4+ Stars
+2019-09-17 09:42:51.682595 : New Champ OzDH#3266
+2019-09-17 09:51:45.649319 : Claim Challenge FatMichael#7853 Characters at 6+ Stars
+2019-09-17 09:54:56.767019 : Defence OzDH#3266 FatMichael#7853
+2019-09-17 09:55:07.088182 : Claim Challenge FatMichael#7853 Characters at 20K+
+2019-09-17 09:57:09.913184 : Defence OzDH#3266 FatMichael#7853
+2019-09-17 09:58:34.711716 : Claim Challenge FatMichael#7853 Random Character Power Level (Character)
+2019-09-17 09:59:48.186566 : Defence OzDH#3266 FatMichael#7853
+2019-09-17 10:00:03.333975 : Claim Challenge FatMichael#7853 Arena Battles
+2019-09-17 10:01:09.606470 : New Champ FatMichael#7853
+2019-09-17 10:02:01.149075 : Claim Challenge OzDH#3266 Power Core Hoarder
+2019-09-17 10:03:25.841128 : New Champ OzDH#3266
+2019-09-17 10:10:15.250378 : Dice Roll owinfrey#4648 13 False False
+2019-09-17 10:10:22.946587 : Claim Challenge owinfrey#4648 Highest Brotherhood Team
+2019-09-17 10:13:32.730056 : Defence OzDH#3266 owinfrey#4648
+2019-09-17 10:13:53.459190 : Claim Challenge owinfrey#4648 Level 1 Characters
+2019-09-17 10:14:02.999486 : Veto owinfrey#4648 Characters at 30K+
+2019-09-17 10:15:40.216822 : Defence OzDH#3266 owinfrey#4648
+2019-09-17 10:16:04.816702 : Award Veto owinfrey#4648
+2019-09-17 10:17:48.646475 : Dice Roll OzDH#3266 17 False False
+2019-09-17 10:18:02.305204 : Dice Roll OzDH#3266 11 False False
+2019-09-17 12:07:31.416182 : New Challenger H1CKROSS#0846 Last/Current War Damage Done [#]
+2019-09-17 14:01:39.180575 : Defence OzDH#3266 H1CKROSS#0846
+2019-09-17 17:31:14.919979 : Award Ult ColbysGotMoore#1776 KyReezy#2003 Bootanka#1145 FatMichael#7853 SolarDaz3[Sakaaran Rebellion]#3498 OzDH#3266
+2019-09-17 17:39:13.607073 : Dice Roll KyReezy#2003 11 False False
+2019-09-17 17:39:21.828315 : Dice Roll KyReezy#2003 14 False False
+2019-09-17 17:39:35.260535 : Dice Roll KyReezy#2003 11 False False
+2019-09-17 17:50:44.490122 : Dice Roll H1CKROSS#0846 9 False False
+2019-09-17 19:40:41.480807 : Dice Roll OzDH#3266 8 False False
+2019-09-17 19:40:48.412926 : New Challenger None Characters at 20K+
+2019-09-17 19:48:25.874991 : Defence OzDH#3266 Shadowsrisen#0269
+2019-09-17 19:48:30.513565 : New Challenger None Ultimus Shards
+2019-09-17 23:46:24.455172 : Dice Roll SolarDaz3[Sakaaran Rebellion]#3498 11 False False
+2019-09-17 23:46:35.225210 : Dice Roll SolarDaz3[Sakaaran Rebellion]#3498 9 False False
+2019-09-17 23:46:45.918980 : Dice Roll SolarDaz3[Sakaaran Rebellion]#3498 9 False False
+2019-09-18 00:47:19.441161 : Dice Roll FatMichael#7853 6 False False
+2019-09-18 00:47:37.435978 : Dice Roll FatMichael#7853 10 False False
+2019-09-18 00:47:50.087230 : Dice Roll FatMichael#7853 5 False False
+2019-09-18 00:47:59.951667 : Dice Roll FatMichael#7853 16 False False
+2019-09-18 00:48:12.839761 : Dice Roll FatMichael#7853 9 False False
+2019-09-18 00:48:27.186749 : Dice Roll FatMichael#7853 15 False False
+2019-09-18 00:48:35.123989 : Dice Roll FatMichael#7853 17 False False
