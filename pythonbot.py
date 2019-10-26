@@ -29,7 +29,7 @@ categories=["Collection Power [#]", "Strongest Team Power [#]", \
     "Characters at 50K+", "Characters at 40K+", "Characters at 30K+", "Characters at 20K+", "Characters at 10K+", \
     "All Time Arena Rank [#]", "Current Arena Rank [#]", \
     "Gear 13 Characters", "Gear 12+ Characters", "Gear 11+ Characters", "Gear 1 Characters", \
-i    "Last Completed Blitz Rank", "Last / Current Ultimus Raid Ranking", \
+    "Last Completed Blitz Rank", "Last / Current Ultimus Raid Ranking", \
     "Gold Spent", "Character Rank Ups", "Arena Battles", "Days Logged In", \
     "Highest Power Minion", "Highest Power AIM Or Hydra Team", \
     "Power Core Hoarder", "Gold Hoarder", "Most 0 Red Stars", \
