@@ -18,6 +18,13 @@ channel = "abc"
 # Put on server
 # test award dailies & war win
 # PUSH LIVE - Change channel to (Test) 518199222340812801 or (Live) 701135988260339852. Change ADMIN/GMAdmin. Change filenames and folder.
+
+# ON SERVER
+# ps -ef | grep 'gmc'
+# kill <pid>
+# nohup python3 //root/gm1c/pythonbot.py &
+# sed -i 's+E:/Dropbox/Discord+/root+g' pythonbot.py
+
 categories=["Collection Power [#]", \
 "Strongest Team Power [#]", \
 "Highest Power Character", \
@@ -699,6 +706,9 @@ async def awarddiceroll(ctx, *ids):
         for id in ids:
             id = id.replace('!','')
             optedids = load_ids()
+            for i in optedids:
+                print(i)
+            print(id)
             if id in optedids:
                 diceroll[id] = int(diceroll[id])+1
                 write_challenges(challenges, diceroll)
@@ -920,8 +930,7 @@ def load_ids():
     ids = []
     f=open("E:/Dropbox/Discord/gmc/idlist.txt", "r")
     for line in f:
-        ids.append(line)
-
+        ids.append(line.rstrip())
     return ids
 
 def get_stat(stat, id):

@@ -273,3 +273,16 @@
 2020-04-22 19:04:02.890109 : Startup : Logged in as Grandmaster
 2020-04-22 19:07:52.798104 : Startup : Logged in as Grandmaster
 2020-04-22 19:08:40.789997 : Startup : Logged in as Grandmaster
+2020-04-22 19:46:13.345291 : Startup : Logged in as Grandmaster
+2020-04-22 19:47:25.573539 : Startup : Logged in as Grandmaster
+2020-04-22 19:48:02.438932 : Champ OzDH#3266(Author)
+2020-04-22 19:50:57.478799 : Startup : Logged in as Grandmaster
+2020-04-22 19:55:34.115556 : Startup : Logged in as Grandmaster
+2020-04-22 19:56:51.838830 : Startup : Logged in as Grandmaster
+2020-04-22 19:56:55.765877 : Award Dice Roll OzDH#3266
+2020-04-22 19:57:09.491607 : Award Dice Roll OzDH#3266
+2020-04-22 19:57:09.766329 : Award Dice Roll OzDH#3266
+2020-04-22 19:57:24.383566 : My Info OzDH#3266
+2020-04-22 19:57:38.389469 : Award War Win OzDH#3266
+2020-04-22 19:57:48.029354 : Award Daily Dice Rolls OzDH#3266
+2020-04-22 19:58:42.866638 : Award Challenge OzDH#3266
