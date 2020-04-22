@@ -1,1 +1,1 @@
-python pythonbot.py
+python E:\Dropbox\Discord\gmc\pythonbot.py

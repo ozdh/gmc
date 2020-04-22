@@ -5,69 +5,183 @@ import calendar
 import time
 import operator
 import config
+import json
+import threading
+import asyncio
 from discord.ext import commands
 from discord.utils import get
 bot = commands.Bot(command_prefix="=")
-channel="abc"
+channel = "abc"
 
-# PUSH LIVE - Change channel to (Test) 518199222340812801 or (Live) 576432021526544405. Change ADMIN/GMAdmin. Change filenames.
-
-sakrebIds=["<@344661859275898882>", "<@353914644613693451>", "<@215981471842697217>", \
-"<@273279044454187009>", "<@479513428638040086>", "<@473691876680269824>", "<@483755276873498644>", \
-"<@476781105828069386>", "<@187617865996828673>", \
-"<@465324594597986304>", "<@468054768502439947>", \
-"<@450729572569186324>", "<@266447975146848257>", "<@568471080742682626>", \
-"<@473822789854560266>", "<@451373900069076993>"]
-categories=["Collection Power [#]", "Strongest Team Power [#]", \
-    "Highest Power Character", "Lowest Power Character", \
-    "Gold + Red Stars (Single Character)", "10+ Gold & Red Stars (Total Characters)", \
-    "Alliance MVP Ranking [#]", \
-    "Dark Dimension Nodes Completed (inc. Timed Runs)", \
-    "Characters Unlocked [#]", \
-    "Characters with Multiple T4s", "Most 6664+", "Highest Power non-6664", \
-    "Characters at 7 Stars [#]", "Characters at 6+ Stars", "Characters at 5+ Stars", "Characters at 4+ Stars", \
-    "Characters at 50K+", "Characters at 40K+", "Characters at 30K+", "Characters at 20K+", "Characters at 10K+", \
-    "All Time Arena Rank [#]", "Current Arena Rank [#]", \
-    "Gear 13 Characters", "Gear 12+ Characters", "Gear 11+ Characters", "Gear 1 Characters", \
-    "Last Completed Blitz Rank", "Last / Current Ultimus Raid Ranking", \
-    "Gold Spent", "Character Rank Ups", "Arena Battles", "Days Logged In", \
-    "Highest Power Minion", "Highest Power AIM Or Hydra Team", \
-    "Power Core Hoarder", "Gold Hoarder", "Most 0 Red Stars", \
-    "Last/Current War Battles [#]", "Last/Current War Damage Done [#]", \
-    "Highest Fury/Shield Minion Team", "Highest Defenders Team", "Highest Spiderverse Team", "Highest GotG Team", "Highest Avengers Team", \
-    "Highest Wakandans Team", "Highest X-Men Team", "Highest Brotherhood Team", "Highest S6 Team", "Highest Kree Team", \
-    "Level 70 Characters", "Level 1 Characters", \
-    "Discord Leaderboard [#]", "Blitz Wins [#]", \
-    "Random Character Power Level (Character)","Random Character Power Level (Character)", \
-    "Random Character Power Level (Level)", "Random Character Power Level (Level)", \
-    "Random Character Shards", "Random Character Shards", \
-    "Random Team Power Level", "Random Team Power Level", "Random Team Power Level", "Random Team Power Level", "Random Team Power Level", \
-    "Ultimus Shards", "Hulk Shards"]
-characters=["AIM Assaulter", "AIM Infector", "AIM Monstrosity", "AIM Researcher", "AIM Security", "America Chavez", "Ant-Man", "Black Panther", "Black Widow", "Bullseye", "Cable", \
-            "Captain America", "Captain Marvel", "Carnage", "Colossus", "Crossbones", "Daredevil", "Deadpool", "Doctor Strange", "Drax", "Elektra", "Falcon", "Gamora", "Green Goblin", \
-            "Groot", "Hand Archer", "Hand Assassin", "Hand Blademaster", "Hand Sentry", "Hand Sorceress", "Hawkeye", "Hulk", "Hydra Armored Guard", "Hydra Grenadier", \
-            "Hydra Rifle Trooper", "Hydra Scientist", "Hydra Sniper", "Iron Fist", "Iron Man", "Jessica Jones", "Juggernaut", "Killmonger", "Kingpin", "Korath", \
+# TODO: fix opt in?
+# TODO: emoji issue
+# Put on server
+# test award dailies & war win
+# PUSH LIVE - Change channel to (Test) 518199222340812801 or (Live) 701135988260339852. Change ADMIN/GMAdmin. Change filenames and folder.
+categories=["Collection Power [#]", \
+"Strongest Team Power [#]", \
+"Highest Power Character", \
+"Lowest Power Character", \
+"Gold + Red Stars (Single Character)", \
+"10+ Gold & Red Stars (Total Characters)", \
+"Alliance MVP Ranking [#]", \
+"War MVPs [#]", \
+"Characters Unlocked [#]", \
+"Characters with Multiple T4s", \
+"Most 6664+", \
+"Characters at 7 Stars [#]", \
+"Characters at 6+ Stars", \
+"Characters at 5+ Stars", \
+"Characters at 4+ Stars", \
+"Characters at 100K+", \
+"Characters at 70K+", \
+"Characters at 60K+", \
+"Characters at 50K+", \
+"Characters at 40K+", \
+"Characters at 30K+", \
+"Characters at 20K+", \
+"Characters at 10K+", \
+"All Time Arena Rank [#]", \
+"Current Arena Rank [#]", \
+"Gear 14 Characters", \
+"Gear 13+ Characters", \
+"Gear 12+ Characters", \
+"Gear 11+ Characters", \
+"Character Rank Ups", \
+"Strongest Power Minion", \
+"Strongest Inhuman Team", \
+"Strongest AIM Team", \
+"Strongest Hydra Team", \
+"Strongest Shield Team", \
+"Strongest Defenders Team (MM or Pun)", \
+"Strongest Spiderverse Team (Non S6)", \
+"Strongest GotG Team", \
+"Strongest Avengers Team", \
+"Strongest Wakandans Team", \
+"Strongest X-Men Team", \
+"Strongest Brotherhood Team", \
+"Strongest S6 Team", \
+"Strongest Kree Team", \
+"Strongest Hand Team", \
+"Strongest Merc Team", \
+"Strongest Military Team", \
+"Strongest Blaster Team", \
+"Strongest Bio Team", \
+"Strongest Brawler Team", \
+"Strongest City Team", \
+"Strongest Controller Team", \
+"Strongest Cosmic Team", \
+"Strongest Global Team", \
+"Strongest Martial Artist Team", \
+"Strongest Minion Team", \
+"Strongest Mutant Team", \
+"Strongest Mystic Team", \
+"Strongest Protector Team", \
+"Strongest Skill Team", \
+"Strongest Support Team", \
+"Strongest Tech Team", \
+"Strongest Hero Team", \
+"Strongest Villain Team", \
+"Level 75 Characters", \
+"Ultimus Shards", \
+"Highest Power non-6664", \
+"Highest Power 0 T4s", \
+"Gear 1 Characters", \
+"Current Blitz Score", \
+"Last Ultimus Raid Ranking", \
+"Last Event Raid Ranking", \
+"Last/Current War Battles [#]", \
+"Last/Current War Damage Done [#]", \
+"Strongest War Defence [#]", \
+"Arena Battles", \
+"Days Logged In", \
+"Level 1 Characters", \
+"Discord Leaderboard [#]", \
+"Blitz Wins [#]", \
+"Random Character Power Level (Character)", \
+"Random Character Power Level (Level)", \
+"Random Character Shards", \
+"Strongest Random Team", \
+"Raid Credits Hoarder", \
+"War Credits Hoarder", \
+"Blitz Credits Hoarder", \
+"Arena Credits Hoader", \
+"ABC Hoarder", \
+"T4s Hoarder", \
+"T3s Hoarder", \
+"T2s Hoarder", \
+"Power Core Hoarder", \
+"Gold Hoarder", \
+"10 Avatar Challenge [#]", \
+"DD1 Timed", \
+"DD2 Timed", \
+"Lowest Team Power", \
+"Un-opened Orbs", \
+"Most Campaign Energy", \
+"World Warrior Placement [#]", \
+"Strongest Random Team", \
+"Strongest Random Team", \
+"Strongest Random Team", \
+"Strongest Random Team", \
+"Strongest Random Team", \
+"Strongest Random Team", \
+"Strongest Random Team", \
+"Strongest Random Team", \
+"Random Character Power Level (Character)", \
+"Random Character Power Level (Character)", \
+"Random Character Power Level (Character)", \
+"Random Character Power Level (Level)", \
+"Random Character Power Level (Level)", \
+"Random Character Power Level (Level)", \
+"Random Character Shards", \
+"Random Character Shards"]
+characters=["AIM Assaulter", "AIM Infector", "AIM Monstrosity", "AIM Researcher", "AIM Security", "Agent Coulson", "America Chavez", "Ant-Man", "Blackbolt", "Black Panther", "Black Widow", "Blob", "Bullseye", "Cable", \
+            "Captain America", "Captain Marvel", "Carnage", "Colossus", "Crossbones", "Crystal", "Cyclops", "Daredevil", "Deadpool", "Doctor Strange", "Drax", "Elektra", "Elsa", "Falcon", "Gamora", "Ghost Rider", "Graviton", "Green Goblin", \
+            "Groot", "Hand Archer", "Hand Assassin", "Hand Blademaster", "Hand Sentry", "Hand Sorceress", "Hawkeye", "Hulk", "Human Torch", "Hydra Armored Guard", "Hydra Grenadier", \
+            "Hydra Rifle Trooper", "Hydra Scientist", "Hydra Sniper", "Invisible Woman", "Iron Fist", "Iron Man", "Jessica Jones", "Juggernaut", "Karnak", "Killmonger", "Kingpin", "Korath", \
             "Kree Cyborg", "Kree Noble", "Kree Oracle", "Kree Reaper", "Kree Royal Guard", "Loki", "Luke Cage", "M'Baku", "Magneto", "Mantis", "Merc Lieutenant", \
-            "Merc Riot Guard", "Merc Sniper", "Merc Soldier", "Minn-Erva", "Mordo", "Ms. Marvel", "Mystique", "Nebula", "Nick Fury", "Night Nurse", "Nobu", "Okoye", \
-            "Phoenix", "Psylocke", "Punisher", "Pyro", "Quake", "Ravager Boomer", "Ravager Bruiser", "Ravager Stitcher", "Rescue", "Rocket", "Ronan", "SHIELD Assault", \
-            "SHIELD Medic", "SHIELD Operative", "SHIELD Security", "SHIELD Trooper", "Sabretooth", "Scarlet Witch", "Scientist Supreme", "Shuri", "Spider-Man", "Spider-Man (Miles)", \
-            "Star-Lord", "Storm", "Thanos", "Thor", "Venom", "Vision", "War-Machine", "Wasp", "Winter Soldier", "Wolverine", "Yondu"
-            ]
-idMap={"<@344661859275898882>":"Artikhopper", "<@353914644613693451>":"Bootanka", "<@215981471842697217>":"Calmskitzo", "<@223982068131037185>":"Candidme", \
-"<@273279044454187009>":"ColbysGotMoore", "<@479174652376252416>":"Cookie_Monster86", "<@479513428638040086>":"Deadpool", "<@473691876680269824>":"FatMichael", \
-"<@483755276873498644>":"GeauxRagnar", "<@476781105828069386>":"H1CKROSS", "<@182901488488677376>":"heet3r", "<@187617865996828673>":"JerBear", \
-"<@592861817534152719>":"KillerKarnage", "<@465324594597986304>":"KyReezy", "<@396560397257408514>":"Owinfrey", "<@468054768502439947>":"OzDH", "<@442226315291131907>":"Peter G", \
-"<@458334361083707414>":"Randy Savage", "<@450729572569186324>":"ScatCuvSmuv", "<@266447975146848257>":"ShadowsRisen", "<@568471080742682626>":"Talon", \
-"<@473822789854560266>":"TrickJames", "<@330148338890702849>":"Tyfighter", "<@451373900069076993>":"Wagon King", "Char":"Char"}
+            "Merc Riot Guard", "Merc Sniper", "Merc Soldier", "Minn-Erva", "Mister Fantasic", "Mister Sinister", "Mordo", "Ms. Marvel", "Mysterio", "Mystique", "Namor", "Nebula", "Nick Fury", "Night Nurse", "Nobu", "Okoye", \
+            "Phoenix", "Proxima", "Psylocke", "Punisher", "Pyro", "Quake", "Ravager Boomer", "Ravager Bruiser", "Ravager Stitcher", "Red Skull", "Rescue", "Rhino", "Rocket", "Ronan", "SHIELD Assault", \
+            "SHIELD Medic", "SHIELD Operative", "SHIELD Security", "SHIELD Trooper", "Sabretooth", "Scarlet Witch", "Scientist Supreme", "Shocker", "Shuri", "Spider-Man", "Spider-Man (Miles)", "Spider-Man (Symbiote)" \
+            "Star-Lord", "Storm", "Stryfe", "Thanos", "The Thing", "Thor", "Toad", "Ultimus", "Ultron", "Venom", "Vision", "Vulture", "War-Machine", "Wasp", "Winter Soldier", "Wolverine", "Yo-Yo", "Yondu"]
+#idMap = {<@344661859275898882>,Artikhopper,<@215981471842697217>,Calmskitzo,<@223982068131037185>,Candidme,<@273279044454187009>,ColbysGotMoore,<@479174652376252416>,Cookie_Monster86,<@473691876680269824>,FatMichael,<@689889209665978396>,Fatshady,<@483755276873498644>,GeauxRagnar,<@182901488488677376>,heet3r,<@120763659998724097>,Hypo,<@465324594597986304>,KyReezy,<@580641750582951960>,mayureshr1,<@468054768502439947>,OzDH,<@442226315291131907>,Peter G,<@458334361083707414>,RandySavage,<@255033419245813760>,ScottF,<@266447975146848257>,ShadowsRisen,<@353732092875505666>,Shev1,<@447683410014633984>,someone,<@568471080742682626>,Talon,<@473822789854560266>,TrickJames,<@330148338890702849>,Tyfighter,<@451373900069076993>,Wagon King}
 
 @bot.event
 async def on_ready():
     # Load Champ
-    currentChampID = load_single_line_file("currentchamp.txt")
+    currentChampID = load_single_line_file("E:/Dropbox/Discord/gmc/currentchamp.txt")
     # Startup
     log('Startup : Logged in as ' + bot.user.name)
     global channel
-    channel = bot.get_channel(576432021526544405) # channel ID goes here
+    channel = bot.get_channel(701135988260339852) # channel ID goes here
+
+@bot.command(pass_context=True)
+async def optout(ctx):
+    log("Opt Out " + str(ctx.message.author))
+    opt_out_id = "<@" + str(ctx.message.author.id) + ">\n"
+    ids = load_ids()
+    if opt_out_id in ids:
+        ids.remove(opt_out_id)
+        f=open("E:/Dropbox/Discord/gmc/idlist.txt", "w")
+        for id in ids:
+            f.write(id)
+        f.close()
+        await channel.send("You have opted out " + opt_out_id + "Use *=optin* to rejoin")
+    else:
+        await channel.send("You are already not in the challenge " + opt_out_id + "Use *=optin* to rejoin")
+
+@bot.command(pass_context=True)
+async def optin(ctx):
+    log("Opt In " + str(ctx.message.author))
+    opt_in_id = "<@" + str(ctx.message.author.id) + ">\n"
+    ids = load_ids()
+    if opt_in_id not in ids:
+        f=open("E:/Dropbox/Discord/gmc/idlist.txt", "a")
+        f.write("\n" + opt_in_id)
+        f.close()
+        await channel.send("You have opted in " + opt_in_id)
+    else:
+        await channel.send("You are already in the challenge " + opt_in_id + "Use *=optout* to remove yourself")
 
 @bot.command(pass_context = True)
 async def h(ctx):
@@ -78,7 +192,6 @@ async def h(ctx):
 **myinfo** : *Prints all stats about the sender including challenges and dice rolls*\n\
 **claimchallenge** : *Generate New Challenge for sender of the message*\n\
 **diceroll** : *Roll the Dice to try and win a challenge*\n\
-**veto** : *Use a veto and get the category changed*\n\
 **category** : *Generate New Random Category*\n\
 **gethistory** : *Print the history of the Championship*\n\
 **stats** : *Show the top 5 in each stat category*\n\
@@ -90,7 +203,6 @@ async def h(ctx):
 **newchallenger** : *Generate New Challenger & Category*\n\
 **awardchallenge ID**: *Award a challenge to given ID*\n\
 **awarddiceroll ID**: *Award a diceroll to given ID*\n\
-**awardveto ID**: *Award a veto to given ID*\n\
 **awardult ID1 ID2 ID3 ID4 ID5 ID6**: *Award correct rewards to the top 6 in the raid*\n\
 **awardwarwin**: *Award a diceroll to everyone for winning a war*\n\
 **awardwarmvp ID**: *Award 2 dicerolls to the War MVP*\n\
@@ -105,7 +217,7 @@ async def fullstats(ctx):
     challenges = {}
     dicerolls = {}
     dicewins = {}
-    f=open("stats.txt", "r")
+    f=open("E:/Dropbox/Discord/gmc/stats.txt", "r")
     for line in f:
         split = line.split(',')
         split[6] = split[6].split('\n')[0]
@@ -116,12 +228,13 @@ async def fullstats(ctx):
         dicerolls[split[0]] = int(split[5])
         dicewins[split[0]] = int(split[6])
     f.close()
-    output = "**R = Reigns | D = Defences | RS = Randomly Selected | C = Challenges | DR = Dice Rolls\n**"
+    output = "```R = Reigns | D = Defences | RS = Randomly Selected | C = Challenges | DR = Dice Rolls\n"
 
     for user in reigns:
-        output += user +  "\tR:" + str(reigns[user]) + "\tD:" + str(defences[user]) + "\tRS:" + str(randoms[user]) + "\tC:" + str(challenges[user]) + " \tDR:" + str(dicewins[user]) + "/" + str(dicerolls[user]) + "\n"
+        spacing = (25 - len(get_member(ctx, user))) * ' '
+        output += get_member(ctx, user) + spacing + "\tR:" + str(reigns[user]) + "\tD:" + str(defences[user]) + "\tRS:" + str(randoms[user]) + "\tC:" + str(challenges[user]) + " \tDR:" + str(dicewins[user]) + "/" + str(dicerolls[user]) + "\n"
 
-    await channel.send(output)
+    await channel.send(output + "```")
 
 @bot.command(pass_context = True)
 async def stats(ctx):
@@ -132,7 +245,7 @@ async def stats(ctx):
     challenges = {}
     dicerolls = {}
     dicewins = {}
-    f=open("stats.txt", "r")
+    f=open("E:/Dropbox/Discord/gmc/stats.txt", "r")
     for line in f:
         split = line.split(',')
         split[6] = split[6].split('\n')[0]
@@ -152,28 +265,58 @@ async def stats(ctx):
     dicewins = sorted(dicewins.items(), key=operator.itemgetter(1), reverse=True)
 
     await channel.send("**Championship Reigns**")
+    output = ""
     for x in range(5):
-        await channel.send(str(x+1) + ": " + reigns[x][0] + " - " + str(reigns[x][1]))
+        if x == 4:
+            output += str(x+1) + ": " + reigns[x][0] + " - **" + str(reigns[x][1]) + "**"
+        else:
+            output += str(x+1) + ": " + reigns[x][0] + " - **" + str(reigns[x][1]) + "** |  "
+    await channel.send(output)
+    output = ""
     await channel.send("**Championship Defences**")
     for x in range(5):
-        await channel.send(str(x+1) + ": " + defences[x][0] + " - " + str(defences[x][1]))
+        if x == 4:
+            output += str(x+1) + ": " + defences[x][0] + " - **" + str(defences[x][1]) + "**"
+        else:
+            output += str(x+1) + ": " + defences[x][0] + " - **" + str(defences[x][1]) + "** |  "
+    await channel.send(output)
+    output = ""
     await channel.send("**Randomly Selected**")
     for x in range(5):
-        await channel.send(str(x+1) + ": " + randoms[x][0] + " - " + str(randoms[x][1]))
+        if x == 4:
+            output += str(x+1) + ": " + randoms[x][0] + " - **" + str(randoms[x][1]) + "**"
+        else:
+            output += str(x+1) + ": " + randoms[x][0] + " - **" + str(randoms[x][1]) + "** |  "
+    await channel.send(output)
+    output = ""
     await channel.send("**Challenges**")
     for x in range(5):
-        await channel.send(str(x+1) + ": " + challenges[x][0] + " - " + str(challenges[x][1]))
+        if x == 4:
+            output += str(x+1) + ": " + challenges[x][0] + " - **" + str(challenges[x][1]) + "**"
+        else:
+            output += str(x+1) + ": " + challenges[x][0] + " - **" + str(challenges[x][1]) + "** |  "
+    await channel.send(output)
+    output = ""
     await channel.send("**Dice Rolls**")
     for x in range(5):
-        await channel.send(str(x+1) + ": " + dicerolls[x][0] + " - " + str(dicerolls[x][1]))
-    await channel.send("**Dice Roll Wins**")
+        if x == 4:
+            output += str(x+1) + ": " + dicerolls[x][0] + " - **" + str(dicerolls[x][1]) + "**"
+        else:
+            output += str(x+1) + ": " + dicerolls[x][0] + " - **" + str(dicerolls[x][1]) + "** |  "
+    await channel.send(output)
+    output = ""
+    await channel.send("**Dice Wins**")
     for x in range(5):
-        await channel.send(str(x+1) + ": " + dicewins[x][0] + " - " + str(dicewins[x][1]))
+        if x == 4:
+            output += str(x+1) + ": " + dicewins[x][0] + " - **" + str(dicewins[x][1]) + "**"
+        else:
+            output += str(x+1) + ": " + dicewins[x][0] + " - **" + str(dicewins[x][1]) + "** |  "
+    await channel.send(output)
 
 @bot.command(pass_context = True)
 async def gethistory(ctx):
     log("Get History " + str(ctx.message.author))
-    f=open("champhistory.txt", "r")
+    f=open("E:/Dropbox/Discord/gmc/champhistory.txt", "r")
     output = ""
     for line in f:
         split = line.split(':')
@@ -181,21 +324,21 @@ async def gethistory(ctx):
             if len(output) > 1900:
                 await channel.send(output)
                 output = ""
-            output += "*" + split[0] + ":* New Champion! **" + idMap[split[2].split("\n")[0]] + "**\n"
+            output += "*" + split[0] + ":* New Champion! **" + get_member(ctx, split[2].split("\n")[0]) + "**\n"
         else:
             if len(output) > 1900:
                 await channel.send(output)
                 output = ""
-            output += "*" + split[0] + ":* **" + idMap[split[2]] + "** defeats **" + idMap[split[3].split("\n")[0]] + "**\n"
+            output += "*" + split[0] + ":* **" + get_member(ctx, split[2]) + "** defeats **" + get_member(ctx, split[3].split("\n")[0]) + "**\n"
     await channel.send(output)
 
 @bot.command(pass_context = True)
 async def myinfo(ctx):
     log("My Info " + str(ctx.message.author))
     tag = "<@" + str(ctx.message.author.id) + ">"
-    challenges, diceroll, vetos = load_challenges()
+    challenges, diceroll = load_challenges()
 
-    await channel.send(tag + " has **" + str(challenges[tag]) + "** Challenge(s) & **" + str(diceroll[tag]) + "** Dice Roll(s) & **" + str(vetos[tag]) + "** Veto(s)")
+    await channel.send(tag + " has **" + str(challenges[tag]) + "** Challenge(s) & **" + str(diceroll[tag]) + "** Dice Roll(s)")
 
     reigns = {}
     defences = {}
@@ -205,7 +348,7 @@ async def myinfo(ctx):
     dicewins = {}
     allwins = 0
     allrolls = 0
-    f=open("stats.txt", "r")
+    f=open("E:/Dropbox/Discord/gmc/stats.txt", "r")
     for line in f:
         split = line.split(',')
         split[6] = split[6].split('\n')[0]
@@ -218,11 +361,17 @@ async def myinfo(ctx):
         allwins += dicewins[split[0]]
         allrolls += dicerolls[split[0]]
     f.close()
-    percentage = (int(dicewins[tag]) / int(dicerolls[tag])) * 100
-    alliancepercent = (allwins / allrolls) * 100
+    if dicerolls[tag] == 0:
+        percentage = 0
+    else:
+        percentage = (int(dicewins[tag]) / int(dicerolls[tag])) * 100
+    if allrolls == 0:
+        alliancepercent = 0
+    else:
+        alliancepercent = (allwins / allrolls) * 100
     dicerollinfo = "**" + str(dicewins[tag]) + "/" + str(dicerolls[tag]) + " -  " + str(int(percentage)) + "%** *(Alliance Average:" + str(int(alliancepercent)) + "% Win Probability:45.6%)*"
-    output = tag + " *statistics:*\nReigns - **" + str(reigns[tag]) + "**\nDefences - **" + str(defences[tag]) + "**\nRandomly Selected - **" + str(randoms[tag]) \
-                            + "**\nChallenges - **" + str(challenges[tag]) + "**\nDice Roll Info - " + dicerollinfo
+    output = tag + " *statistics:*, Reigns - **" + str(reigns[tag]) + "**, Defences - **" + str(defences[tag]) + "**, Randomly Selected - **" + str(randoms[tag]) \
+                            + "**, Challenges - **" + str(challenges[tag]) + "**, Dice Roll Info - " + dicerollinfo
     await channel.send(output)
 
 @bot.command(pass_context = True)
@@ -250,14 +399,17 @@ async def createtournament(ctx):
 async def champ(ctx):
     log("Champ " + str(ctx.message.author) + "(Author)")
     # Load Champ
-    currentChampID = load_single_line_file("currentchamp.txt")
-    await channel.send("Current Champion is " + str(currentChampID))
+    currentChampID = load_single_line_file("E:/Dropbox/Discord/gmc/currentchamp.txt")
+    await channel.send("**Current Champion is **" + str(currentChampID))
 
 @bot.command(pass_context = True)
 async def printcategories(ctx):
     log("Print Categories " + str(ctx.message.author))
     string = ""
     for a in categories:
+        if len(string) > 1900:
+            await channel.send(string)
+            string = ""
         string += a + "\n"
     await channel.send(string)
 
@@ -268,10 +420,11 @@ async def category(ctx):
 
 @bot.command(pass_context = True)
 async def bestof(ctx, i, id1, id2):
+    log_message = "Best of " + i + " : " + id1 + " " + id2
     if int(i) < 16:
         await channel.send(id1 + " **vs** " + id2)
         for x in range(int(i)):
-            await run_category()
+            await run_category(log_message)
     else:
         await channel.send("Maximum 15 Categories")
 
@@ -281,10 +434,10 @@ async def claimchallenge(ctx):
     server = ctx.message.guild
 
     # Load Champ
-    currentChampID = load_single_line_file("currentchamp.txt")
+    currentChampID = load_single_line_file("E:/Dropbox/Discord/gmc/currentchamp.txt")
 
     # Load Challenges
-    challenges, diceroll, vetos = load_challenges()
+    challenges, diceroll = load_challenges()
 
     if is_active() == 'false':
         # If any challenges...
@@ -300,9 +453,11 @@ async def claimchallenge(ctx):
 
             # Remove challenge
             challenges[tag] = int(challenges[tag])-1
-            write_challenges(challenges, diceroll, vetos)
+            write_challenges(challenges, diceroll)
             write_to_active('true')
             await change_role(server, tag, 'add', 'Active Challenger')
+            await cancel_no_challenge_timer()
+            await start_active_challenge_timer(ctx)
         else:
             await channel.send("You currently have 0 challenges :(")
     else:
@@ -313,7 +468,7 @@ async def diceroll(ctx):
     tag = "<@" + str(ctx.message.author.id) + ">"
 
     # Load Challenges
-    challenges, diceroll, vetos = load_challenges()
+    challenges, diceroll = load_challenges()
 
     # If any challenges...
     if int(diceroll[tag]) > 0:
@@ -332,18 +487,18 @@ async def diceroll(ctx):
         sum = dice1 + dice2 + dice3
         secretprize = False
         jackpot = False
-        if dice1 == 1 and dice2 == 4 and dice3 == 6:
+        if dice1 == 1 and dice2 == 1 and dice3 == 4:
             secretprize = True
         if dice1 == dice2 and dice1 == dice3:
             jackpot = True
         if jackpot:
             challenges[tag] = int(challenges[tag])+3
             add_stats(ctx, "dicewin", tag)
-            await channel.send("DING DING DING. JACKPOT. 3 Challenges Added!" )
+            await channel.send("**DING DING DING. JACKPOT. 3 Challenges Added!**" )
         elif secretprize:
             challenges[tag] = int(challenges[tag])+5
             add_stats(ctx, "dicewin", tag)
-            await channel.send("Secret Combo Found. 1 in 216 chance. 5 Challenges Awarded!!!")
+            await channel.send("***Secret Combo Found. 1 in 216 chance. 5 Challenges Awarded!!!***")
         elif sum == 11:
             await channel.send("**Coin Flip on 11!**\n*Heads - Challenge | Tails - Nothing...*")
             time.sleep(3)
@@ -357,68 +512,55 @@ async def diceroll(ctx):
         elif sum > 11:
             challenges[tag] = int(challenges[tag])+1
             add_stats(ctx, "dicewin", tag)
-            await channel.send("CONGRATULATIONS! You Won a Challenge!")
-        elif sum < 7:
-            vetos[tag] = int(vetos[tag])+1
-            await channel.send("CONGRATULATIONS! You Won a Veto!")
+            await channel.send("**CONGRATULATIONS! You Won a Challenge!**")
         else:
             await channel.send("No win this time...")
 
         # Remove diceroll
         diceroll[tag] = int(diceroll[tag])-1
         log("Dice Roll " + str(ctx.message.author) + " " + str(sum) + " " + str(jackpot) + " " + str(secretprize))
-        write_challenges(challenges, diceroll, vetos)
+        write_challenges(challenges, diceroll)
         await channel.send("*" + str(challenges[tag]) + " Challenges and " + str(diceroll[tag]) + " Dice Rolls Remaining*")
     else:
         await channel.send("You currently have 0 Dice Rolls :(")
 
 @bot.command(pass_context = True)
-async def veto(ctx):
-    tag = "<@" + str(ctx.message.author.id) + ">"
-
-    # Load Challenges
-    challenges, diceroll, vetos = load_challenges()
-
-    # If any challenges...
-    if int(vetos[tag]) > 0:
-        if is_active() == 'true':
-            await channel.send("**Veto Used!**")
-            log_message = "Veto " + str(ctx.message.author)
-            await run_category(log_message)
-            vetos[tag] = int(vetos[tag])-1
-            write_challenges(challenges, diceroll, vetos)
-        else:
-            await channel.send("No Challenge Currently Active")
+async def concede(ctx):
+    if is_role(ctx, "Champion of Sakaar"):
+        await run_new_champ(ctx, True)
+    elif is_role(ctx, "Active Challenger"):
+        await run_defence(ctx, True)
     else:
-        await channel.send("You currently have 0 Vetos :(")
+        await channel.send("You are neither Champion or Challenger")
 
 ################# ADMIN ######################
+
+@bot.command(pass_context=True)
+async def listplayers(ctx):
+    if is_allowed(ctx):
+        output = "```Current Players\n"
+        for id in load_ids():
+            output += get_member(ctx, id) + ", "
+        await channel.send(output + "```")
 
 @bot.command(pass_context = True)
 async def showinfo(ctx):
 
     if is_allowed(ctx):
         output = "**Challenges**\n"
-        f=open("challenges.txt", "r")
+        f=open("E:/Dropbox/Discord/gmc/challenges.txt", "r")
         for line in f:
             split = line.split(',')
             if int(split[1]) > 0:
                 output += split[0] + " : " + split[1] + "\n"
         output += "**Dice Rolls**\n"
         f.close()
-        f=open("challenges.txt", "r")
+        f=open("E:/Dropbox/Discord/gmc/challenges.txt", "r")
         for line in f:
             split = line.split(',')
+            split[2] = split[2].split('\n')[0]
             if int(split[2]) > 0:
                 output += split[0] + " : " + split[2] + "\n"
-        output += "**Vetos**\n"
-        f.close()
-        f=open("challenges.txt", "r")
-        for line in f:
-            split = line.split(',')
-            split[3] = split[3].split('\n')[0]
-            if int(split[3]) > 0:
-                output += split[0] + " : " + split[3] + "\n"
         await channel.send(output)
         log("Show Info " + str(ctx.message.author))
     else:
@@ -426,181 +568,271 @@ async def showinfo(ctx):
 
 @bot.command(pass_context = True)
 async def newchallenger(ctx):
+    await new_challenger(ctx)
+
+async def new_challenger(ctx):
     server = ctx.message.guild
 
     # Load Champ
-    currentChampID = load_single_line_file("currentchamp.txt")
+    currentChampID = load_single_line_file("E:/Dropbox/Discord/gmc/currentchamp.txt")
 
     if is_allowed(ctx):
         if is_active() == 'false':
-            challenger = sakrebIds[random.randint(0,len(sakrebIds)-1)]
+            challenger = load_ids()[random.randint(0,len(load_ids())-1)].replace('\n','')
 
             await channel.send("**CURRENT CHAMPION OF SAKAAR : " + currentChampID + "**")
             while challenger == currentChampID:
-                challenger = sakrebIds[random.randint(0,len(sakrebIds)-1)]
+                challenger = load_ids()[random.randint(0,len(load_ids())-1)].replace('\n','')
             add_stats(ctx, "random", challenger)
-            await channel.send("**Challenger: **" + challenger + " - *Randomly Selected " + str(get_stat("random", challenger)) + " Times*")
+            await channel.send("**Challenger: **" + challenger + " - *Randomly Selected " + str(get_stat("random", challenger)) + " Times - (8 Hours until expiry)*")
 
-            log_message = "New Challenger " + str(get_member(ctx, challenger))
+            log_message = "New Challenger " + get_member(ctx, challenger)
             await run_category(log_message)
 
             write_to_active('true')
             await change_role(server, challenger, 'add', 'Active Challenger')
+            await cancel_no_challenge_timer()
+            await start_active_challenge_timer(ctx)
         else:
             await channel.send("Challenge Already Active")
     else:
         await channel.send("Admin Permissions Required")
 
 @bot.command(pass_context = True)
-async def newchamp(ctx, id):
+async def newchamp(ctx):
+    await run_new_champ(ctx)
+
+async def run_new_champ(ctx, allowed=False):
     now = datetime.datetime.now()
     server = ctx.message.guild
     roles = ctx.message.author.roles
-    oldchampfromfile = load_single_line_file("currentchamp.txt")
+    oldchampfromfile = load_single_line_file("E:/Dropbox/Discord/gmc/currentchamp.txt")
 
-    if is_allowed(ctx):
-        id = id.replace('!','')
-        f=open("currentchamp.txt", "w")
-        f.write(str(id))
-        f.close()
-        write_to_active('false')
-        add_stats(ctx, "reign", id)
-        await channel.send("New Champ is " + id + " - *" + str(get_stat("reign", id)) + " Reigns*")
-        f=open("champhistory.txt", "a")
-        f.write(str(now.day) + " " + calendar.month_name[now.month] + " " + str(now.year) + ":NEW:" + str(id) + "\n")
-        f.close()
-        await change_role(server, oldchampfromfile, 'remove', 'Champion of Sakaar')
-        await change_role(server, id, 'add', 'Champion of Sakaar')
-        await change_role(server, id, 'remove', 'Active Challenger')
-        log("New Champ " + str(get_member(ctx, id)))
+    if is_allowed(ctx) or allowed:
+        id = get_single_user_from_role(ctx, "Active Challenger")
+        if id is not None:
+            id = "<@" + str(id.id) + ">"
+            f=open("E:/Dropbox/Discord/gmc/currentchamp.txt", "w")
+            f.write(str(id))
+            f.close()
+            write_to_active('false')
+            add_stats(ctx, "reign", id)
+            await channel.send("New Champ is " + id + " - *" + str(get_stat("reign", id)) + " Reigns*")
+            f=open("E:/Dropbox/Discord/gmc/champhistory.txt", "a")
+            f.write(str(now.day) + " " + calendar.month_name[now.month] + " " + str(now.year) + ":NEW:" + str(id) + "\n")
+            f.close()
+            await change_role(server, oldchampfromfile, 'remove', 'Champion of Sakaar')
+            await change_role(server, id, 'add', 'Champion of Sakaar')
+            await change_role(server, id, 'remove', 'Active Challenger')
+            log("New Champ " + get_member(ctx, id))
+            await cancel_active_challenge_timer()
+            await start_no_challenge_timer(ctx)
+        else:
+            role = get(ctx.message.guild.roles, name="GMAdmin")
+            await channel.send("{} No Active Challenger role. Please assign role in Discord.".format(role.mention))
     else:
         await channel.send("Admin Permissions Required")
 
 @bot.command(pass_context = True)
-async def defence(ctx, champid, id):
+async def defence(ctx):
+    await run_defence(ctx)
+
+async def run_defence(ctx, allowed=False):
     now = datetime.datetime.now()
     server = ctx.message.guild
     currentChampID = "None"
 
-    if is_allowed(ctx):
-        id = id.replace('!','')
-        champid = champid.replace('!','')
-        currentChampID = load_single_line_file("currentchamp.txt")
+    if is_allowed(ctx) or allowed:
+        #id = id.replace('!','')
+        id = get_single_user_from_role(ctx, "Active Challenger").id
+        if id == None:
+            role = get(ctx.message.guild.roles, name="GMAdmin")
+            await channel.send("{} No Active Challenger role. Please assign role in Discord.".format(role.mention))
+            return
+        id = "<@" + str(id) + ">"
+        #champid = champid.replace('!','')
+        champid = get_single_user_from_role(ctx, "Champion of Sakaar").id
+        if champid == None:
+            role = get(ctx.message.guild.roles, name="GMAdmin")
+            await channel.send("{} No Champion of Sakaar role. Please assign role in Discord.".format(role.mention))
+            return
+        champid = "<@" + str(champid) + ">"
+        currentChampID = load_single_line_file("E:/Dropbox/Discord/gmc/currentchamp.txt")
 
         if champid == currentChampID:
             write_to_active('false')
-            f=open("champhistory.txt", "a")
+            f=open("E:/Dropbox/Discord/gmc/champhistory.txt", "a")
             f.write(str(now.day) + " " + calendar.month_name[now.month] + " " + str(now.year) + ":DEF:" + str(currentChampID) + ":" + str(id) + "\n")
             f.close()
             add_stats(ctx, "defence", champid)
             await channel.send(champid + " defeated " + id + " - *" + str(get_stat("defence", champid)) + " Defences*")
             await change_role(server, id, 'remove', 'Active Challenger')
-            log("Defence " + str(get_member(ctx, champid)) + " " + str(get_member(ctx, id)))
+            log("Defence " + get_member(ctx, champid) + " " + get_member(ctx, id))
+            await cancel_active_challenge_timer()
+            await start_no_challenge_timer(ctx)
         else:
             await channel.send("Current Champ is " + currentChampID + ", not " + champid)
     else:
         await channel.send("Admin Permissions Required")
 
 @bot.command(pass_context = True)
-async def awardchallenge(ctx, id):
-    challenges, diceroll, vetos = load_challenges()
+async def awardchallenge(ctx, *ids):
+    challenges, diceroll = load_challenges()
 
     if is_allowed(ctx):
-        id = id.replace('!','')
-        challenges[id] = int(challenges[id])+1
-
-        write_challenges(challenges, diceroll, vetos)
-        await channel.send(id + " now has " + str(challenges[id]) + " Challenge(s)")
-        log("Award Challenge " + str(get_member(ctx, id)))
+        for id in ids:
+            id = id.replace('!','')
+            optedids = load_ids()
+            if id in optedids:
+                challenges[id] = int(challenges[id])+1
+                write_challenges(challenges, diceroll)
+                await channel.send(id + " now has " + str(challenges[id]) + " Challenge(s)")
+                log("Award Challenge " + get_member(ctx, id))
     else:
         await channel.send("Admin Permissions Required")
 
 @bot.command(pass_context = True)
-async def awarddiceroll(ctx, id):
-    challenges, diceroll, vetos = load_challenges()
+async def awarddiceroll(ctx, *ids):
+    challenges, diceroll = load_challenges()
 
     if is_allowed(ctx):
-        id = id.replace('!','')
-        diceroll[id] = int(diceroll[id])+1
-
-        write_challenges(challenges, diceroll, vetos)
-        await channel.send(id + " now has " + str(diceroll[id]) + " Dice Roll(s)")
-        log("Award Dice Roll " + str(get_member(ctx, id)))
-    else:
-        await channel.send("Admin Permissions Required")
-
-@bot.command(pass_context = True)
-async def awardveto(ctx, id):
-    challenges, diceroll, vetos = load_challenges()
-
-    if is_allowed(ctx):
-        id = id.replace('!','')
-        vetos[id] = int(vetos[id])+1
-
-        write_challenges(challenges, diceroll, vetos)
-        await channel.send(id + " now has " + str(vetos[id]) + " Veto(s)")
-        log("Award Veto " + str(get_member(ctx, id)))
+        for id in ids:
+            id = id.replace('!','')
+            optedids = load_ids()
+            if id in optedids:
+                diceroll[id] = int(diceroll[id])+1
+                write_challenges(challenges, diceroll)
+                await channel.send(id + " now has " + str(diceroll[id]) + " Dice Roll(s)")
+                log("Award Dice Roll " + get_member(ctx, id))
     else:
         await channel.send("Admin Permissions Required")
 
 @bot.command(pass_context = True)
 async def awardwarwin(ctx):
-    challenges, diceroll, vetos = load_challenges()
+    challenges, diceroll = load_challenges()
 
     if is_allowed(ctx):
         for entry in diceroll:
-            diceroll[entry] = int(diceroll[entry])+1
+            optedids = load_ids()
+            if entry in optedids:
+                diceroll[entry] = int(diceroll[entry])+1
 
-        write_challenges(challenges, diceroll, vetos)
+        write_challenges(challenges, diceroll)
         await channel.send("**War Win!** Everyone gets a Dice Roll")
         log("Award War Win " + str(ctx.message.author))
     else:
         await channel.send("Admin Permissions Required")
 
 @bot.command(pass_context = True)
+async def awarddailydicerolls(ctx):
+    challenges, diceroll = load_challenges()
+
+    if is_allowed(ctx):
+        for entry in diceroll:
+            optedids = load_ids()
+            if entry in optedids:
+                diceroll[entry] = int(diceroll[entry])+1
+
+        write_challenges(challenges, diceroll)
+        await channel.send("**Daily Dice Rolls** Everyone gets a Dice Roll")
+        log("Award Daily Dice Rolls " + str(ctx.message.author))
+    else:
+        await channel.send("Admin Permissions Required")
+
+
+@bot.command(pass_context = True)
 async def awardwarmvp(ctx, id):
-    challenges, diceroll, vetos = load_challenges()
+    challenges, diceroll = load_challenges()
 
     if is_allowed(ctx):
         id = id.replace('!','')
-        diceroll[id] = int(diceroll[id])+2
-        vetos[id] = int(vetos[id])+1
-
-        write_challenges(challenges, diceroll, vetos)
-        await channel.send(id + " now has " + str(diceroll[id]) + " Dice Roll(s) and " + str(vetos[id]) + " Veto(s)")
-        log("Award War MVP " + str(get_member(ctx, id)))
+        optedids = load_ids()
+        if id in optedids:
+            challenges[id] = int(challenges[id])+2
+            write_challenges(challenges, diceroll)
+            await channel.send(id + " now has " + str(challenges[id]) + " Challenge(s)")
+            log("Award War MVP " + get_member(ctx, id))
     else:
         await channel.send("Admin Permissions Required")
 
 @bot.command(pass_context = True)
-async def awardult(ctx, id1, id2, id3, id4, id5, id6):
-    challenges, diceroll, vetos = load_challenges()
+async def forceACTtimeout(ctx):
+    log("Forced AC Timeout")
+    role = get(ctx.message.guild.roles, name="GMAdmin")
+    await channel.send("{} Timer has ended. Award Winner".format(role.mention))
 
-    if is_allowed(ctx):
-        id1 = id1.replace('!','')
-        challenges[id1] = int(challenges[id1])+1
-        vetos[id1] = int(vetos[id1])+1
-        await channel.send(id1 + " now has " + str(challenges[id1]) + " Challenge(s) and " + str(vetos[id1]) + " Veto(s)")
-        id2 = id2.replace('!','')
-        diceroll[id2] = int(diceroll[id2])+2
-        await channel.send(id2 + " now has " + str(diceroll[id2]) + " Dice Roll(s)")
-        id3 = id3.replace('!','')
-        diceroll[id3] = int(diceroll[id3])+1
-        await channel.send(id3 + " now has " + str(diceroll[id3]) + " Dice Roll(s)")
-        id4 = id4.replace('!','')
-        diceroll[id4] = int(diceroll[id4])+1
-        await channel.send(id4 + " now has " + str(diceroll[id4]) + " Dice Roll(s)")
-        id5 = id5.replace('!','')
-        diceroll[id5] = int(diceroll[id5])+1
-        await channel.send(id5 + " now has " + str(diceroll[id5]) + " Dice Roll(s)")
-        id6 = id6.replace('!','')
-        diceroll[id6] = int(diceroll[id6])+1
-        await channel.send(id6 + " now has " + str(diceroll[id6]) + " Dice Roll(s)")
-        f=open("challenges.txt", "w")
-        write_challenges(challenges, diceroll, vetos)
-        log("Award Ult " + str(get_member(ctx, id1)) + " " + str(get_member(ctx, id2)) + " " + str(get_member(ctx, id3)) + " " + str(get_member(ctx, id4)) + " " + str(get_member(ctx, id5)) + " " + str(get_member(ctx, id6)))
-    else:
-        await channel.send("Admin Permissions Required")
+
+################## TIMER ######################
+
+class Timer:
+    def __init__(self, timeout, callback, ctx):
+        self._timeout = timeout
+        self._callback = callback
+        self._ctx = ctx
+        self._task = asyncio.ensure_future(self._job())
+
+    async def _job(self):
+        await asyncio.sleep(self._timeout)
+        await self._callback(self._ctx)
+
+    def cancel(self):
+        self._task.cancel()
+
+async def start_active_challenge_timer(ctx):
+    log("Active Challenge Timer Start")
+    global actimer
+    time = 8 * 3600
+    actimer = Timer(time, ac_timeout_callback, ctx)
+    await asyncio.sleep(time + 0.5)
+
+async def start_no_challenge_timer(ctx):
+    log("No Challenge Timer Start")
+    global nctimer
+    time = 1 * 3600
+    nctimer = Timer(time, nc_timeout_callback, ctx)
+    await asyncio.sleep(time + 0.5)
+
+async def cancel_active_challenge_timer():
+    if 'actimer' in globals():
+        if actimer is not None:
+            log("Cancelling Active Challenge Timer")
+            actimer.cancel()
+
+async def cancel_no_challenge_timer():
+    if 'nctimer' in globals():
+        if nctimer is not None:
+            log("Cancelling No Challenge Timer")
+            nctimer.cancel()
+
+async def ac_timeout_callback(ctx):
+    await asyncio.sleep(0.1)
+    log("AC Timeout")
+    role = get(ctx.message.guild.roles, name="GMAdmin")
+    await channel.send("{} Timer has ended. Award Winner".format(role.mention))
+
+async def nc_timeout_callback(ctx):
+    await asyncio.sleep(0.1)
+    await new_challenger(ctx)
+
+@bot.command(pass_context = True)
+async def startACT(ctx):
+    await start_active_challenge_timer(ctx)
+
+@bot.command(pass_context = True)
+async def startNCT(ctx):
+    await start_no_challenge_timer(ctx)
+
+@bot.command(pass_context = True)
+async def cancelACT(ctx):
+    #MANUAL
+    log("Cancelling Active Challenge Timer")
+    actimer.cancel()
+
+@bot.command(pass_context = True)
+async def cancelNCT(ctx):
+    #MANUAL
+    log("Cancelling No Challenge Timer")
+    nctimer.cancel()
 
 ################## HELPER ######################
 
@@ -619,13 +851,24 @@ async def run_category(log_message):
     if category == "Random Character Power Level (Level)":
         await channel.send("*Category: " + category + "* **" + str(random.randint(0,50000)) + "**")
     elif category == "Random Character Power Level (Character)":
-        await channel.send("*Category: " + category + "* **" + characters[random.randint(0,len(characters)-1)] + "**")
+        await channel.send("*Category: " + category + "* \n**" + characters[random.randint(0,len(characters)-1)] + "**")
     elif category == "Random Character Shards":
-        await channel.send("*Category: " + category + "* **" + characters[random.randint(0,len(characters)-1)] + "**")
-    elif category == "Random Team Power Level":
+        await channel.send("*Category: " + category + "* \n**" + characters[random.randint(0,len(characters)-1)] + "**")
+    elif category == "Strongest Random Team":
         output = "\n"
         charlist = []
         for x in range(5):
+            character = characters[random.randint(0,len(characters)-1)]
+            if not character in charlist:
+                output += character + "\n"
+                charlist.append(character)
+            else:
+                x -= 1
+        await channel.send("*Category: " + category + ":* **" + output + "**")
+    elif category == "10 Avatar Challenge [#]":
+        output = "\n"
+        charlist = []
+        for x in range(10):
             character = characters[random.randint(0,len(characters)-1)]
             if not character in charlist:
                 output += character + "\n"
@@ -639,7 +882,7 @@ async def run_category(log_message):
 def log(message):
     time = datetime.datetime.now()
     print(str(time) + " : " + message)
-    f=open("log.txt", "a")
+    f=open("E:/Dropbox/Discord/gmc/log.txt", "a")
     f.write(str(time) + " : " + message + "\n")
     f.close()
 
@@ -651,29 +894,35 @@ def load_single_line_file(file_name):
     return to_return
 
 def write_to_active(output):
-    f=open("active.txt", "w")
+    f=open("E:/Dropbox/Discord/gmc/active.txt", "w")
     f.write(output)
     f.close()
 
-def write_challenges(challenges, diceroll, vetos):
-    f=open("challenges.txt", "w")
+def write_challenges(challenges, diceroll):
+    f=open("E:/Dropbox/Discord/gmc/challenges.txt", "w")
     for user in challenges:
-        f.write(user + "," + str(challenges[user]) + "," + str(diceroll[user]) + "," + str(vetos[user]) + "\n")
+        f.write(user + "," + str(challenges[user]) + "," + str(diceroll[user]) + "\n")
     f.close()
 
 def load_challenges():
     challenges = {}
     diceroll = {}
-    vetos = {}
-    f=open("challenges.txt", "r")
+    f=open("E:/Dropbox/Discord/gmc/challenges.txt", "r")
     for line in f:
         split = line.split(',')
-        split[3] = split[3].split('\n')[0]
+        split[2] = split[2].split('\n')[0]
         challenges[split[0]] = split[1]
         diceroll[split[0]] = split[2]
-        vetos[split[0]] = split[3]
     f.close()
-    return challenges, diceroll, vetos
+    return challenges, diceroll
+
+def load_ids():
+    ids = []
+    f=open("E:/Dropbox/Discord/gmc/idlist.txt", "r")
+    for line in f:
+        ids.append(line)
+
+    return ids
 
 def get_stat(stat, id):
     # Load Challenges
@@ -683,7 +932,7 @@ def get_stat(stat, id):
     challenges = {}
     dicerolls = {}
     dicewins = {}
-    f=open("stats.txt", "r")
+    f=open("E:/Dropbox/Discord/gmc/stats.txt", "r")
     for line in f:
         split = line.split(',')
         split[6] = split[6].split('\n')[0]
@@ -716,7 +965,7 @@ def add_stats(ctx, stat, id):
     challenges = {}
     dicerolls = {}
     dicewins = {}
-    f=open("stats.txt", "r")
+    f=open("E:/Dropbox/Discord/gmc/stats.txt", "r")
     for line in f:
         split = line.split(',')
         split[6] = split[6].split('\n')[0]
@@ -741,10 +990,17 @@ def add_stats(ctx, stat, id):
     elif stat == "dicewin":
         dicewins[id] = int(dicewins[id])+1
 
-    f=open("stats.txt", "w")
+    f=open("E:/Dropbox/Discord/gmc/stats.txt", "w")
     for user in reigns:
         f.write(user + "," + str(reigns[user]) + "," + str(defences[user]) + "," + str(randoms[user]) + "," + str(challenges[user]) + "," + str(dicerolls[user]) + "," + str(dicewins[user]) + "\n")
     f.close()
+
+def is_role(ctx, roleName):
+    roles = ctx.message.author.roles
+    for role in roles:
+        if role.name == roleName:
+            return True
+    return False
 
 def is_allowed(ctx):
     roles = ctx.message.author.roles
@@ -754,16 +1010,89 @@ def is_allowed(ctx):
     return False
 
 def is_active():
-    f=open("active.txt", "r")
+    f=open("E:/Dropbox/Discord/gmc/active.txt", "r")
     if f.mode == "r":
         active = f.read()
     f.close()
     return active
 
+def get_single_user_from_role(ctx, roleName):
+    server = ctx.message.guild
+    for member in server.members:
+        for role in member.roles:
+            if role.name == roleName:
+                return member
+
 def get_member(ctx, id):
     server = ctx.message.guild
     member = id.replace('!','').replace('<', '').replace('>', '').replace('@', '')
     member = server.get_member(int(member))
-    return member
+    return str(member)
+
+################## Deprecated ######################
+
+
+@bot.command(pass_context = True)
+async def veto(ctx):
+    tag = "<@" + str(ctx.message.author.id) + ">"
+
+    # Load Challenges
+    challenges, diceroll = load_challenges()
+
+    # If any challenges...
+    if int(vetos[tag]) > 0:
+        if is_active() == 'true':
+            await channel.send("**Veto Used!**")
+            log_message = "Veto " + str(ctx.message.author)
+            await run_category(log_message)
+            vetos[tag] = int(vetos[tag])-1
+            write_challenges(challenges, diceroll)
+        else:
+            await channel.send("No Challenge Currently Active")
+    else:
+        await channel.send("You currently have 0 Vetos :(")
+
+@bot.command(pass_context = True)
+async def awardveto(ctx, id):
+    challenges, diceroll = load_challenges()
+
+    if is_allowed(ctx):
+        id = id.replace('!','')
+        vetos[id] = int(vetos[id])+1
+
+        write_challenges(challenges, diceroll)
+        await channel.send(id + " now has " + str(vetos[id]) + " Veto(s)")
+        log("Award Veto " + get_member(ctx, id))
+    else:
+        await channel.send("Admin Permissions Required")
+
+@bot.command(pass_context = True)
+async def awardult(ctx, id1, id2, id3, id4, id5, id6):
+    challenges, diceroll = load_challenges()
+
+    if is_allowed(ctx):
+        id1 = id1.replace('!','')
+        challenges[id1] = int(challenges[id1])+1
+        await channel.send(id1 + " now has " + str(challenges[id1]) + " Challenge(s)")
+        id2 = id2.replace('!','')
+        diceroll[id2] = int(diceroll[id2])+2
+        await channel.send(id2 + " now has " + str(diceroll[id2]) + " Dice Roll(s)")
+        id3 = id3.replace('!','')
+        diceroll[id3] = int(diceroll[id3])+1
+        await channel.send(id3 + " now has " + str(diceroll[id3]) + " Dice Roll(s)")
+        id4 = id4.replace('!','')
+        diceroll[id4] = int(diceroll[id4])+1
+        await channel.send(id4 + " now has " + str(diceroll[id4]) + " Dice Roll(s)")
+        id5 = id5.replace('!','')
+        diceroll[id5] = int(diceroll[id5])+1
+        await channel.send(id5 + " now has " + str(diceroll[id5]) + " Dice Roll(s)")
+        id6 = id6.replace('!','')
+        diceroll[id6] = int(diceroll[id6])+1
+        await channel.send(id6 + " now has " + str(diceroll[id6]) + " Dice Roll(s)")
+        f=open("E:/Dropbox/Discord/gmc/challenges.txt", "w")
+        write_challenges(challenges, diceroll)
+        log("Award Ult " + get_member(ctx, id1) + " " + get_member(ctx, id2) + " " + get_member(ctx, id3) + " " + get_member(ctx, id4) + " " + get_member(ctx, id5) + " " + get_member(ctx, id6))
+    else:
+        await channel.send("Admin Permissions Required")
 
 bot.run(config.token)
