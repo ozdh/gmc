@@ -663,8 +663,8 @@ async def run_new_champ(ctx, allowed=False):
             await change_role(server, id, 'add', 'Champion of Sakaar')
             await change_role(server, id, 'remove', 'Active Challenger')
             log("New Champ " + get_member(ctx, id))
-            #await cancel_active_challenge_timer()
-            #await start_no_challenge_timer(ctx)
+            await cancel_active_challenge_timer()
+            await start_no_challenge_timer(ctx)
             write_cat("")
         else:
             role = get(ctx.message.guild.roles, name="GMAdmin")
@@ -707,8 +707,8 @@ async def run_defence(ctx, allowed=False):
             await channel.send(champid + " defeated " + id + " - *" + str(get_stat("defence", champid)) + " Defences*")
             await change_role(server, id, 'remove', 'Active Challenger')
             log("Defence " + get_member(ctx, champid) + " " + get_member(ctx, id))
-            #await cancel_active_challenge_timer()
-            #await start_no_challenge_timer(ctx)
+            await cancel_active_challenge_timer()
+            await start_no_challenge_timer(ctx)
         else:
             await channel.send("Current Champ is " + currentChampID + ", not " + champid)
         write_cat("")
@@ -779,7 +779,6 @@ async def awarddailydicerolls(ctx):
     else:
         await channel.send("Admin Permissions Required")
 
-
 @bot.command(pass_context = True)
 async def awardwarmvp(ctx, id):
     challenges, diceroll = load_challenges()
@@ -800,7 +799,6 @@ async def forceACTtimeout(ctx):
     log("Forced AC Timeout")
     role = get(ctx.message.guild.roles, name="GMAdmin")
     await channel.send("{} Timer has ended. Award Winner".format(role.mention))
-
 
 ################## TIMER ######################
 
