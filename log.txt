@@ -286,3 +286,785 @@
 2020-04-22 19:57:38.389469 : Award War Win OzDH#3266
 2020-04-22 19:57:48.029354 : Award Daily Dice Rolls OzDH#3266
 2020-04-22 19:58:42.866638 : Award Challenge OzDH#3266
+2020-04-22 20:06:47.220998 : Startup : Logged in as Grandmaster
+2020-04-22 20:07:30.279661 : Award Dice Roll KyReezy#2003
+2020-04-22 20:07:46.457736 : Award War Win KyReezy#2003
+2020-04-22 20:08:20.523077 : Award War MVP OzDH#3266
+2020-04-22 20:09:56.536430 : Award Challenge Randy Savage#5425
+2020-04-22 20:09:57.047948 : Award Challenge FatMichael#7853
+2020-04-22 20:09:57.685382 : Award Challenge GeauxRagnar#8795
+2020-04-22 20:09:58.243603 : Award Challenge OzDH#3266
+2020-04-22 20:09:58.811901 : Award Challenge calmskitzo#9471
+2020-04-22 20:10:02.386224 : Award Challenge KyReezy#2003
+2020-04-22 20:12:08.022115 : Award Dice Roll Randy Savage#5425
+2020-04-22 20:12:08.583269 : Award Dice Roll FatMichael#7853
+2020-04-22 20:12:09.258803 : Award Dice Roll GeauxRagnar#8795
+2020-04-22 20:12:09.988488 : Award Dice Roll OzDH#3266
+2020-04-22 20:12:10.675529 : Award Dice Roll calmskitzo#9471
+2020-04-22 20:12:13.183824 : Award Dice Roll KyReezy#2003
+2020-04-22 20:12:13.732326 : Award Dice Roll Shadowsrisen#0269
+2020-04-22 20:12:14.292501 : Award Dice Roll candidme#0528
+2020-04-22 20:12:15.010271 : Award Dice Roll ColbysGotMoore#1776
+2020-04-22 20:12:15.613520 : Award Dice Roll heet3r#7274
+2020-04-22 20:12:19.212910 : Award Dice Roll Talon#7280
+2020-04-22 20:12:19.713451 : Award Dice Roll Shad0w VI#1698
+2020-04-22 20:12:20.232567 : Award Dice Roll someone#6360
+2020-04-22 20:12:20.771235 : Award Dice Roll TYfighter#7937
+2020-04-22 20:12:21.349975 : Award Dice Roll Artikhopper#2517
+2020-04-22 20:12:25.831667 : Award Dice Roll mayureshr1#8137
+2020-04-22 20:12:26.346862 : Award Dice Roll Shev1#1918
+2020-04-22 20:13:34.469788 : Startup : Logged in as Grandmaster
+2020-04-22 20:16:21.028255 : Dice Roll KyReezy#2003 9 False False
+2020-04-22 20:16:34.542531 : Dice Roll KyReezy#2003 11 False False
+2020-04-22 20:16:46.977046 : Dice Roll KyReezy#2003 15 False False
+2020-04-22 20:16:54.857795 : Claim Challenge KyReezy#2003 DD2 Timed
+2020-04-22 20:16:55.429703 : Active Challenge Timer Start
+2020-04-22 20:19:47.109100 : Defence ColbysGotMoore#1776 KyReezy#2003
+2020-04-22 20:19:47.111056 : Cancelling Active Challenge Timer
+2020-04-22 20:19:47.111056 : No Challenge Timer Start
+2020-04-22 20:20:07.695714 : Claim Challenge KyReezy#2003 Characters at 4+ Stars
+2020-04-22 20:20:08.297491 : Cancelling No Challenge Timer
+2020-04-22 20:20:08.298468 : Active Challenge Timer Start
+2020-04-22 20:20:11.592061 : My Info OzDH#3266
+2020-04-22 20:20:22.948197 : Dice Roll OzDH#3266 10 False False
+2020-04-22 20:20:36.346029 : Dice Roll OzDH#3266 11 False False
+2020-04-22 20:33:43.478443 : Dice Roll Shadowsrisen#0269 13 False False
+2020-04-22 20:34:01.850234 : Dice Roll Shadowsrisen#0269 11 False False
+2020-04-22 20:35:13.934784 : Defence ColbysGotMoore#1776 KyReezy#2003
+2020-04-22 20:35:13.935784 : Cancelling Active Challenge Timer
+2020-04-22 20:35:13.936785 : No Challenge Timer Start
+2020-04-22 20:38:09.885126 : Dice Roll candidme#0528 13 False False
+2020-04-22 20:38:25.350610 : Dice Roll candidme#0528 11 False False
+2020-04-22 20:38:43.711007 : Claim Challenge candidme#0528 Strongest X-Men Team
+2020-04-22 20:38:44.356235 : Cancelling No Challenge Timer
+2020-04-22 20:38:44.357213 : Active Challenge Timer Start
+2020-04-22 20:52:27.868622 : Defence ColbysGotMoore#1776 candidme#0528
+2020-04-22 20:52:27.869600 : Cancelling Active Challenge Timer
+2020-04-22 20:52:27.870578 : No Challenge Timer Start
+2020-04-22 21:05:15.038833 : Claim Challenge OzDH#3266 Days Logged In
+2020-04-22 21:05:15.615859 : Cancelling No Challenge Timer
+2020-04-22 21:05:15.616837 : Active Challenge Timer Start
+2020-04-22 21:07:22.127968 : Defence ColbysGotMoore#1776 OzDH#3266
+2020-04-22 21:07:22.129914 : Cancelling Active Challenge Timer
+2020-04-22 21:07:22.131868 : No Challenge Timer Start
+2020-04-22 21:08:07.870074 : My Info OzDH#3266
+2020-04-22 21:08:38.116540 : Full Stats - OzDH#3266
+2020-04-22 21:08:55.935702 : Stats OzDH#3266
+2020-04-22 21:10:08.041688 : Get History OzDH#3266
+2020-04-22 21:37:18.038051 : Show Info OzDH#3266
+2020-04-22 21:49:14.899720 : Claim Challenge FatMichael#7853 Character Rank Ups
+2020-04-22 21:49:15.264614 : Cancelling No Challenge Timer
+2020-04-22 21:49:15.265591 : Active Challenge Timer Start
+2020-04-22 22:20:33.004624 : Startup : Logged in as Grandmaster
+2020-04-22 22:21:15.082094 : New Champ FatMichael#7853
+2020-04-22 22:21:15.083072 : No Challenge Timer Start
+2020-04-22 22:58:21.392778 : Startup : Logged in as Grandmaster
+2020-04-22 22:58:53.580599 : Dice Roll ColbysGotMoore#1776 10 False False
+2020-04-22 22:59:06.161342 : Dice Roll ColbysGotMoore#1776 10 False False
+2020-04-22 23:08:44.033842 : Startup : Logged in as Grandmaster
+2020-04-22 23:11:06.336169 : Startup : Logged in as Grandmaster
+2020-04-22 23:11:31.661939 : Champ OzDH#3266(Author)
+2020-04-22 23:17:45.418965 : Dice Roll Shev1#1918 10 False False
+2020-04-22 23:18:02.999982 : Dice Roll Shev1#1918 17 False False
+2020-04-22 23:18:22.710419 : Dice Roll Shev1#1918 17 False False
+2020-04-22 23:43:01.598893 : Claim Challenge Shad0w VI#1698 Strongest Power Minion
+2020-04-22 23:43:02.025347 : Active Challenge Timer Start
+2020-04-22 23:47:26.970337 : New Champ Shad0w VI#1698
+2020-04-22 23:47:26.971320 : Cancelling Active Challenge Timer
+2020-04-22 23:47:26.972299 : No Challenge Timer Start
+2020-04-22 23:48:26.868647 : Claim Challenge OzDH#3266 Current Arena Rank [#]
+2020-04-22 23:48:27.218676 : Cancelling No Challenge Timer
+2020-04-22 23:48:27.219654 : Active Challenge Timer Start
+2020-04-22 23:48:47.062683 : New Champ OzDH#3266
+2020-04-22 23:48:47.062683 : Cancelling Active Challenge Timer
+2020-04-22 23:48:47.063661 : No Challenge Timer Start
+2020-04-23 01:15:34.218157 : Startup : Logged in as Grandmaster
+2020-04-23 07:29:20.017942 : Startup : Logged in as Grandmaster
+2020-04-23 09:28:20.234443 : Award Challenge Shadowsrisen#0269
+2020-04-23 09:28:20.453426 : Award Challenge Shadowsrisen#0269
+2020-04-23 09:28:20.695019 : Award Challenge FatMichael#7853
+2020-04-23 09:28:21.007856 : Award Challenge Talon#7280
+2020-04-23 09:28:21.207291 : Award Challenge OzDH#3266
+2020-04-23 09:28:25.412809 : Award Challenge KyReezy#2003
+2020-04-23 09:28:25.604422 : Award Challenge ColbysGotMoore#1776
+2020-04-23 09:29:32.251854 : Award Dice Roll TYfighter#7937
+2020-04-23 09:29:32.492348 : Award Dice Roll candidme#0528
+2020-04-23 09:29:32.701559 : Award Dice Roll GeauxRagnar#8795
+2020-04-23 09:29:33.002666 : Award Dice Roll Shad0w VI#1698
+2020-04-23 09:29:33.235339 : Award Dice Roll Artikhopper#2517
+2020-04-23 09:34:14.442943 : Award Dice Roll FatMichael#7853
+2020-04-23 09:34:26.134762 : Award Challenge FatMichael#7853
+2020-04-23 09:38:40.803049 : Award Dice Roll Shadowsrisen#0269
+2020-04-23 09:39:34.316294 : Dice Roll Shad0w VI#1698 7 False False
+2020-04-23 09:40:05.701621 : Dice Roll Shad0w VI#1698 17 False False
+2020-04-23 09:40:19.784290 : Dice Roll Shad0w VI#1698 10 False False
+2020-04-23 09:40:42.786372 : Claim Challenge Shad0w VI#1698 Strongest Hydra Team
+2020-04-23 09:40:43.182384 : Active Challenge Timer Start
+2020-04-23 09:45:13.617325 : Defence OzDH#3266 Shad0w VI#1698
+2020-04-23 09:45:13.618266 : Cancelling Active Challenge Timer
+2020-04-23 09:45:13.619245 : No Challenge Timer Start
+2020-04-23 09:52:52.606382 : Claim Challenge FatMichael#7853 Highest Power Character
+2020-04-23 09:52:52.940321 : Cancelling No Challenge Timer
+2020-04-23 09:52:52.941300 : Active Challenge Timer Start
+2020-04-23 09:56:06.754343 : New Champ FatMichael#7853
+2020-04-23 09:56:06.755321 : Cancelling Active Challenge Timer
+2020-04-23 09:56:06.757276 : No Challenge Timer Start
+2020-04-23 09:57:13.367419 : My Info OzDH#3266
+2020-04-23 09:58:01.952383 : Claim Challenge OzDH#3266 Arena Credits Hoader
+2020-04-23 09:58:02.295572 : Cancelling No Challenge Timer
+2020-04-23 09:58:02.297528 : Active Challenge Timer Start
+2020-04-23 09:59:16.335726 : Defence FatMichael#7853 OzDH#3266
+2020-04-23 09:59:16.336696 : Cancelling Active Challenge Timer
+2020-04-23 09:59:16.337672 : No Challenge Timer Start
+2020-04-23 09:59:41.087013 : Claim Challenge OzDH#3266 Characters at 20K+
+2020-04-23 09:59:41.424110 : Cancelling No Challenge Timer
+2020-04-23 09:59:41.425088 : Active Challenge Timer Start
+2020-04-23 10:01:09.752327 : New Champ OzDH#3266
+2020-04-23 10:01:09.753324 : Cancelling Active Challenge Timer
+2020-04-23 10:01:09.754820 : No Challenge Timer Start
+2020-04-23 10:01:31.116305 : Claim Challenge FatMichael#7853 Level 75 Characters
+2020-04-23 10:01:31.540670 : Cancelling No Challenge Timer
+2020-04-23 10:01:31.541620 : Active Challenge Timer Start
+2020-04-23 10:02:32.635472 : Defence OzDH#3266 FatMichael#7853
+2020-04-23 10:02:32.636440 : Cancelling Active Challenge Timer
+2020-04-23 10:02:32.639373 : No Challenge Timer Start
+2020-04-23 10:03:53.817846 : Claim Challenge FatMichael#7853 Characters Unlocked [#]
+2020-04-23 10:03:54.273828 : Cancelling No Challenge Timer
+2020-04-23 10:03:54.274806 : Active Challenge Timer Start
+2020-04-23 10:04:27.623089 : Category OzDH#3266 Collection Power [#]
+2020-04-23 10:04:53.263630 : Defence OzDH#3266 FatMichael#7853
+2020-04-23 10:04:53.264608 : Cancelling Active Challenge Timer
+2020-04-23 10:04:53.266564 : No Challenge Timer Start
+2020-04-23 10:28:41.657918 : Startup : Logged in as Grandmaster
+2020-04-23 11:04:53.906738 : New Challenger Peter G#5755 Gear 14 Characters
+2020-04-23 11:04:54.261628 : Cancelling No Challenge Timer
+2020-04-23 11:04:54.262591 : Active Challenge Timer Start
+2020-04-23 11:14:16.673908 : Startup : Logged in as Grandmaster
+2020-04-23 13:42:19.627270 : Startup : Logged in as Grandmaster
+2020-04-23 14:16:52.961746 : Startup : Logged in as Grandmaster
+2020-04-23 15:14:31.147342 : Defence OzDH#3266 Peter G#5755
+2020-04-23 15:14:31.148320 : Cancelling Active Challenge Timer
+2020-04-23 15:14:31.150276 : No Challenge Timer Start
+2020-04-23 15:14:52.885628 : My Info KyReezy#2003
+2020-04-23 15:15:00.419667 : Claim Challenge KyReezy#2003 Strongest Random Team
+2020-04-23 15:15:00.950514 : Cancelling No Challenge Timer
+2020-04-23 15:15:00.953447 : Active Challenge Timer Start
+2020-04-23 15:19:49.954842 : New Champ KyReezy#2003
+2020-04-23 15:19:49.955812 : Cancelling Active Challenge Timer
+2020-04-23 15:19:49.955812 : No Challenge Timer Start
+2020-04-23 15:46:14.824177 : Startup : Logged in as Grandmaster
+2020-04-23 16:27:26.847432 : New Challenger ColbysGotMoore#1776 T4s Hoarder
+2020-04-23 16:27:27.518430 : Cancelling No Challenge Timer
+2020-04-23 16:27:27.520385 : Active Challenge Timer Start
+2020-04-23 17:18:04.612623 : Dice Roll Shadowsrisen#0269 10 False False
+2020-04-23 18:09:35.475990 : Startup : Logged in as Grandmaster
+2020-04-23 19:38:19.151148 : My Info Shad0w VI#1698
+2020-04-23 19:42:14.880943 : New Champ ColbysGotMoore#1776
+2020-04-23 19:42:14.881921 : Cancelling Active Challenge Timer
+2020-04-23 19:42:14.882902 : No Challenge Timer Start
+2020-04-23 20:31:58.437569 : Startup : Logged in as Grandmaster
+2020-04-23 21:03:53.799041 : Startup : Logged in as Grandmaster
+2020-04-23 21:05:32.060311 : Startup : Logged in as Grandmaster
+2020-04-23 23:39:09.415884 : Award Daily Dice Rolls OzDH#3266
+2020-04-23 23:39:49.098602 : Award Dice Roll KyReezy#2003
+2020-04-24 00:00:40.528317 : Dice Roll Shadowsrisen#0269 13 False False
+2020-04-24 00:01:32.538558 : Startup : Logged in as Grandmaster
+2020-04-24 00:05:11.297782 : Dice Roll OzDH#3266 7 False False
+2020-04-24 00:05:26.090804 : Claim Challenge OzDH#3266 Strongest Kree Team
+2020-04-24 00:05:26.434924 : Active Challenge Timer Start
+2020-04-24 00:31:42.811160 : New Champ OzDH#3266
+2020-04-24 00:31:42.812137 : Cancelling Active Challenge Timer
+2020-04-24 00:31:42.814093 : No Challenge Timer Start
+2020-04-24 01:24:16.035334 : Show Info OzDH#3266
+2020-04-24 01:27:20.948480 : Startup : Logged in as Grandmaster
+2020-04-24 01:31:42.906792 : NC Timeout
+2020-04-24 01:31:43.696709 : New Challenger calmskitzo#9471 Characters at 70K+
+2020-04-24 01:31:44.155215 : Cancelling No Challenge Timer
+2020-04-24 01:31:44.156190 : Active Challenge Timer Start
+2020-04-24 01:47:02.044166 : Defence OzDH#3266 calmskitzo#9471
+2020-04-24 01:47:02.044166 : Cancelling Active Challenge Timer
+2020-04-24 01:47:02.045143 : No Challenge Timer Start
+2020-04-24 01:51:27.927843 : Claim Challenge FatMichael#7853 Strongest Random Team
+2020-04-24 01:51:28.375864 : Cancelling No Challenge Timer
+2020-04-24 01:51:28.376833 : Active Challenge Timer Start
+2020-04-24 01:57:51.927200 : New Champ FatMichael#7853
+2020-04-24 01:57:51.929153 : Cancelling Active Challenge Timer
+2020-04-24 01:57:51.930132 : No Challenge Timer Start
+2020-04-24 02:06:41.596004 : Dice Roll KyReezy#2003 15 False False
+2020-04-24 02:06:54.390979 : Dice Roll KyReezy#2003 7 False False
+2020-04-24 02:07:31.549864 : Claim Challenge KyReezy#2003 Last/Current War Battles [#]
+2020-04-24 02:07:31.908650 : Cancelling No Challenge Timer
+2020-04-24 02:07:31.909627 : Active Challenge Timer Start
+2020-04-24 02:11:02.987871 : Category OzDH#3266 Random Character Power Level (Character)
+2020-04-24 02:30:28.041123 : New Champ KyReezy#2003
+2020-04-24 02:30:28.043096 : Cancelling Active Challenge Timer
+2020-04-24 02:30:28.044057 : No Challenge Timer Start
+2020-04-24 02:52:56.543839 : Claim Challenge Shev1#1918 Gear 1 Characters
+2020-04-24 02:52:56.889935 : Cancelling No Challenge Timer
+2020-04-24 02:52:56.890913 : Active Challenge Timer Start
+2020-04-24 03:24:41.421002 : New Champ Shev1#1918
+2020-04-24 03:24:41.421980 : Cancelling Active Challenge Timer
+2020-04-24 03:24:41.421980 : No Challenge Timer Start
+2020-04-24 03:59:36.304398 : Startup : Logged in as Grandmaster
+2020-04-24 04:24:41.520776 : NC Timeout
+2020-04-24 04:24:42.810732 : New Challenger Randy Savage#5425 Strongest Random Team
+2020-04-24 04:24:43.231226 : Cancelling No Challenge Timer
+2020-04-24 04:24:43.232195 : Active Challenge Timer Start
+2020-04-24 06:43:30.118539 : Startup : Logged in as Grandmaster
+2020-04-24 09:35:59.484453 : Defence Shev1#1918 Randy Savage#5425
+2020-04-24 09:35:59.485430 : Cancelling Active Challenge Timer
+2020-04-24 09:35:59.485430 : No Challenge Timer Start
+2020-04-24 09:45:44.395089 : Startup : Logged in as Grandmaster
+2020-04-24 10:35:59.580342 : NC Timeout
+2020-04-24 10:36:01.113254 : New Challenger TrickJames#9614 Characters at 10K+
+2020-04-24 10:36:01.489809 : Cancelling No Challenge Timer
+2020-04-24 10:36:01.490776 : Active Challenge Timer Start
+2020-04-24 18:47:08.987457 : Startup : Logged in as Grandmaster
+2020-04-24 18:47:10.736339 : Defence Shev1#1918 TrickJames#9614
+2020-04-24 18:47:10.737315 : No Challenge Timer Start
+2020-04-24 19:40:32.112736 : Award Daily Dice Rolls KyReezy#2003
+2020-04-24 19:41:04.241693 : Dice Roll KyReezy#2003 8 False False
+2020-04-24 19:41:15.496738 : Claim Challenge KyReezy#2003 T2s Hoarder
+2020-04-24 19:41:16.097018 : Cancelling No Challenge Timer
+2020-04-24 19:41:16.098000 : Active Challenge Timer Start
+2020-04-24 19:51:10.336826 : Startup : Logged in as Grandmaster
+2020-04-24 20:36:59.982916 : New Champ KyReezy#2003
+2020-04-24 20:36:59.983893 : Cancelling Active Challenge Timer
+2020-04-24 20:36:59.983893 : No Challenge Timer Start
+2020-04-24 20:47:11.483283 : Dice Roll OzDH#3266 10 False False
+2020-04-24 20:47:25.919318 : Startup : Logged in as Grandmaster
+2020-04-24 20:53:37.326229 : Award Challenge OzDH#3266
+2020-04-24 21:37:00.086664 : NC Timeout
+2020-04-24 22:07:19.546626 : Claim Challenge OzDH#3266 Random Character Shards
+2020-04-24 22:07:19.916201 : Cancelling No Challenge Timer
+2020-04-24 22:07:19.917169 : Active Challenge Timer Start
+2020-04-24 22:08:17.856570 : Category KyReezy#2003 Strongest Villain Team
+2020-04-24 22:10:42.345964 : New Champ OzDH#3266
+2020-04-24 22:10:42.346940 : Cancelling Active Challenge Timer
+2020-04-24 22:10:42.347917 : No Challenge Timer Start
+2020-04-24 22:15:31.828584 : Award Dice Roll FatMichael#7853
+2020-04-24 22:15:32.061435 : Award Dice Roll GeauxRagnar#8795
+2020-04-24 22:15:32.260903 : Award Dice Roll OzDH#3266
+2020-04-24 22:15:32.703666 : Award Dice Roll Shadowsrisen#0269
+2020-04-24 22:15:32.896593 : Award Dice Roll Talon#7280
+2020-04-24 22:15:38.069228 : Award Dice Roll ColbysGotMoore#1776
+2020-04-24 22:15:38.340028 : Award Dice Roll candidme#0528
+2020-04-24 22:15:38.560306 : Award Dice Roll calmskitzo#9471
+2020-04-24 22:15:38.878174 : Award Dice Roll KyReezy#2003
+2020-04-24 22:15:39.074660 : Award Dice Roll Shad0w VI#1698
+2020-04-24 22:16:15.702191 : Award Challenge FatMichael#7853
+2020-04-24 22:16:15.932910 : Award Challenge GeauxRagnar#8795
+2020-04-24 22:16:16.132343 : Award Challenge OzDH#3266
+2020-04-24 22:18:08.089739 : Dice Roll Shadowsrisen#0269 10 False False
+2020-04-24 22:18:21.512595 : Dice Roll Shadowsrisen#0269 16 False False
+2020-04-24 22:18:43.655233 : Dice Roll FatMichael#7853 8 False False
+2020-04-24 22:18:54.947639 : Dice Roll FatMichael#7853 10 False False
+2020-04-24 22:19:06.099990 : Dice Roll FatMichael#7853 10 False False
+2020-04-24 22:19:18.035201 : Dice Roll FatMichael#7853 9 False False
+2020-04-24 22:19:34.187073 : Dice Roll FatMichael#7853 11 False False
+2020-04-24 22:19:47.606756 : Dice Roll FatMichael#7853 13 False False
+2020-04-24 22:20:00.249781 : Dice Roll FatMichael#7853 9 False False
+2020-04-24 22:20:16.353621 : Dice Roll FatMichael#7853 11 False False
+2020-04-24 22:39:09.434374 : Award Dice Roll KyReezy#2003
+2020-04-24 22:39:23.852720 : Dice Roll KyReezy#2003 7 False False
+2020-04-24 22:39:38.081589 : Dice Roll KyReezy#2003 6 False False
+2020-04-24 22:57:36.589817 : Dice Roll candidme#0528 8 False False
+2020-04-24 22:57:50.089820 : Dice Roll candidme#0528 9 True False
+2020-04-24 22:58:22.365672 : Dice Roll candidme#0528 14 False False
+2020-04-24 22:58:39.449606 : Dice Roll candidme#0528 8 False False
+2020-04-24 22:59:56.219916 : Claim Challenge candidme#0528 Strongest Merc Team
+2020-04-24 22:59:56.579828 : Cancelling No Challenge Timer
+2020-04-24 22:59:56.580788 : Active Challenge Timer Start
+2020-04-24 23:03:25.564966 : Defence OzDH#3266 candidme#0528
+2020-04-24 23:03:25.565944 : Cancelling Active Challenge Timer
+2020-04-24 23:03:25.566921 : No Challenge Timer Start
+2020-04-24 23:03:55.533033 : Claim Challenge candidme#0528 Strongest S6 Team
+2020-04-24 23:03:55.893774 : Cancelling No Challenge Timer
+2020-04-24 23:03:55.894752 : Active Challenge Timer Start
+2020-04-24 23:05:28.489499 : Defence OzDH#3266 candidme#0528
+2020-04-24 23:05:28.490460 : Cancelling Active Challenge Timer
+2020-04-24 23:05:28.491438 : No Challenge Timer Start
+2020-04-24 23:07:41.469942 : Claim Challenge FatMichael#7853 Random Character Shards
+2020-04-24 23:07:41.842531 : Cancelling No Challenge Timer
+2020-04-24 23:07:41.843508 : Active Challenge Timer Start
+2020-04-24 23:08:32.675819 : Category OzDH#3266 Random Character Power Level (Level)
+2020-04-24 23:10:37.604088 : New Champ FatMichael#7853
+2020-04-24 23:10:37.605066 : Cancelling Active Challenge Timer
+2020-04-24 23:10:37.606043 : No Challenge Timer Start
+2020-04-24 23:11:35.398462 : Stats candidme#0528
+2020-04-24 23:20:59.227574 : Claim Challenge Shadowsrisen#0269 Random Character Power Level (Character)
+2020-04-24 23:20:59.606929 : Cancelling No Challenge Timer
+2020-04-24 23:20:59.607907 : Active Challenge Timer Start
+2020-04-24 23:22:25.566401 : Defence FatMichael#7853 Shadowsrisen#0269
+2020-04-24 23:22:25.566401 : Cancelling Active Challenge Timer
+2020-04-24 23:22:25.567379 : No Challenge Timer Start
+2020-04-24 23:46:08.146231 : My Info KyReezy#2003
+2020-04-24 23:47:28.050231 : Claim Challenge OzDH#3266 Strongest Blaster Team
+2020-04-24 23:47:28.405106 : Cancelling No Challenge Timer
+2020-04-24 23:47:28.406083 : Active Challenge Timer Start
+2020-04-24 23:52:16.688093 : New Champ OzDH#3266
+2020-04-24 23:52:16.689071 : Cancelling Active Challenge Timer
+2020-04-24 23:52:16.690048 : No Challenge Timer Start
+2020-04-24 23:57:40.151168 : Claim Challenge candidme#0528 Random Character Power Level (Level)
+2020-04-24 23:57:40.532445 : Cancelling No Challenge Timer
+2020-04-24 23:57:40.533411 : Active Challenge Timer Start
+2020-04-25 00:04:55.943107 : Startup : Logged in as Grandmaster
+2020-04-25 00:05:02.281490 : Defence OzDH#3266 candidme#0528
+2020-04-25 00:05:02.282467 : No Challenge Timer Start
+2020-04-25 00:08:28.068253 : My Info candidme#0528
+2020-04-25 00:09:58.528049 : Dice Roll Shad0w VI#1698 4 False False
+2020-04-25 00:10:08.913886 : Dice Roll Shad0w VI#1698 13 False False
+2020-04-25 00:10:17.294660 : Dice Roll Shad0w VI#1698 6 False True
+2020-04-25 00:10:38.562714 : Claim Challenge Shad0w VI#1698 Random Character Power Level (Character)
+2020-04-25 00:10:38.978220 : Cancelling No Challenge Timer
+2020-04-25 00:10:38.979219 : Active Challenge Timer Start
+2020-04-25 00:13:17.807873 : New Champ Shad0w VI#1698
+2020-04-25 00:13:17.808850 : Cancelling Active Challenge Timer
+2020-04-25 00:13:17.808850 : No Challenge Timer Start
+2020-04-25 00:13:55.413164 : Full Stats - candidme#0528
+2020-04-25 00:20:19.650134 : Claim Challenge candidme#0528 10 Avatar Challenge [#]
+2020-04-25 00:20:19.985126 : Cancelling No Challenge Timer
+2020-04-25 00:20:19.986104 : Active Challenge Timer Start
+2020-04-25 00:21:55.620240 : Category OzDH#3266 Strongest Shield Team
+2020-04-25 00:25:34.141975 : Defence Shad0w VI#1698 candidme#0528
+2020-04-25 00:25:34.142951 : Cancelling Active Challenge Timer
+2020-04-25 00:25:34.143928 : No Challenge Timer Start
+2020-04-25 08:59:40.407381 : Startup : Logged in as Grandmaster
+2020-04-25 10:52:30.372917 : Startup : Logged in as Grandmaster
+2020-04-25 12:23:37.221883 : Startup : Logged in as Grandmaster
+2020-04-25 12:25:45.333977 : New Challenger someone#6360 Random Character Power Level (Character)
+2020-04-25 12:25:45.682336 : Active Challenge Timer Start
+2020-04-25 19:43:18.293174 : Startup : Logged in as Grandmaster
+2020-04-25 19:43:56.508142 : Defence Shad0w VI#1698 someone#6360
+2020-04-25 19:43:56.509120 : No Challenge Timer Start
+2020-04-25 19:44:18.280036 : Award Daily Dice Rolls OzDH#3266
+2020-04-25 20:15:37.193360 : Dice Roll Shadowsrisen#0269 14 False False
+2020-04-25 20:15:55.889240 : Claim Challenge Shadowsrisen#0269 Characters at 70K+
+2020-04-25 20:15:56.363488 : Cancelling No Challenge Timer
+2020-04-25 20:15:56.364464 : Active Challenge Timer Start
+2020-04-25 20:17:44.528513 : New Champ Shadowsrisen#0269
+2020-04-25 20:17:44.529493 : Cancelling Active Challenge Timer
+2020-04-25 20:17:44.530468 : No Challenge Timer Start
+2020-04-25 20:17:52.825907 : Claim Challenge Shad0w VI#1698 Arena Battles
+2020-04-25 20:17:53.185862 : Cancelling No Challenge Timer
+2020-04-25 20:17:53.186855 : Active Challenge Timer Start
+2020-04-25 20:19:24.387481 : Defence Shadowsrisen#0269 Shad0w VI#1698
+2020-04-25 20:19:24.388443 : Cancelling Active Challenge Timer
+2020-04-25 20:19:24.388443 : No Challenge Timer Start
+2020-04-25 20:19:31.927190 : Claim Challenge Shad0w VI#1698 Character Rank Ups
+2020-04-25 20:19:32.284998 : Cancelling No Challenge Timer
+2020-04-25 20:19:32.285975 : Active Challenge Timer Start
+2020-04-25 20:19:54.673887 : Defence Shadowsrisen#0269 Shad0w VI#1698
+2020-04-25 20:19:54.674864 : Cancelling Active Challenge Timer
+2020-04-25 20:19:54.675842 : No Challenge Timer Start
+2020-04-25 20:20:03.586391 : My Info Shad0w VI#1698
+2020-04-25 20:20:24.520408 : Dice Roll Shad0w VI#1698 9 True False
+2020-04-25 20:20:34.684157 : Claim Challenge Shad0w VI#1698 Strongest Shield Team
+2020-04-25 20:20:35.047034 : Cancelling No Challenge Timer
+2020-04-25 20:20:35.048003 : Active Challenge Timer Start
+2020-04-25 20:22:19.000661 : New Champ Shad0w VI#1698
+2020-04-25 20:22:19.001639 : Cancelling Active Challenge Timer
+2020-04-25 20:22:19.002617 : No Challenge Timer Start
+2020-04-25 20:34:17.806086 : Claim Challenge Shev1#1918 Strongest Random Team
+2020-04-25 20:34:18.193134 : Cancelling No Challenge Timer
+2020-04-25 20:34:18.194134 : Active Challenge Timer Start
+2020-04-25 20:46:25.187497 : Defence Shad0w VI#1698 Shev1#1918
+2020-04-25 20:46:25.188476 : Cancelling Active Challenge Timer
+2020-04-25 20:46:25.191408 : No Challenge Timer Start
+2020-04-25 20:46:37.624735 : Dice Roll OzDH#3266 10 False False
+2020-04-25 20:46:50.300208 : Dice Roll OzDH#3266 7 False False
+2020-04-25 20:59:22.049682 : Dice Roll ColbysGotMoore#1776 9 False False
+2020-04-25 20:59:40.707306 : Dice Roll ColbysGotMoore#1776 6 True False
+2020-04-25 21:03:32.853212 : Claim Challenge ColbysGotMoore#1776 War MVPs [#]
+2020-04-25 21:03:33.256806 : Cancelling No Challenge Timer
+2020-04-25 21:03:33.257771 : Active Challenge Timer Start
+2020-04-25 21:05:04.079694 : Defence Shad0w VI#1698 ColbysGotMoore#1776
+2020-04-25 21:05:04.081666 : Cancelling Active Challenge Timer
+2020-04-25 21:05:04.084584 : No Challenge Timer Start
+2020-04-25 21:05:26.036948 : Claim Challenge ColbysGotMoore#1776 Ultimus Shards
+2020-04-25 21:05:26.397840 : Cancelling No Challenge Timer
+2020-04-25 21:05:26.398828 : Active Challenge Timer Start
+2020-04-25 21:06:33.271968 : Defence Shad0w VI#1698 ColbysGotMoore#1776
+2020-04-25 21:06:33.272944 : Cancelling Active Challenge Timer
+2020-04-25 21:06:33.273922 : No Challenge Timer Start
+2020-04-25 21:06:43.042230 : Claim Challenge ColbysGotMoore#1776 Arena Credits Hoader
+2020-04-25 21:06:43.380424 : Cancelling No Challenge Timer
+2020-04-25 21:06:43.381402 : Active Challenge Timer Start
+2020-04-25 21:07:36.307429 : New Champ ColbysGotMoore#1776
+2020-04-25 21:07:36.309383 : Cancelling Active Challenge Timer
+2020-04-25 21:07:36.310361 : No Challenge Timer Start
+2020-04-25 21:07:44.983571 : Claim Challenge Shad0w VI#1698 Gear 11+ Characters
+2020-04-25 21:07:45.368803 : Cancelling No Challenge Timer
+2020-04-25 21:07:45.370748 : Active Challenge Timer Start
+2020-04-25 21:10:13.397125 : New Champ Shad0w VI#1698
+2020-04-25 21:10:13.398119 : Cancelling Active Challenge Timer
+2020-04-25 21:10:13.399082 : No Challenge Timer Start
+2020-04-25 21:45:24.350640 : Dice Roll candidme#0528 10 False False
+2020-04-25 22:10:13.510244 : NC Timeout
+2020-04-25 22:10:40.697534 : My Info GeauxRagnar#8795
+2020-04-25 22:10:56.970049 : Dice Roll GeauxRagnar#8795 5 False False
+2020-04-25 22:11:07.011060 : Dice Roll GeauxRagnar#8795 6 False False
+2020-04-25 22:11:18.590067 : Dice Roll GeauxRagnar#8795 15 False False
+2020-04-25 22:11:31.848085 : Dice Roll GeauxRagnar#8795 8 False False
+2020-04-25 22:11:45.796986 : Dice Roll GeauxRagnar#8795 10 False False
+2020-04-25 22:12:02.598009 : Dice Roll GeauxRagnar#8795 11 False False
+2020-04-25 22:12:16.617647 : Dice Roll GeauxRagnar#8795 11 False False
+2020-04-25 22:12:27.694190 : Dice Roll GeauxRagnar#8795 8 False False
+2020-04-25 22:53:12.742469 : Startup : Logged in as Grandmaster
+2020-04-25 22:56:08.002719 : Claim Challenge FatMichael#7853 Strongest Random Team
+2020-04-25 22:56:08.319802 : Cancelling No Challenge Timer
+2020-04-25 22:56:08.319802 : Active Challenge Timer Start
+2020-04-25 22:58:16.744701 : New Champ FatMichael#7853
+2020-04-25 22:58:16.745679 : Cancelling Active Challenge Timer
+2020-04-25 22:58:16.746657 : No Challenge Timer Start
+2020-04-25 22:58:25.225667 : Claim Challenge Shad0w VI#1698 Last Ultimus Raid Ranking
+2020-04-25 22:58:25.591217 : Cancelling No Challenge Timer
+2020-04-25 22:58:25.592185 : Active Challenge Timer Start
+2020-04-25 22:59:48.590370 : Defence FatMichael#7853 Shad0w VI#1698
+2020-04-25 22:59:48.591387 : Cancelling Active Challenge Timer
+2020-04-25 22:59:48.592325 : No Challenge Timer Start
+2020-04-25 22:59:56.367754 : Claim Challenge Shad0w VI#1698 Strongest Hydra Team
+2020-04-25 22:59:56.699415 : Cancelling No Challenge Timer
+2020-04-25 22:59:56.700382 : Active Challenge Timer Start
+2020-04-25 23:01:43.224619 : New Champ Shad0w VI#1698
+2020-04-25 23:01:43.225613 : Cancelling Active Challenge Timer
+2020-04-25 23:01:43.226591 : No Challenge Timer Start
+2020-04-25 23:02:29.690013 : My Info Shad0w VI#1698
+2020-04-26 00:01:43.336797 : NC Timeout
+2020-04-26 00:01:44.118197 : New Challenger KyReezy#2003 Characters at 5+ Stars
+2020-04-26 00:01:48.657244 : Cancelling No Challenge Timer
+2020-04-26 00:01:48.659199 : Active Challenge Timer Start
+2020-04-26 00:26:33.316155 : Startup : Logged in as Grandmaster
+2020-04-26 01:11:26.494516 : Startup : Logged in as Grandmaster
+2020-04-26 02:11:18.463826 : Startup : Logged in as Grandmaster
+2020-04-26 03:51:01.471670 : Startup : Logged in as Grandmaster
+2020-04-26 06:18:31.580292 : Startup : Logged in as Grandmaster
+2020-04-26 07:19:04.102321 : Startup : Logged in as Grandmaster
+2020-04-26 07:19:27.848158 : New Champ KyReezy#2003
+2020-04-26 07:19:27.849135 : No Challenge Timer Start
+2020-04-26 08:15:39.979291 : My Info Talon#7280
+2020-04-26 08:15:56.308009 : Dice Roll Talon#7280 10 False False
+2020-04-26 08:16:16.180296 : Dice Roll Talon#7280 13 False False
+2020-04-26 08:16:37.516363 : Dice Roll Talon#7280 10 False False
+2020-04-26 08:16:57.646164 : Dice Roll Talon#7280 14 False False
+2020-04-26 08:17:18.136117 : Dice Roll Talon#7280 13 False False
+2020-04-26 08:17:37.379191 : Dice Roll Talon#7280 15 False False
+2020-04-26 08:18:12.341900 : Dice Roll Talon#7280 15 False False
+2020-04-26 08:19:27.955279 : NC Timeout
+2020-04-26 08:19:28.723189 : New Challenger calmskitzo#9471 Days Logged In
+2020-04-26 08:19:29.072430 : Cancelling No Challenge Timer
+2020-04-26 08:19:29.073412 : Active Challenge Timer Start
+2020-04-26 08:31:44.120753 : New Champ calmskitzo#9471
+2020-04-26 08:31:44.121731 : Cancelling Active Challenge Timer
+2020-04-26 08:31:44.123686 : No Challenge Timer Start
+2020-04-26 08:31:52.202506 : My Info KyReezy#2003
+2020-04-26 08:32:10.910636 : Dice Roll KyReezy#2003 13 False False
+2020-04-26 08:32:24.235981 : Claim Challenge KyReezy#2003 Strongest Mystic Team
+2020-04-26 08:32:24.777403 : Cancelling No Challenge Timer
+2020-04-26 08:32:24.778370 : Active Challenge Timer Start
+2020-04-26 08:51:13.702505 : Startup : Logged in as Grandmaster
+2020-04-26 09:58:11.083194 : Startup : Logged in as Grandmaster
+2020-04-26 11:40:04.983692 : Startup : Logged in as Grandmaster
+2020-04-26 12:27:28.741313 : Startup : Logged in as Grandmaster
+2020-04-26 13:24:55.474664 : Startup : Logged in as Grandmaster
+2020-04-26 13:26:17.623951 : Startup : Logged in as Grandmaster
+2020-04-26 15:38:15.128035 : New Champ KyReezy#2003
+2020-04-26 16:41:54.701048 : My Info Shadowsrisen#0269
+2020-04-26 16:42:03.268750 : Claim Challenge Shadowsrisen#0269 Strongest Random Team
+2020-04-26 16:48:59.982003 : New Champ Shadowsrisen#0269
+2020-04-26 16:51:43.929996 : Award Daily Dice Rolls OzDH#3266
+2020-04-26 16:51:58.326402 : Dice Roll OzDH#3266 11 False False
+2020-04-26 16:52:16.446690 : Dice Roll KyReezy#2003 11 False False
+2020-04-26 16:52:46.374393 : Dice Roll candidme#0528 6 False False
+2020-04-26 17:00:33.506217 : Dice Roll Shadowsrisen#0269 11 False False
+2020-04-26 17:08:00.334150 : Startup : Logged in as Grandmaster
+2020-04-26 18:33:26.396089 : New Challenger Shad0w VI#1698 War MVPs [#]
+2020-04-26 18:36:10.057034 : Defence Shadowsrisen#0269 Shad0w VI#1698
+2020-04-26 19:06:51.263463 : Claim Challenge Shad0w VI#1698 War MVPs [#]
+2020-04-26 19:08:01.869318 : Defence Shadowsrisen#0269 Shad0w VI#1698
+2020-04-26 19:08:06.525958 : Claim Challenge Shad0w VI#1698 Alliance MVP Ranking [#]
+2020-04-26 19:08:28.527059 : My Info Shad0w VI#1698
+2020-04-26 19:08:39.928394 : Dice Roll Shad0w VI#1698 8 False False
+2020-04-26 19:09:18.792913 : Defence Shadowsrisen#0269 Shad0w VI#1698
+2020-04-26 19:44:12.048361 : Startup : Logged in as Grandmaster
+2020-04-26 19:54:08.496420 : Dice Roll Shev1#1918 9 False False
+2020-04-26 19:54:30.339093 : Dice Roll Shev1#1918 7 False False
+2020-04-26 19:54:46.635180 : Dice Roll Shev1#1918 7 False False
+2020-04-26 19:55:04.109170 : Dice Roll Shev1#1918 7 False False
+2020-04-26 20:21:44.578154 : Show Info OzDH#3266
+2020-04-26 22:11:46.794411 : Dice Roll ColbysGotMoore#1776 14 False False
+2020-04-26 22:17:53.934119 : Startup : Logged in as Grandmaster
+2020-04-26 22:20:31.718780 : Award War Win FatMichael#7853
+2020-04-26 22:22:01.631179 : Award War MVP Shad0w VI#1698
+2020-04-26 22:22:42.904724 : Award Challenge someone#6360
+2020-04-26 22:22:43.191165 : Award Challenge OzDH#3266
+2020-04-26 22:22:43.419929 : Award Challenge FatMichael#7853
+2020-04-26 22:22:43.742558 : Award Challenge calmskitzo#9471
+2020-04-26 22:24:58.216027 : Award Dice Roll someone#6360
+2020-04-26 22:24:58.408617 : Award Dice Roll OzDH#3266
+2020-04-26 22:24:58.785978 : Award Dice Roll FatMichael#7853
+2020-04-26 22:24:59.036249 : Award Dice Roll calmskitzo#9471
+2020-04-26 22:24:59.231773 : Award Dice Roll ColbysGotMoore#1776
+2020-04-26 22:25:04.530398 : Award Dice Roll Shadowsrisen#0269
+2020-04-26 22:25:04.770892 : Award Dice Roll Shad0w VI#1698
+2020-04-26 22:25:04.981081 : Award Dice Roll GeauxRagnar#8795
+2020-04-26 22:25:05.169760 : Award Dice Roll heet3r#7274
+2020-04-26 22:25:05.397546 : Award Dice Roll candidme#0528
+2020-04-26 22:25:10.699460 : Award Dice Roll Artikhopper#2517
+2020-04-26 22:25:10.918447 : Award Dice Roll fatshady#7716
+2020-04-26 22:25:11.112993 : Award Dice Roll Talon#7280
+2020-04-26 22:25:11.392592 : Award Dice Roll TrickJames#9614
+2020-04-26 22:28:06.730155 : Dice Roll OzDH#3266 13 False False
+2020-04-26 22:28:15.439723 : Dice Roll OzDH#3266 10 False False
+2020-04-26 22:33:43.898540 : Dice Roll Shadowsrisen#0269 11 False False
+2020-04-26 22:33:58.551379 : Dice Roll Shadowsrisen#0269 14 False False
+2020-04-26 22:34:12.772439 : Claim Challenge OzDH#3266 Characters at 7 Stars [#]
+2020-04-26 22:35:27.522564 : Defence Shadowsrisen#0269 OzDH#3266
+2020-04-26 22:55:02.901113 : Award Challenge FatMichael#7853
+2020-04-26 22:55:12.462857 : Award Dice Roll FatMichael#7853
+2020-04-26 22:57:38.161148 : Claim Challenge FatMichael#7853 Strongest Support Team
+2020-04-26 23:00:31.682762 : New Champ FatMichael#7853
+2020-04-26 23:02:24.482142 : My Info OzDH#3266
+2020-04-26 23:02:41.594988 : My Info Shad0w VI#1698
+2020-04-26 23:02:44.389693 : Claim Challenge OzDH#3266 Blitz Wins [#]
+2020-04-26 23:02:53.585297 : Dice Roll Shad0w VI#1698 14 False False
+2020-04-26 23:03:04.965538 : Dice Roll Shad0w VI#1698 11 False False
+2020-04-26 23:04:28.726216 : New Champ OzDH#3266
+2020-04-27 00:25:21.186937 : Startup : Logged in as Grandmaster
+2020-04-27 00:29:45.303744 : New Challenger GeauxRagnar#8795 Strongest Random Team
+2020-04-27 00:43:08.305473 : Dice Roll candidme#0528 10 False False
+2020-04-27 00:43:25.740661 : Dice Roll candidme#0528 13 False False
+2020-04-27 00:46:38.990623 : Award Dice Roll KyReezy#2003
+2020-04-27 00:46:51.517344 : Dice Roll KyReezy#2003 17 False False
+2020-04-27 00:47:04.368902 : Dice Roll KyReezy#2003 10 False False
+2020-04-27 03:46:50.071818 : Dice Roll TrickJames#9614 16 False False
+2020-04-27 04:06:57.548723 : Startup : Logged in as Grandmaster
+2020-04-27 04:36:56.178136 : Startup : Logged in as Grandmaster
+2020-04-27 08:13:08.547430 : Startup : Logged in as Grandmaster
+2020-04-27 09:41:21.669446 : Defence OzDH#3266 GeauxRagnar#8795
+2020-04-27 10:59:03.345259 : Award Daily Dice Rolls OzDH#3266
+2020-04-27 10:59:19.185378 : Dice Roll OzDH#3266 8 False False
+2020-04-27 11:12:05.009857 : Startup : Logged in as Grandmaster
+2020-04-27 13:56:12.852876 : Startup : Logged in as Grandmaster
+2020-04-27 15:13:35.952950 : Dice Roll Shadowsrisen#0269 8 False False
+2020-04-27 15:13:45.928948 : Claim Challenge Shadowsrisen#0269 Strongest Avengers Team
+2020-04-27 15:14:12.496132 : Defence OzDH#3266 Shadowsrisen#0269
+2020-04-27 15:17:14.286539 : Dice Roll candidme#0528 10 False False
+2020-04-27 15:19:58.036248 : Startup : Logged in as Grandmaster
+2020-04-27 15:50:55.060033 : New Challenger ColbysGotMoore#1776 Highest Power non-6664
+2020-04-27 17:22:16.975509 : Startup : Logged in as Grandmaster
+2020-04-27 17:28:55.184350 : Dice Roll Talon#7280 11 False False
+2020-04-27 17:29:16.482728 : Dice Roll Talon#7280 13 False False
+2020-04-27 17:29:41.184260 : Dice Roll Talon#7280 11 False False
+2020-04-27 17:30:00.524259 : Dice Roll Talon#7280 8 False False
+2020-04-27 18:22:31.983124 : Startup : Logged in as Grandmaster
+2020-04-27 19:22:04.875438 : Startup : Logged in as Grandmaster
+2020-04-27 20:32:13.219723 : My Info KyReezy#2003
+2020-04-27 20:32:29.546500 : Dice Roll KyReezy#2003 11 False False
+2020-04-27 21:04:04.150315 : Dice Roll Shad0w VI#1698 7 False False
+2020-04-27 21:07:48.600621 : Award Dice Roll candidme#0528
+2020-04-27 21:08:05.010918 : Dice Roll candidme#0528 4 False False
+2020-04-27 21:19:28.624786 : Startup : Logged in as Grandmaster
+2020-04-27 21:37:29.025316 : Dice Roll FatMichael#7853 10 False False
+2020-04-27 21:37:40.843230 : Dice Roll FatMichael#7853 10 False False
+2020-04-27 21:37:52.684643 : Dice Roll FatMichael#7853 13 False False
+2020-04-27 21:38:07.860958 : Dice Roll FatMichael#7853 11 False False
+2020-04-27 21:38:19.382898 : Dice Roll FatMichael#7853 13 False False
+2020-04-27 21:38:32.125120 : Dice Roll FatMichael#7853 9 False False
+2020-04-27 23:32:37.363710 : Startup : Logged in as Grandmaster
+2020-04-27 23:32:41.611390 : Defence OzDH#3266 ColbysGotMoore#1776
+2020-04-28 00:12:55.432577 : Startup : Logged in as Grandmaster
+2020-04-28 00:56:57.921928 : Startup : Logged in as Grandmaster
+2020-04-28 01:22:40.403876 : Startup : Logged in as Grandmaster
+2020-04-28 04:47:12.797303 : Startup : Logged in as Grandmaster
+2020-04-28 06:58:20.390240 : Startup : Logged in as Grandmaster
+2020-04-28 07:20:03.699497 : Startup : Logged in as Grandmaster
+2020-04-28 07:48:24.237180 : Startup : Logged in as Grandmaster
+2020-04-28 09:51:22.293089 : Startup : Logged in as Grandmaster
+2020-04-28 09:57:59.396616 : Claim Challenge FatMichael#7853 Most Campaign Energy
+2020-04-28 10:12:20.088547 : Defence OzDH#3266 FatMichael#7853
+2020-04-28 10:20:46.991273 : Claim Challenge FatMichael#7853 T4s Hoarder
+2020-04-28 10:21:52.136996 : New Champ FatMichael#7853
+2020-04-28 11:05:49.988032 : Startup : Logged in as Grandmaster
+2020-04-28 15:12:23.688989 : Startup : Logged in as Grandmaster
+2020-04-28 16:19:00.543630 : My Info Shadowsrisen#0269
+2020-04-28 16:19:14.776168 : Claim Challenge Shadowsrisen#0269 Random Character Power Level (Level)
+2020-04-28 16:41:26.981443 : My Info KyReezy#2003
+2020-04-28 17:25:27.813968 : Startup : Logged in as Grandmaster
+2020-04-28 18:08:05.834326 : Defence FatMichael#7853 Shadowsrisen#0269
+2020-04-28 18:49:00.908007 : Startup : Logged in as Grandmaster
+2020-04-28 18:59:32.342576 : Award Daily Dice Rolls OzDH#3266
+2020-04-28 18:59:44.777873 : Dice Roll OzDH#3266 11 False False
+2020-04-28 19:00:08.040230 : Dice Roll candidme#0528 13 False False
+2020-04-28 19:01:57.665836 : Startup : Logged in as Grandmaster
+2020-04-28 19:02:43.506193 : Claim Challenge candidme#0528 Gear 12+ Characters
+2020-04-28 19:02:50.295668 : Defence FatMichael#7853 candidme#0528
+2020-04-28 19:04:00.400245 : Claim Challenge candidme#0528 Random Character Power Level (Level)
+2020-04-28 19:12:51.272305 : Dice Roll KyReezy#2003 7 False False
+2020-04-28 19:14:34.083987 : Startup : Logged in as Grandmaster
+2020-04-28 19:20:55.340077 : Dice Roll Shadowsrisen#0269 13 False False
+2020-04-28 19:31:52.010189 : Startup : Logged in as Grandmaster
+2020-04-28 20:48:56.585287 : New Champ candidme#0528
+2020-04-28 21:15:51.563874 : Claim Challenge FatMichael#7853 Strongest Skill Team
+2020-04-28 21:52:47.673970 : New Champ FatMichael#7853
+2020-04-28 21:54:26.219920 : Award Dice Roll candidme#0528
+2020-04-28 21:54:45.693110 : Dice Roll candidme#0528 8 False False
+2020-04-28 21:56:26.230841 : Startup : Logged in as Grandmaster
+2020-04-28 21:56:36.793943 : My Info KyReezy#2003
+2020-04-28 21:56:46.818650 : Claim Challenge KyReezy#2003 Characters at 50K+
+2020-04-28 21:58:05.465354 : Award Challenge FatMichael#7853
+2020-04-28 22:03:49.950287 : New Champ KyReezy#2003
+2020-04-28 22:57:07.275424 : Startup : Logged in as Grandmaster
+2020-04-28 22:57:22.324698 : Award Dice Roll KyReezy#2003
+2020-04-28 23:32:25.948889 : Dice Roll KyReezy#2003 9 False False
+2020-04-28 23:32:32.571749 : New Challenger mayureshr1#8137 Days Logged In
+2020-04-29 01:34:53.516503 : Startup : Logged in as Grandmaster
+2020-04-29 03:25:33.382588 : Startup : Logged in as Grandmaster
+2020-04-29 05:46:57.358390 : Startup : Logged in as Grandmaster
+2020-04-29 08:19:13.768959 : Startup : Logged in as Grandmaster
+2020-04-29 10:21:38.803745 : Startup : Logged in as Grandmaster
+2020-04-29 11:13:21.367581 : Defence KyReezy#2003 mayureshr1#8137
+2020-04-29 11:13:27.857831 : Award Daily Dice Rolls OzDH#3266
+2020-04-29 11:13:36.757162 : Dice Roll OzDH#3266 9 False False
+2020-04-29 11:37:34.569690 : Startup : Logged in as Grandmaster
+2020-04-29 11:47:43.889222 : My Info Talon#7280
+2020-04-29 11:48:00.919034 : Dice Roll Talon#7280 14 False False
+2020-04-29 11:48:18.270358 : Dice Roll Talon#7280 10 False False
+2020-04-29 14:25:56.281709 : Dice Roll KyReezy#2003 8 False False
+2020-04-29 14:26:04.037149 : New Challenger mayureshr1#8137 Strongest AIM Team
+2020-04-29 14:28:06.245994 : Startup : Logged in as Grandmaster
+2020-04-29 14:56:58.523768 : Startup : Logged in as Grandmaster
+2020-04-29 17:31:38.060844 : Startup : Logged in as Grandmaster
+2020-04-29 18:55:44.360850 : Defence KyReezy#2003 mayureshr1#8137
+2020-04-29 18:56:56.991994 : Dice Roll candidme#0528 13 False False
+2020-04-29 18:57:02.575354 : Claim Challenge candidme#0528 Strongest Random Team
+2020-04-29 19:01:26.353337 : Defence KyReezy#2003 candidme#0528
+2020-04-29 19:01:39.779933 : Claim Challenge calmskitzo#9471 Characters at 40K+
+2020-04-29 19:04:06.658923 : New Champ calmskitzo#9471
+2020-04-29 19:04:19.465493 : My Info KyReezy#2003
+2020-04-29 20:09:36.913769 : New Challenger Shev1#1918 Lowest Team Power
+2020-04-29 23:49:21.671225 : Startup : Logged in as Grandmaster
+2020-04-29 23:51:05.335244 : Dice Roll Shadowsrisen#0269 8 False False
+2020-04-30 00:23:43.170065 : Startup : Logged in as Grandmaster
+2020-04-30 01:01:31.226204 : Award War MVP OzDH#3266
+2020-04-30 01:04:14.839330 : Award Dice Roll Talon#7280
+2020-04-30 01:04:15.032913 : Award Dice Roll KyReezy#2003
+2020-04-30 01:04:15.254028 : Award Dice Roll OzDH#3266
+2020-04-30 01:04:15.491762 : Award Dice Roll FatMichael#7853
+2020-04-30 01:04:15.735418 : Award Dice Roll TYfighter#7937
+2020-04-30 01:04:21.030694 : Award Dice Roll calmskitzo#9471
+2020-04-30 01:04:21.306381 : Award Dice Roll Randy Savage#5425
+2020-04-30 01:04:21.584264 : Award Dice Roll someone#6360
+2020-04-30 01:04:21.770083 : Award Dice Roll ColbysGotMoore#1776
+2020-04-30 01:04:22.025288 : Award Dice Roll heet3r#7274
+2020-04-30 01:04:26.199251 : Award Dice Roll Shadowsrisen#0269
+2020-04-30 01:04:26.382544 : Award Dice Roll Shad0w VI#1698
+2020-04-30 01:04:26.595771 : Award Dice Roll candidme#0528
+2020-04-30 01:04:26.770765 : Award Dice Roll Artikhopper#2517
+2020-04-30 01:04:26.999600 : Award Dice Roll GeauxRagnar#8795
+2020-04-30 01:04:32.242306 : Award Dice Roll Shev1#1918
+2020-04-30 01:04:48.370184 : Award Challenge Talon#7280
+2020-04-30 01:04:48.565819 : Award Challenge KyReezy#2003
+2020-04-30 01:04:48.771774 : Award Challenge OzDH#3266
+2020-04-30 01:11:58.921086 : Award Challenge Shadowsrisen#0269
+2020-04-30 01:11:59.105073 : Award Challenge Shadowsrisen#0269
+2020-04-30 01:11:59.334919 : Award Challenge FatMichael#7853
+2020-04-30 01:11:59.529593 : Award Challenge Talon#7280
+2020-04-30 01:11:59.796483 : Award Challenge candidme#0528
+2020-04-30 01:12:05.044669 : Award Challenge OzDH#3266
+2020-04-30 01:12:05.228461 : Award Challenge KyReezy#2003
+2020-04-30 01:13:19.029073 : Award Dice Roll Shadowsrisen#0269
+2020-04-30 01:13:19.209018 : Award Dice Roll Artikhopper#2517
+2020-04-30 01:13:19.409633 : Award Dice Roll calmskitzo#9471
+2020-04-30 01:13:19.674831 : Award Dice Roll GeauxRagnar#8795
+2020-04-30 01:13:19.876220 : Award Dice Roll ColbysGotMoore#1776
+2020-04-30 01:32:20.662897 : Dice Roll Shadowsrisen#0269 7 False False
+2020-04-30 01:32:32.443261 : Dice Roll Shadowsrisen#0269 10 False False
+2020-04-30 01:38:44.512518 : Startup : Logged in as Grandmaster
+2020-04-30 01:45:20.952486 : Dice Roll heet3r#7274 9 False False
+2020-04-30 01:45:52.199277 : Dice Roll heet3r#7274 10 False False
+2020-04-30 02:54:25.015626 : Startup : Logged in as Grandmaster
+2020-04-30 03:44:20.514536 : Award Dice Roll candidme#0528
+2020-04-30 03:44:20.721858 : Award Dice Roll KyReezy#2003
+2020-04-30 03:44:26.851249 : Defence calmskitzo#9471 Shev1#1918
+2020-04-30 03:44:41.738506 : Dice Roll KyReezy#2003 4 False False
+2020-04-30 03:45:00.239265 : Dice Roll KyReezy#2003 13 False False
+2020-04-30 03:45:08.779002 : Claim Challenge KyReezy#2003 Ultimus Shards
+2020-04-30 06:38:26.393066 : Startup : Logged in as Grandmaster
+2020-04-30 07:48:01.858489 : Startup : Logged in as Grandmaster
+2020-04-30 09:35:24.743537 : Startup : Logged in as Grandmaster
+2020-04-30 09:56:23.580074 : My Info OzDH#3266
+2020-04-30 09:56:33.726956 : Dice Roll OzDH#3266 13 False False
+2020-04-30 12:32:59.464820 : Startup : Logged in as Grandmaster
+2020-04-30 12:47:29.728294 : New Champ KyReezy#2003
+2020-04-30 12:48:40.327486 : My Info Talon#7280
+2020-04-30 12:48:58.846911 : Dice Roll Talon#7280 11 False False
+2020-04-30 12:54:48.209525 : Claim Challenge OzDH#3266 World Warrior Placement [#]
+2020-04-30 12:56:11.740568 : New Champ OzDH#3266
+2020-04-30 14:42:54.155910 : New Challenger someone#6360 Characters with Multiple T4s
+2020-04-30 15:27:50.219282 : Full Stats - candidme#0528
+2020-04-30 15:33:03.036494 : My Info candidme#0528
+2020-04-30 15:33:18.555740 : Dice Roll candidme#0528 11 False False
+2020-04-30 15:33:26.330685 : Dice Roll candidme#0528 10 False False
+2020-04-30 15:52:42.115641 : Dice Roll Shad0w VI#1698 13 False False
+2020-04-30 15:52:57.074005 : Dice Roll Shad0w VI#1698 7 False False
+2020-04-30 15:53:12.085209 : Dice Roll Shad0w VI#1698 13 False False
+2020-04-30 16:11:43.927569 : Startup : Logged in as Grandmaster
+2020-04-30 17:26:57.359985 : Startup : Logged in as Grandmaster
+2020-04-30 17:46:28.451714 : My Info Shadowsrisen#0269
+2020-04-30 18:58:39.610493 : Startup : Logged in as Grandmaster
+2020-04-30 19:27:47.547997 : Dice Roll Shev1#1918 8 False False
+2020-04-30 19:28:02.402272 : Dice Roll Shev1#1918 16 False False
+2020-04-30 19:28:18.260891 : Dice Roll Shev1#1918 10 False False
+2020-04-30 19:28:35.133675 : Dice Roll Shev1#1918 9 False False
+2020-04-30 19:28:51.814537 : Dice Roll Shev1#1918 8 False False
+2020-04-30 20:30:18.288579 : Startup : Logged in as Grandmaster
+2020-04-30 21:27:59.120400 : Award Dice Roll KyReezy#2003
+2020-04-30 21:28:11.378393 : Dice Roll KyReezy#2003 13 False False
+2020-04-30 21:43:39.551731 : Startup : Logged in as Grandmaster
+2020-04-30 21:44:28.266905 : Defence OzDH#3266 someone#6360
+2020-04-30 21:52:58.176142 : Startup : Logged in as Grandmaster
+2020-04-30 21:59:01.516593 : Claim Challenge KyReezy#2003 Strongest S6 Team
+2020-04-30 21:59:08.069168 : Defence OzDH#3266 KyReezy#2003
+2020-04-30 21:59:14.610003 : Claim Challenge KyReezy#2003 Characters at 30K+
+2020-04-30 22:01:20.431152 : Defence OzDH#3266 KyReezy#2003
+2020-04-30 22:02:15.148074 : Claim Challenge FatMichael#7853 Strongest Martial Artist Team
+2020-04-30 22:06:40.252779 : New Champ FatMichael#7853
+2020-04-30 22:37:11.760092 : Claim Challenge KyReezy#2003 Strongest Skill Team
+2020-04-30 22:43:22.813154 : Startup : Logged in as Grandmaster
+2020-04-30 22:43:28.509989 : New Champ KyReezy#2003
+2020-04-30 22:57:13.142695 : Claim Challenge Shadowsrisen#0269 Strongest City Team
+2020-04-30 22:58:36.662551 : New Champ Shadowsrisen#0269
+2020-05-01 00:19:15.572350 : Claim Challenge GeauxRagnar#8795 Strongest Random Team
+2020-05-01 00:27:02.306830 : New Champ GeauxRagnar#8795
+2020-05-01 01:08:58.704805 : Startup : Logged in as Grandmaster
+2020-05-01 01:18:43.846124 : Claim Challenge Shev1#1918 Strongest Wakandans Team
+2020-05-01 03:13:10.400681 : Defence GeauxRagnar#8795 Shev1#1918
+2020-05-01 03:49:23.374395 : Startup : Logged in as Grandmaster
+2020-05-01 07:37:46.271189 : Startup : Logged in as Grandmaster
+2020-05-01 09:02:26.374641 : New Challenger mayureshr1#8137 Characters at 60K+
+2020-05-01 09:32:56.190577 : Startup : Logged in as Grandmaster
+2020-05-01 10:04:44.531455 : Startup : Logged in as Grandmaster
+2020-05-01 10:36:45.871372 : Startup : Logged in as Grandmaster
+2020-05-01 13:15:30.318582 : Startup : Logged in as Grandmaster
+2020-05-01 14:18:20.154985 : Startup : Logged in as Grandmaster
+2020-05-01 16:08:31.574117 : Startup : Logged in as Grandmaster
+2020-05-01 17:18:38.219257 : Defence GeauxRagnar#8795 mayureshr1#8137
+2020-05-01 20:48:30.854970 : Startup : Logged in as Grandmaster
+2020-05-01 20:49:10.853266 : Startup : Logged in as Grandmaster
+2020-05-01 20:49:36.439071 : Startup : Logged in as Grandmaster
+2020-05-01 20:49:39.070606 : Longest Reign OzDH#3266
+2020-05-01 20:49:59.742418 : Startup : Logged in as Grandmaster
+2020-05-01 20:50:02.355849 : Longest Reign OzDH#3266
+2020-05-01 20:50:42.363172 : Startup : Logged in as Grandmaster
+2020-05-01 20:50:44.435656 : Longest Reign OzDH#3266
+2020-05-01 20:51:52.850539 : Startup : Logged in as Grandmaster
+2020-05-01 20:51:55.413847 : Longest Reign OzDH#3266
+2020-05-01 20:53:00.151258 : Startup : Logged in as Grandmaster
+2020-05-01 20:53:03.211983 : Longest Reign OzDH#3266
+2020-05-01 21:00:11.945812 : Startup : Logged in as Grandmaster
+2020-05-01 21:00:12.978544 : Reminder 468054768502439947
+2020-05-01 21:01:46.077147 : Startup : Logged in as Grandmaster
+2020-05-01 21:01:47.235480 : Reminder 468054768502439947
+2020-05-01 21:02:00.760458 : Startup : Logged in as Grandmaster
+2020-05-01 21:02:01.795013 : Reminder 468054768502439947

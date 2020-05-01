@@ -13,10 +13,6 @@ from discord.utils import get
 bot = commands.Bot(command_prefix="=")
 channel = "abc"
 
-# TODO: fix opt in?
-# TODO: emoji issue
-# Put on server
-# test award dailies & war win
 # PUSH LIVE - Change channel to (Test) 518199222340812801 or (Live) 701135988260339852. Change ADMIN/GMAdmin. Change filenames and folder.
 
 # ON SERVER
@@ -149,7 +145,7 @@ characters=["AIM Assaulter", "AIM Infector", "AIM Monstrosity", "AIM Researcher"
             "Kree Cyborg", "Kree Noble", "Kree Oracle", "Kree Reaper", "Kree Royal Guard", "Loki", "Luke Cage", "M'Baku", "Magneto", "Mantis", "Merc Lieutenant", \
             "Merc Riot Guard", "Merc Sniper", "Merc Soldier", "Minn-Erva", "Mister Fantasic", "Mister Sinister", "Mordo", "Ms. Marvel", "Mysterio", "Mystique", "Namor", "Nebula", "Nick Fury", "Night Nurse", "Nobu", "Okoye", \
             "Phoenix", "Proxima", "Psylocke", "Punisher", "Pyro", "Quake", "Ravager Boomer", "Ravager Bruiser", "Ravager Stitcher", "Red Skull", "Rescue", "Rhino", "Rocket", "Ronan", "SHIELD Assault", \
-            "SHIELD Medic", "SHIELD Operative", "SHIELD Security", "SHIELD Trooper", "Sabretooth", "Scarlet Witch", "Scientist Supreme", "Shocker", "Shuri", "Spider-Man", "Spider-Man (Miles)", "Spider-Man (Symbiote)" \
+            "SHIELD Medic", "SHIELD Operative", "SHIELD Security", "SHIELD Trooper", "Sabretooth", "Scarlet Witch", "Scientist Supreme", "Shocker", "Shuri", "Spider-Man", "Spider-Man (Miles)", "Spider-Man (Symbiote)", \
             "Star-Lord", "Storm", "Stryfe", "Thanos", "The Thing", "Thor", "Toad", "Ultimus", "Ultron", "Venom", "Vision", "Vulture", "War-Machine", "Wasp", "Winter Soldier", "Wolverine", "Yo-Yo", "Yondu"]
 #idMap = {<@344661859275898882>,Artikhopper,<@215981471842697217>,Calmskitzo,<@223982068131037185>,Candidme,<@273279044454187009>,ColbysGotMoore,<@479174652376252416>,Cookie_Monster86,<@473691876680269824>,FatMichael,<@689889209665978396>,Fatshady,<@483755276873498644>,GeauxRagnar,<@182901488488677376>,heet3r,<@120763659998724097>,Hypo,<@465324594597986304>,KyReezy,<@580641750582951960>,mayureshr1,<@468054768502439947>,OzDH,<@442226315291131907>,Peter G,<@458334361083707414>,RandySavage,<@255033419245813760>,ScottF,<@266447975146848257>,ShadowsRisen,<@353732092875505666>,Shev1,<@447683410014633984>,someone,<@568471080742682626>,Talon,<@473822789854560266>,TrickJames,<@330148338890702849>,Tyfighter,<@451373900069076993>,Wagon King}
 
@@ -340,6 +336,41 @@ async def gethistory(ctx):
     await channel.send(output)
 
 @bot.command(pass_context = True)
+async def longestreign(ctx):
+    log("Longest Reign " + str(ctx.message.author))
+    f=open("E:/Dropbox/Discord/gmc/champhistory.txt", "r")
+    name = ""
+    curname = ""
+    longest = 0
+    current = 0
+    for line in f:
+        split = line.split(':')
+        if len(split) == 3:
+            if current > longest:
+                name = curname
+                longest = current
+            elif current == longest:
+                name += " & " + curname
+            curname = split[2]
+            current = 0
+        else:
+            current +=1
+    await channel.send(name + " **" + str(longest) + " defences**")
+
+@bot.command(pass_context = True)
+async def reminder(ctx):
+    log("Reminder " + str(ctx.message.author.id))
+    if is_active() == 'true':
+        champid = get_single_user_from_role(ctx, "Champion of Sakaar").id
+        champid = "<@" + str(champid) + ">"
+        challid = get_single_user_from_role(ctx, "Active Challenger").id
+        challid = "<@" + str(challid) + ">"
+
+        await channel.send(champid + " vs " + challid + " : **"  + get_category() + "**")
+    else:
+        await channel.send("No Active Challenge")
+
+@bot.command(pass_context = True)
 async def myinfo(ctx):
     log("My Info " + str(ctx.message.author))
     tag = "<@" + str(ctx.message.author.id) + ">"
@@ -463,8 +494,8 @@ async def claimchallenge(ctx):
             write_challenges(challenges, diceroll)
             write_to_active('true')
             await change_role(server, tag, 'add', 'Active Challenger')
-            await cancel_no_challenge_timer()
-            await start_active_challenge_timer(ctx)
+            #await cancel_no_challenge_timer()
+            #await start_active_challenge_timer(ctx)
         else:
             await channel.send("You currently have 0 challenges :(")
     else:
@@ -598,8 +629,8 @@ async def new_challenger(ctx):
 
             write_to_active('true')
             await change_role(server, challenger, 'add', 'Active Challenger')
-            await cancel_no_challenge_timer()
-            await start_active_challenge_timer(ctx)
+            #await cancel_no_challenge_timer()
+            #await start_active_challenge_timer(ctx)
         else:
             await channel.send("Challenge Already Active")
     else:
@@ -632,8 +663,9 @@ async def run_new_champ(ctx, allowed=False):
             await change_role(server, id, 'add', 'Champion of Sakaar')
             await change_role(server, id, 'remove', 'Active Challenger')
             log("New Champ " + get_member(ctx, id))
-            await cancel_active_challenge_timer()
-            await start_no_challenge_timer(ctx)
+            #await cancel_active_challenge_timer()
+            #await start_no_challenge_timer(ctx)
+            write_cat("")
         else:
             role = get(ctx.message.guild.roles, name="GMAdmin")
             await channel.send("{} No Active Challenger role. Please assign role in Discord.".format(role.mention))
@@ -675,10 +707,11 @@ async def run_defence(ctx, allowed=False):
             await channel.send(champid + " defeated " + id + " - *" + str(get_stat("defence", champid)) + " Defences*")
             await change_role(server, id, 'remove', 'Active Challenger')
             log("Defence " + get_member(ctx, champid) + " " + get_member(ctx, id))
-            await cancel_active_challenge_timer()
-            await start_no_challenge_timer(ctx)
+            #await cancel_active_challenge_timer()
+            #await start_no_challenge_timer(ctx)
         else:
             await channel.send("Current Champ is " + currentChampID + ", not " + champid)
+        write_cat("")
     else:
         await channel.send("Admin Permissions Required")
 
@@ -706,9 +739,6 @@ async def awarddiceroll(ctx, *ids):
         for id in ids:
             id = id.replace('!','')
             optedids = load_ids()
-            for i in optedids:
-                print(i)
-            print(id)
             if id in optedids:
                 diceroll[id] = int(diceroll[id])+1
                 write_challenges(challenges, diceroll)
@@ -822,6 +852,8 @@ async def ac_timeout_callback(ctx):
 
 async def nc_timeout_callback(ctx):
     await asyncio.sleep(0.1)
+    log("NC Timeout")
+    await channel.send("No Challenge Timer Ended")
     await new_challenger(ctx)
 
 @bot.command(pass_context = True)
@@ -857,13 +889,18 @@ async def change_role(server, memberID, operation, role_name):
 
 async def run_category(log_message):
     category = categories[random.randint(0,len(categories)-1)]
-    log(log_message + " " + category)
     if category == "Random Character Power Level (Level)":
-        await channel.send("*Category: " + category + "* **" + str(random.randint(0,50000)) + "**")
+        amount = random.randint(0,70000)
+        await channel.send("*Category: " + category + "* **" + str(amount) + "**")
+        category += " " + str(amount)
     elif category == "Random Character Power Level (Character)":
-        await channel.send("*Category: " + category + "* \n**" + characters[random.randint(0,len(characters)-1)] + "**")
+        character = characters[random.randint(0,len(characters)-1)]
+        await channel.send("*Category: " + category + "* \n**" + character + "**")
+        category += " " + character
     elif category == "Random Character Shards":
-        await channel.send("*Category: " + category + "* \n**" + characters[random.randint(0,len(characters)-1)] + "**")
+        character = characters[random.randint(0,len(characters)-1)]
+        await channel.send("*Category: " + category + "* \n**" + character + "**")
+        category += " " + character
     elif category == "Strongest Random Team":
         output = "\n"
         charlist = []
@@ -873,8 +910,12 @@ async def run_category(log_message):
                 output += character + "\n"
                 charlist.append(character)
             else:
-                x -= 1
+                character = characters[random.randint(0,len(characters)-1)]
+                if not character in charlist:
+                    output += character + "\n"
+                    charlist.append(character)
         await channel.send("*Category: " + category + ":* **" + output + "**")
+        category += " " + output
     elif category == "10 Avatar Challenge [#]":
         output = "\n"
         charlist = []
@@ -888,6 +929,8 @@ async def run_category(log_message):
         await channel.send("*Category: " + category + ":* **" + output + "**")
     else:
         await channel.send("*Category: " + category +"*")
+    log(log_message + " " + category)
+    write_cat(category)
 
 def log(message):
     time = datetime.datetime.now()
@@ -1037,6 +1080,15 @@ def get_member(ctx, id):
     member = id.replace('!','').replace('<', '').replace('>', '').replace('@', '')
     member = server.get_member(int(member))
     return str(member)
+
+def write_cat(output):
+    f=open("E:/Dropbox/Discord/gmc/activecat.txt", "w")
+    f.write(output)
+    f.close()
+
+def get_category():
+    f=open("E:/Dropbox/Discord/gmc/activecat.txt", "r")
+    return(f.read())
 
 ################## Deprecated ######################
 
