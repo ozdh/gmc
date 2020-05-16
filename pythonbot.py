@@ -253,6 +253,10 @@ async def stats(ctx, entries=5):
     challenges = {}
     dicerolls = {}
     dicewins = {}
+    diceroll_percents = {}
+    win_percents = {}
+    player_battles = {}
+
     f=open("E:/Dropbox/Discord/gmc/stats.txt", "r")
     for line in f:
         split = line.split(',')
@@ -263,6 +267,19 @@ async def stats(ctx, entries=5):
         challenges[split[0]] = int(split[4])
         dicerolls[split[0]] = int(split[5])
         dicewins[split[0]] = int(split[6])
+        if int(split[5]) == 0:
+            dr_percent = 0
+        else:
+            dr_percent = (int(split[6]) / int(split[5])) * 100
+        diceroll_percents[split[0]] = dr_percent
+        wins = int(split[1]) + int(split[2])
+        battles = wins + int(split[3]) + int(split[4])
+        if battles == 0:
+            win_percent = 0
+        else:
+            win_percent = (wins / battles) * 100
+        win_percents[split[0]] = win_percent
+        player_battles[split[0]] = battles
     f.close()
 
     reigns = sorted(reigns.items(), key=operator.itemgetter(1), reverse=True)
@@ -271,6 +288,8 @@ async def stats(ctx, entries=5):
     challenges = sorted(challenges.items(), key=operator.itemgetter(1), reverse=True)
     dicerolls = sorted(dicerolls.items(), key=operator.itemgetter(1), reverse=True)
     dicewins = sorted(dicewins.items(), key=operator.itemgetter(1), reverse=True)
+    diceroll_percents = sorted(diceroll_percents.items(), key=operator.itemgetter(1), reverse=True)
+    win_percents = sorted(win_percents.items(), key=operator.itemgetter(1), reverse=True)
 
     await channel.send("**Championship Reigns**")
     output = "```"
@@ -320,6 +339,22 @@ async def stats(ctx, entries=5):
         else:
             output += str(x+1) + ": " + get_member(ctx, dicewins[x][0]) + " - " + str(dicewins[x][1]) + " | "
     await channel.send(output + "```")
+    output = "```"
+    await channel.send("**Dice Win %**")
+    for x in range(entries):
+        if x == entries-1:
+            output += str(x+1) + ": " + get_member(ctx, diceroll_percents[x][0]) + " - " + str(int(diceroll_percents[x][1])) + "%"
+        else:
+            output += str(x+1) + ": " + get_member(ctx, diceroll_percents[x][0]) + " - " + str(int(diceroll_percents[x][1])) + "% | "
+    await channel.send(output + "```")
+    output = "```"
+    await channel.send("**Battle Win %**")
+    for x in range(entries):
+        if x == entries-1:
+            output += str(x+1) + ": " + get_member(ctx, win_percents[x][0]) + " - " + str(int(win_percents[x][1])) + "%"
+        else:
+            output += str(x+1) + ": " + get_member(ctx, win_percents[x][0]) + " - " + str(int(win_percents[x][1])) + "% | "
+    await channel.send(output + "```")
 
 @bot.command(pass_context = True)
 async def gethistory(ctx):
@@ -350,7 +385,7 @@ async def categorystats(ctx, rows=25):
     for a in categories:
         cats[a] = 0
     for b in traits:
-        entry = "Strongest 'X' Team".replace('X',b)
+        entry = "Strongest 'X' Team".replace("'X'",b)
         cats[entry] = 0
     cats["PVP!"] = 0
 
@@ -1043,7 +1078,7 @@ async def run_category(log_message):
                 x -= 1
         await channel.send("*Category: " + category + ":* **" + output + "**")
     elif category == "Strongest 'X' Team":
-        category = category.replace(""'X'"", traits[random.randint(0,len(traits)-1)])
+        category = category.replace("'X'", traits[random.randint(0,len(traits)-1)])
         await channel.send("*Category: " + category +"*")
     else:
         await channel.send("*Category: " + category +"*")

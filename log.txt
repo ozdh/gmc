@@ -1998,7 +1998,7 @@ Rhino
 2020-05-11 02:19:02.736305 : Cancelling Active Challenge Timer
 2020-05-11 02:19:02.737283 : No Challenge Timer Start
 2020-05-11 03:19:02.843256 : NC Timeout
-2020-05-11 03:19:03.839895 : New Challenger Randy Savage#5425 Strongest 'Shield' Team
+2020-05-11 03:19:03.839895 : New Challenger Randy Savage#5425 Strongest Shield Team
 2020-05-11 03:19:04.036454 : Cancelling No Challenge Timer
 2020-05-11 03:19:04.037453 : Active Challenge Timer Start
 2020-05-11 03:35:49.337371 : New Champ Randy Savage#5425
@@ -2019,7 +2019,7 @@ Rhino
 2020-05-11 06:16:43.217333 : Cancelling Active Challenge Timer
 2020-05-11 06:16:43.220265 : No Challenge Timer Start
 2020-05-11 07:16:43.329812 : NC Timeout
-2020-05-11 07:16:44.295699 : New Challenger fatshady#7716 Strongest 'Brawler' Team
+2020-05-11 07:16:44.295699 : New Challenger fatshady#7716 Strongest Brawler Team
 2020-05-11 07:16:44.512744 : Cancelling No Challenge Timer
 2020-05-11 07:16:44.513710 : Active Challenge Timer Start
 2020-05-11 11:01:44.815926 : Stats OzDH#3266
@@ -2041,7 +2041,7 @@ Rhino
 2020-05-11 13:33:20.801780 : Cancelling Active Challenge Timer
 2020-05-11 13:33:20.803725 : No Challenge Timer Start
 2020-05-11 14:33:20.904563 : NC Timeout
-2020-05-11 14:33:22.661674 : New Challenger candidme#0528 Strongest 'Inhuman' Team
+2020-05-11 14:33:22.661674 : New Challenger candidme#0528 Strongest Inhuman Team
 2020-05-11 14:33:22.831236 : Cancelling No Challenge Timer
 2020-05-11 14:33:22.832213 : Active Challenge Timer Start
 2020-05-11 15:34:47.647231 : Startup : Logged in as Grandmaster
@@ -2267,7 +2267,7 @@ Rhino
 2020-05-14 06:17:19.570804 : Cancelling Active Challenge Timer
 2020-05-14 06:17:19.571781 : No Challenge Timer Start
 2020-05-14 07:17:19.671333 : NC Timeout
-2020-05-14 07:17:20.930428 : New Challenger heet3r#7274 Strongest 'Hero' Team
+2020-05-14 07:17:20.930428 : New Challenger heet3r#7274 Strongest Hero Team
 2020-05-14 07:17:21.177150 : Cancelling No Challenge Timer
 2020-05-14 07:17:21.178128 : Active Challenge Timer Start
 2020-05-14 12:15:01.849602 : Defence Randy Savage#5425 heet3r#7274
@@ -2366,7 +2366,7 @@ Rhino
 2020-05-15 15:53:09.243345 : New Champ Shadowsrisen#0269
 2020-05-15 15:53:09.244322 : Cancelling Active Challenge Timer
 2020-05-15 15:53:09.244322 : No Challenge Timer Start
-2020-05-15 15:53:36.255704 : Claim Challenge KyReezy#2003 Strongest 'Villain' Team
+2020-05-15 15:53:36.255704 : Claim Challenge KyReezy#2003 Strongest Villain Team
 2020-05-15 15:53:36.404732 : Cancelling No Challenge Timer
 2020-05-15 15:53:36.404732 : Active Challenge Timer Start
 2020-05-15 16:09:39.858701 : Defence Shadowsrisen#0269 KyReezy#2003
@@ -2432,7 +2432,7 @@ Rhino
 2020-05-16 00:42:32.677021 : Defence FatMichael#7853 OzDH#3266
 2020-05-16 00:42:32.677998 : Cancelling Active Challenge Timer
 2020-05-16 00:42:32.678976 : No Challenge Timer Start
-2020-05-16 00:43:01.360052 : Claim Challenge OzDH#3266 Strongest 'City' Team
+2020-05-16 00:43:01.360052 : Claim Challenge OzDH#3266 Strongest City Team
 2020-05-16 00:43:01.538957 : Cancelling No Challenge Timer
 2020-05-16 00:43:01.562419 : Active Challenge Timer Start
 2020-05-16 00:47:04.009663 : New Champ OzDH#3266
@@ -2456,7 +2456,7 @@ Rhino
 2020-05-16 01:01:17.523992 : Defence OzDH#3266 FatMichael#7853
 2020-05-16 01:01:17.524969 : Cancelling Active Challenge Timer
 2020-05-16 01:01:17.527903 : No Challenge Timer Start
-2020-05-16 01:01:23.630244 : Claim Challenge FatMichael#7853 Strongest 'Bio' Team
+2020-05-16 01:01:23.630244 : Claim Challenge FatMichael#7853 Strongest Bio Team
 2020-05-16 01:01:23.800436 : Cancelling No Challenge Timer
 2020-05-16 01:01:23.802392 : Active Challenge Timer Start
 2020-05-16 01:28:26.802229 : Defence OzDH#3266 FatMichael#7853
@@ -2528,7 +2528,7 @@ Rhino
 2020-05-16 01:56:51.155257 : Defence OzDH#3266 FatMichael#7853
 2020-05-16 01:56:51.156235 : Cancelling Active Challenge Timer
 2020-05-16 01:56:51.156235 : No Challenge Timer Start
-2020-05-16 01:57:33.814831 : Claim Challenge FatMichael#7853 Strongest 'Brotherhood' Team
+2020-05-16 01:57:33.814831 : Claim Challenge FatMichael#7853 Strongest Brotherhood Team
 2020-05-16 01:57:33.971250 : Cancelling No Challenge Timer
 2020-05-16 01:57:33.972228 : Active Challenge Timer Start
 2020-05-16 01:58:25.229025 : New Champ FatMichael#7853
@@ -2558,7 +2558,7 @@ Rhino
 2020-05-16 02:04:23.622405 : New Champ FatMichael#7853
 2020-05-16 02:04:23.623366 : Cancelling Active Challenge Timer
 2020-05-16 02:04:23.624345 : No Challenge Timer Start
-2020-05-16 02:04:28.171367 : Claim Challenge OzDH#3266 Strongest 'Merc' Team
+2020-05-16 02:04:28.171367 : Claim Challenge OzDH#3266 Strongest Merc Team
 2020-05-16 02:04:28.326821 : Cancelling No Challenge Timer
 2020-05-16 02:04:28.327786 : Active Challenge Timer Start
 2020-05-16 02:05:48.716208 : Defence FatMichael#7853 OzDH#3266
@@ -2626,7 +2626,7 @@ Rhino
 2020-05-16 03:28:59.693562 : New Challenger candidme#0528 PVP!
 2020-05-16 03:28:59.839227 : Cancelling No Challenge Timer
 2020-05-16 03:28:59.839227 : Active Challenge Timer Start
-2020-05-16 05:10:28.999087 : Category Talon#7280 Strongest 'Wakandans' Team
+2020-05-16 05:10:28.999087 : Category Talon#7280 Strongest Wakandans Team
 2020-05-16 09:28:59.939623 : AC Timeout
 2020-05-16 09:38:36.192017 : Defence OzDH#3266 candidme#0528
 2020-05-16 09:38:36.192994 : Cancelling Active Challenge Timer
@@ -2655,3 +2655,27 @@ Rhino
 2020-05-16 16:06:50.122422 : Defence OzDH#3266 TYfighter#7937
 2020-05-16 16:06:50.123400 : Cancelling Active Challenge Timer
 2020-05-16 16:06:50.133177 : No Challenge Timer Start
+2020-05-16 16:11:17.652668 : Startup : Logged in as Grandmaster
+2020-05-16 16:17:16.956120 : Claim Challenge Shadowsrisen#0269 Strongest Random Team ,Ant-Man,Kree Cyborg,AIM Security,Kree Oracle,Thanos,
+2020-05-16 16:17:17.140889 : Active Challenge Timer Start
+2020-05-16 16:19:22.789705 : Defence OzDH#3266 Shadowsrisen#0269
+2020-05-16 16:19:22.790682 : Cancelling Active Challenge Timer
+2020-05-16 16:19:22.791660 : No Challenge Timer Start
+2020-05-16 16:26:07.228105 : Startup : Logged in as Grandmaster
+2020-05-16 16:26:11.211354 : Stats OzDH#3266
+2020-05-16 16:26:44.641258 : Startup : Logged in as Grandmaster
+2020-05-16 16:26:46.863299 : Stats OzDH#3266
+2020-05-16 16:27:08.935916 : Startup : Logged in as Grandmaster
+2020-05-16 16:27:09.744498 : Stats OzDH#3266
+2020-05-16 16:28:04.276621 : My Info OzDH#3266
+2020-05-16 16:29:11.772079 : Startup : Logged in as Grandmaster
+2020-05-16 16:29:40.066307 : Stats OzDH#3266
+2020-05-16 16:31:30.705459 : My Info OzDH#3266
+2020-05-16 16:39:14.024462 : Startup : Logged in as Grandmaster
+2020-05-16 16:39:15.202653 : Stats OzDH#3266
+2020-05-16 16:42:43.991084 : Stats OzDH#3266
+2020-05-16 16:48:15.729270 : Startup : Logged in as Grandmaster
+2020-05-16 16:48:39.165150 : Stats OzDH#3266
+2020-05-16 16:50:23.011647 : Startup : Logged in as Grandmaster
+2020-05-16 16:50:48.800650 : Stats OzDH#3266
+2020-05-16 16:53:53.519610 : Stats OzDH#3266
