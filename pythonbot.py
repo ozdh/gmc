@@ -8,12 +8,14 @@ import config
 import json
 import threading
 import asyncio
+from decimal import Decimal
 from discord.ext import commands
 from discord.utils import get
 bot = commands.Bot(command_prefix="=")
 channel = "abc"
 
 # PUSH LIVE - Change channel to (Test) 518199222340812801 or (Live) 701135988260339852. Change ADMIN/GMAdmin. Change filenames and folder.
+# TODO: add dice roll %age to stats
 
 # ON SERVER
 # ps -ef | grep 'gmc'
@@ -25,8 +27,8 @@ categories=["Collection Power [#]", \
 "Strongest Team Power [#]", \
 "Highest Power Character", \
 "Lowest Power Character", \
-"Gold + Red Stars (Single Character)", \
-"10+ Gold & Red Stars (Total Characters)", \
+"Gold + Red Stars [Single Character]", \
+"10+ Gold & Red Stars [Total Characters]", \
 "Alliance MVP Ranking [#]", \
 "War MVPs [#]", \
 "Characters Unlocked [#]", \
@@ -52,39 +54,16 @@ categories=["Collection Power [#]", \
 "Gear 11+ Characters", \
 "Character Rank Ups", \
 "Strongest Power Minion", \
-"Strongest Inhuman Team", \
-"Strongest AIM Team", \
-"Strongest Hydra Team", \
-"Strongest Shield Team", \
-"Strongest Defenders Team (MM or Pun)", \
-"Strongest Spiderverse Team (Non S6)", \
-"Strongest GotG Team", \
-"Strongest Avengers Team", \
-"Strongest Wakandans Team", \
-"Strongest X-Men Team", \
-"Strongest Brotherhood Team", \
-"Strongest S6 Team", \
-"Strongest Kree Team", \
-"Strongest Hand Team", \
-"Strongest Merc Team", \
-"Strongest Military Team", \
-"Strongest Blaster Team", \
-"Strongest Bio Team", \
-"Strongest Brawler Team", \
-"Strongest City Team", \
-"Strongest Controller Team", \
-"Strongest Cosmic Team", \
-"Strongest Global Team", \
-"Strongest Martial Artist Team", \
-"Strongest Minion Team", \
-"Strongest Mutant Team", \
-"Strongest Mystic Team", \
-"Strongest Protector Team", \
-"Strongest Skill Team", \
-"Strongest Support Team", \
-"Strongest Tech Team", \
-"Strongest Hero Team", \
-"Strongest Villain Team", \
+"Strongest 'X' Team", \
+"Strongest 'X' Team", \
+"Strongest 'X' Team", \
+"Strongest 'X' Team", \
+"Strongest 'X' Team", \
+"Strongest 'X' Team", \
+"Strongest 'X' Team", \
+"Strongest 'X' Team", \
+"Strongest 'X' Team", \
+"Strongest 'X' Team", \
 "Level 75 Characters", \
 "Ultimus Shards", \
 "Highest Power non-6664", \
@@ -101,10 +80,8 @@ categories=["Collection Power [#]", \
 "Level 1 Characters", \
 "Discord Leaderboard [#]", \
 "Blitz Wins [#]", \
-"Random Character Power Level (Character)", \
-"Random Character Power Level (Level)", \
+"Random Character Power Level [Level]", \
 "Random Character Shards", \
-"Strongest Random Team", \
 "Raid Credits Hoarder", \
 "War Credits Hoarder", \
 "Blitz Credits Hoarder", \
@@ -130,14 +107,35 @@ categories=["Collection Power [#]", \
 "Strongest Random Team", \
 "Strongest Random Team", \
 "Strongest Random Team", \
-"Random Character Power Level (Character)", \
-"Random Character Power Level (Character)", \
-"Random Character Power Level (Character)", \
-"Random Character Power Level (Level)", \
-"Random Character Power Level (Level)", \
-"Random Character Power Level (Level)", \
+"Strongest Random Team", \
+"Strongest Random Team", \
+"Strongest Random Team", \
+"Strongest Random Team", \
+"Strongest Random Team", \
+"Strongest Random Team", \
+"Strongest Random Team", \
+"Random Character Power Level [Character]", \
+"Random Character Power Level [Character]", \
+"Random Character Power Level [Character]", \
+"Random Character Power Level [Character]", \
+"Random Character Power Level [Character]", \
+"Random Character Power Level [Level]", \
+"Random Character Power Level [Level]", \
+"Random Character Power Level [Level]", \
+"Random Character Power Level [Level]", \
+"Random Character Power Level [Level]", \
+"Random Character Power Level [Level]", \
+"Random Character Power Level [Level]", \
+"Random Character Power Level [Level]", \
+"Random Character Power Level [Level]", \
 "Random Character Shards", \
-"Random Character Shards"]
+"Random Character Shards", \
+"Random Character Shards", \
+"Champions Choice", \
+"Challengers Choice"]
+traits=["Inhuman", "AIM", "Hydra", "Shield", "Defenders (MM or Pun)", "Spiderverse (Non S6)", "GotG", "Avengers", "Wakandans", "X-Men", "Brotherhood", \
+"S6", "Kree", "Hand", "Merc", "Military", "Blaster", "Bio", "Brawler", "City", "Controller", "Cosmic", "Global", "Martial Artist", "Minion", "Mutant", \
+"Mystic", "Protector", "Skill", "Support", "Tech", "Hero", "Villain"]
 characters=["AIM Assaulter", "AIM Infector", "AIM Monstrosity", "AIM Researcher", "AIM Security", "Agent Coulson", "America Chavez", "Ant-Man", "Blackbolt", "Black Panther", "Black Widow", "Blob", "Bullseye", "Cable", \
             "Captain America", "Captain Marvel", "Carnage", "Colossus", "Crossbones", "Crystal", "Cyclops", "Daredevil", "Deadpool", "Doctor Strange", "Drax", "Elektra", "Elsa", "Falcon", "Gamora", "Ghost Rider", "Graviton", "Green Goblin", \
             "Groot", "Hand Archer", "Hand Assassin", "Hand Blademaster", "Hand Sentry", "Hand Sorceress", "Hawkeye", "Hulk", "Human Torch", "Hydra Armored Guard", "Hydra Grenadier", \
@@ -147,6 +145,13 @@ characters=["AIM Assaulter", "AIM Infector", "AIM Monstrosity", "AIM Researcher"
             "Phoenix", "Proxima", "Psylocke", "Punisher", "Pyro", "Quake", "Ravager Boomer", "Ravager Bruiser", "Ravager Stitcher", "Red Skull", "Rescue", "Rhino", "Rocket", "Ronan", "SHIELD Assault", \
             "SHIELD Medic", "SHIELD Operative", "SHIELD Security", "SHIELD Trooper", "Sabretooth", "Scarlet Witch", "Scientist Supreme", "Shocker", "Shuri", "Spider-Man", "Spider-Man (Miles)", "Spider-Man (Symbiote)", \
             "Star-Lord", "Storm", "Stryfe", "Thanos", "The Thing", "Thor", "Toad", "Ultimus", "Ultron", "Venom", "Vision", "Vulture", "War-Machine", "Wasp", "Winter Soldier", "Wolverine", "Yo-Yo", "Yondu"]
+gifs=["https://media.tenor.com/images/d3590584080460e138683333e7a93caf/tenor.gif", \
+    "https://media.tenor.com/images/9e03f71d67b4efcbd7d2929f1ea305ca/tenor.gif", \
+    "https://media.tenor.com/images/3a50e48fc33aa6ca296aa36259db4631/tenor.gif", \
+    "https://media.tenor.com/images/17361f59edf369c1852d90c1adf3d4e1/tenor.gif", \
+    "https://media.tenor.com/images/e61606c524602b99d660851c43ff0599/tenor.gif", \
+    "https://media.tenor.com/images/8e5cee84715edfa568fbbaf985ad9e49/tenor.gif", \
+    "https://media.tenor.com/images/45ef8ba8bd9afcc46eb2145cb0a56476/tenor.gif"]
 #idMap = {<@344661859275898882>,Artikhopper,<@215981471842697217>,Calmskitzo,<@223982068131037185>,Candidme,<@273279044454187009>,ColbysGotMoore,<@479174652376252416>,Cookie_Monster86,<@473691876680269824>,FatMichael,<@689889209665978396>,Fatshady,<@483755276873498644>,GeauxRagnar,<@182901488488677376>,heet3r,<@120763659998724097>,Hypo,<@465324594597986304>,KyReezy,<@580641750582951960>,mayureshr1,<@468054768502439947>,OzDH,<@442226315291131907>,Peter G,<@458334361083707414>,RandySavage,<@255033419245813760>,ScottF,<@266447975146848257>,ShadowsRisen,<@353732092875505666>,Shev1,<@447683410014633984>,someone,<@568471080742682626>,Talon,<@473822789854560266>,TrickJames,<@330148338890702849>,Tyfighter,<@451373900069076993>,Wagon King}
 
 @bot.event
@@ -240,7 +245,7 @@ async def fullstats(ctx):
     await channel.send(output + "```")
 
 @bot.command(pass_context = True)
-async def stats(ctx):
+async def stats(ctx, entries=5):
     log("Stats " + str(ctx.message.author))
     reigns = {}
     defences = {}
@@ -268,53 +273,53 @@ async def stats(ctx):
     dicewins = sorted(dicewins.items(), key=operator.itemgetter(1), reverse=True)
 
     await channel.send("**Championship Reigns**")
-    output = ""
-    for x in range(5):
-        if x == 4:
-            output += str(x+1) + ": " + reigns[x][0] + " - **" + str(reigns[x][1]) + "**"
+    output = "```"
+    for x in range(entries):
+        if x == entries-1:
+            output += str(x+1) + ": " + get_member(ctx, reigns[x][0]) + " - " + str(reigns[x][1])
         else:
-            output += str(x+1) + ": " + reigns[x][0] + " - **" + str(reigns[x][1]) + "** |  "
-    await channel.send(output)
-    output = ""
+            output += str(x+1) + ": " + get_member(ctx, reigns[x][0]) + " - " + str(reigns[x][1]) + " | "
+    await channel.send(output + "```")
+    output = "```"
     await channel.send("**Championship Defences**")
-    for x in range(5):
-        if x == 4:
-            output += str(x+1) + ": " + defences[x][0] + " - **" + str(defences[x][1]) + "**"
+    for x in range(entries):
+        if x == entries-1:
+            output += str(x+1) + ": " + get_member(ctx, defences[x][0]) + " - " + str(defences[x][1])
         else:
-            output += str(x+1) + ": " + defences[x][0] + " - **" + str(defences[x][1]) + "** |  "
-    await channel.send(output)
-    output = ""
+            output += str(x+1) + ": " + get_member(ctx, defences[x][0]) + " - " + str(defences[x][1]) + " | "
+    await channel.send(output + "```")
+    output = "```"
     await channel.send("**Randomly Selected**")
-    for x in range(5):
-        if x == 4:
-            output += str(x+1) + ": " + randoms[x][0] + " - **" + str(randoms[x][1]) + "**"
+    for x in range(entries):
+        if x == entries-1:
+            output += str(x+1) + ": " + get_member(ctx, randoms[x][0]) + " - " + str(randoms[x][1])
         else:
-            output += str(x+1) + ": " + randoms[x][0] + " - **" + str(randoms[x][1]) + "** |  "
-    await channel.send(output)
-    output = ""
+            output += str(x+1) + ": " + get_member(ctx, randoms[x][0]) + " - " + str(randoms[x][1]) + " | "
+    await channel.send(output + "```")
+    output = "```"
     await channel.send("**Challenges**")
-    for x in range(5):
-        if x == 4:
-            output += str(x+1) + ": " + challenges[x][0] + " - **" + str(challenges[x][1]) + "**"
+    for x in range(entries):
+        if x == entries-1:
+            output += str(x+1) + ": " + get_member(ctx, challenges[x][0]) + " - " + str(challenges[x][1])
         else:
-            output += str(x+1) + ": " + challenges[x][0] + " - **" + str(challenges[x][1]) + "** |  "
-    await channel.send(output)
-    output = ""
+            output += str(x+1) + ": " + get_member(ctx, challenges[x][0]) + " - " + str(challenges[x][1]) + " | "
+    await channel.send(output + "```")
+    output = "```"
     await channel.send("**Dice Rolls**")
-    for x in range(5):
-        if x == 4:
-            output += str(x+1) + ": " + dicerolls[x][0] + " - **" + str(dicerolls[x][1]) + "**"
+    for x in range(entries):
+        if x == entries-1:
+            output += str(x+1) + ": " + get_member(ctx, dicerolls[x][0]) + " - " + str(dicerolls[x][1])
         else:
-            output += str(x+1) + ": " + dicerolls[x][0] + " - **" + str(dicerolls[x][1]) + "** |  "
-    await channel.send(output)
-    output = ""
+            output += str(x+1) + ": " + get_member(ctx, dicerolls[x][0]) + " - " + str(dicerolls[x][1]) + " | "
+    await channel.send(output + "```")
+    output = "```"
     await channel.send("**Dice Wins**")
-    for x in range(5):
-        if x == 4:
-            output += str(x+1) + ": " + dicewins[x][0] + " - **" + str(dicewins[x][1]) + "**"
+    for x in range(entries):
+        if x == entries-1:
+            output += str(x+1) + ": " + get_member(ctx, dicewins[x][0]) + " - " + str(dicewins[x][1])
         else:
-            output += str(x+1) + ": " + dicewins[x][0] + " - **" + str(dicewins[x][1]) + "** |  "
-    await channel.send(output)
+            output += str(x+1) + ": " + get_member(ctx, dicewins[x][0]) + " - " + str(dicewins[x][1]) + " | "
+    await channel.send(output + "```")
 
 @bot.command(pass_context = True)
 async def gethistory(ctx):
@@ -333,6 +338,37 @@ async def gethistory(ctx):
                 await channel.send(output)
                 output = ""
             output += "*" + split[0] + ":* **" + get_member(ctx, split[2]) + "** defeats **" + get_member(ctx, split[3].split("\n")[0]) + "**\n"
+    await channel.send(output)
+
+@bot.command(pass_context=True)
+async def categorystats(ctx, rows=25):
+    log("Category Stats " + str(ctx.message.author))
+    cats={}
+    output = ""
+    counter = 0
+    f=open("E:/Dropbox/Discord/gmc/log.txt")
+    for a in categories:
+        cats[a] = 0
+    for b in traits:
+        entry = "Strongest 'X' Team".replace('X',b)
+        cats[entry] = 0
+    cats["PVP!"] = 0
+
+    for line in f:
+        for c in cats.keys():
+            if c in line:
+                cats[c] = cats[c]+1
+                break
+
+    cats = sorted(cats.items(), key=lambda x: x[1], reverse=True)
+
+    if rows > 60:
+        rows = 60
+    for y in cats:
+        y = str(y).replace('(','**').replace(')','*').replace("'",'').replace(',','** *:')
+        if counter < rows:
+            output += y + "\n"
+            counter += 1
     await channel.send(output)
 
 @bot.command(pass_context = True)
@@ -443,13 +479,41 @@ async def champ(ctx):
 @bot.command(pass_context = True)
 async def printcategories(ctx):
     log("Print Categories " + str(ctx.message.author))
-    string = ""
+    string = "```"
+    total =  0
+    cats={}
     for a in categories:
-        if len(string) > 1900:
-            await channel.send(string)
-            string = ""
-        string += a + "\n"
-    await channel.send(string)
+        total += 1
+        if a not in cats:
+            if len(string) > 1900:
+                await channel.send(string + "```")
+                string = "```"
+            string += a + "\n"
+            if a == "Strongest 'X' Team":
+                string += " - ("
+                for x in traits:
+                    string += x + ", "
+                string += ")\n"
+            cats[a] = 1
+        else:
+            cats[a] = cats[a]+1
+    string += "PVP!\n"
+    await channel.send(string+"```")
+
+    cats = dict(sorted(cats.items(), key=lambda x: x[1], reverse=True))
+
+    x = Decimal((1/total)*90)
+    base = round(x,2)
+    base_counter = 0
+    output = "PVP! - 10%\n"
+    for y in cats:
+        cats[y] = round(Decimal((cats[y]/total)*90),2)
+        if cats[y] != base:
+            output += y + " - " + str(cats[y]) + "%\n"
+        else:
+            base_counter += 1
+    output += str(base_counter) + " other categories -  " + str(base) + "% each"
+    await channel.send("```" + output + "```")
 
 @bot.command(pass_context = True)
 async def category(ctx):
@@ -494,8 +558,8 @@ async def claimchallenge(ctx):
             write_challenges(challenges, diceroll)
             write_to_active('true')
             await change_role(server, tag, 'add', 'Active Challenger')
-            #await cancel_no_challenge_timer()
-            #await start_active_challenge_timer(ctx)
+            await cancel_no_challenge_timer()
+            await start_active_challenge_timer(ctx)
         else:
             await channel.send("You currently have 0 challenges :(")
     else:
@@ -503,6 +567,19 @@ async def claimchallenge(ctx):
 
 @bot.command(pass_context = True)
 async def diceroll(ctx):
+    await run_diceroll(ctx)
+
+@bot.command(pass_context = True)
+async def alldicerolls(ctx):
+    tag = "<@" + str(ctx.message.author.id) + ">"
+    challenges, diceroll = load_challenges()
+    if int(diceroll[tag]) > 0:
+        for x in range(int(diceroll[tag])):
+            await run_diceroll(ctx, True)
+    else:
+        await channel.send("You currently have 0 Dice Rolls :(")
+
+async def run_diceroll(ctx, short=False):
     tag = "<@" + str(ctx.message.author.id) + ">"
 
     # Load Challenges
@@ -511,8 +588,9 @@ async def diceroll(ctx):
     # If any challenges...
     if int(diceroll[tag]) > 0:
         add_stats(ctx, "diceroll", tag)
-        await channel.send(tag + " 3 Dice. More than 11 to earn a challenge. All 3 the same number to earn the 3 challenge Jackpot!")
-        time.sleep(2)
+        if not short:
+            await channel.send(tag + " 3 Dice. More than 11 to earn a challenge. All 3 the same number to earn the 3 challenge Jackpot!")
+            time.sleep(2)
         dice1 = random.randint(1,6)
         dice2 = random.randint(1,6)
         dice3 = random.randint(1,6)
@@ -530,11 +608,13 @@ async def diceroll(ctx):
         if dice1 == dice2 and dice1 == dice3:
             jackpot = True
         if jackpot:
-            challenges[tag] = int(challenges[tag])+3
+            if int(challenges[tag]) < 20:
+                challenges[tag] = int(challenges[tag])+3
             add_stats(ctx, "dicewin", tag)
             await channel.send("**DING DING DING. JACKPOT. 3 Challenges Added!**" )
         elif secretprize:
-            challenges[tag] = int(challenges[tag])+5
+            if int(challenges[tag]) < 20:
+                challenges[tag] = int(challenges[tag])+5
             add_stats(ctx, "dicewin", tag)
             await channel.send("***Secret Combo Found. 1 in 216 chance. 5 Challenges Awarded!!!***")
         elif sum == 11:
@@ -544,11 +624,13 @@ async def diceroll(ctx):
             if result == 1:
                 add_stats(ctx, "dicewin", tag)
                 await channel.send("**HEADS! CONGRATULATIONS! You Won a Challenge**")
-                challenges[tag] = int(challenges[tag])+1
+                if int(challenges[tag]) < 20:
+                    challenges[tag] = int(challenges[tag])+1
             else:
                 await channel.send("*TAILS! Unlucky...*")
         elif sum > 11:
-            challenges[tag] = int(challenges[tag])+1
+            if int(challenges[tag]) < 20:
+                challenges[tag] = int(challenges[tag])+1
             add_stats(ctx, "dicewin", tag)
             await channel.send("**CONGRATULATIONS! You Won a Challenge!**")
         else:
@@ -558,7 +640,30 @@ async def diceroll(ctx):
         diceroll[tag] = int(diceroll[tag])-1
         log("Dice Roll " + str(ctx.message.author) + " " + str(sum) + " " + str(jackpot) + " " + str(secretprize))
         write_challenges(challenges, diceroll)
-        await channel.send("*" + str(challenges[tag]) + " Challenges and " + str(diceroll[tag]) + " Dice Rolls Remaining*")
+
+        dicerolls = {}
+        dicewins = {}
+        allwins = 0
+        allrolls = 0
+        f=open("E:/Dropbox/Discord/gmc/stats.txt", "r")
+        for line in f:
+            split = line.split(',')
+            split[6] = split[6].split('\n')[0]
+            dicerolls[split[0]] = int(split[5])
+            dicewins[split[0]] = int(split[6])
+            allwins += dicewins[split[0]]
+            allrolls += dicerolls[split[0]]
+        f.close()
+        if dicerolls[tag] == 0:
+            percentage = 0
+        else:
+            percentage = (int(dicewins[tag]) / int(dicerolls[tag])) * 100
+        if allrolls == 0:
+            alliancepercent = 0
+        else:
+            alliancepercent = (allwins / allrolls) * 100
+        dicerollinfo = "*Your Diceroll % : " + str(dicewins[tag]) + "/" + str(dicerolls[tag]) + " - **" + str(int(percentage)) + "%** (Alliance Average:" + str(int(alliancepercent)) + "% Win Probability:45.6%)*"
+        await channel.send("*" + str(challenges[tag]) + " Challenges and " + str(diceroll[tag]) + " Dice Rolls Remaining* \n" + dicerollinfo)
     else:
         await channel.send("You currently have 0 Dice Rolls :(")
 
@@ -608,13 +713,13 @@ async def showinfo(ctx):
 async def newchallenger(ctx):
     await new_challenger(ctx)
 
-async def new_challenger(ctx):
+async def new_challenger(ctx, bypass_auth=False):
     server = ctx.message.guild
 
     # Load Champ
     currentChampID = load_single_line_file("E:/Dropbox/Discord/gmc/currentchamp.txt")
 
-    if is_allowed(ctx):
+    if is_allowed(ctx) or bypass_auth:
         if is_active() == 'false':
             challenger = load_ids()[random.randint(0,len(load_ids())-1)].replace('\n','')
 
@@ -622,15 +727,15 @@ async def new_challenger(ctx):
             while challenger == currentChampID:
                 challenger = load_ids()[random.randint(0,len(load_ids())-1)].replace('\n','')
             add_stats(ctx, "random", challenger)
-            await channel.send("**Challenger: **" + challenger + " - *Randomly Selected " + str(get_stat("random", challenger)) + " Times - (8 Hours until expiry)*")
+            await channel.send("**Challenger: **" + challenger + " - *Randomly Selected " + str(get_stat("random", challenger)) + " Times*")
 
             log_message = "New Challenger " + get_member(ctx, challenger)
             await run_category(log_message)
 
             write_to_active('true')
             await change_role(server, challenger, 'add', 'Active Challenger')
-            #await cancel_no_challenge_timer()
-            #await start_active_challenge_timer(ctx)
+            await cancel_no_challenge_timer()
+            await start_active_challenge_timer(ctx)
         else:
             await channel.send("Challenge Already Active")
     else:
@@ -724,9 +829,12 @@ async def awardchallenge(ctx, *ids):
             id = id.replace('!','')
             optedids = load_ids()
             if id in optedids:
-                challenges[id] = int(challenges[id])+1
-                write_challenges(challenges, diceroll)
-                await channel.send(id + " now has " + str(challenges[id]) + " Challenge(s)")
+                if int(challenges[id]) < 20:
+                    challenges[id] = int(challenges[id])+1
+                    write_challenges(challenges, diceroll)
+                    await channel.send(id + " now has " + str(challenges[id]) + " Challenge(s)")
+                else:
+                    await channel.send(id + " already has 20 Challenges. Please use your challenges to acquire more")
                 log("Award Challenge " + get_member(ctx, id))
     else:
         await channel.send("Admin Permissions Required")
@@ -734,15 +842,17 @@ async def awardchallenge(ctx, *ids):
 @bot.command(pass_context = True)
 async def awarddiceroll(ctx, *ids):
     challenges, diceroll = load_challenges()
-
     if is_allowed(ctx):
         for id in ids:
             id = id.replace('!','')
             optedids = load_ids()
             if id in optedids:
-                diceroll[id] = int(diceroll[id])+1
-                write_challenges(challenges, diceroll)
-                await channel.send(id + " now has " + str(diceroll[id]) + " Dice Roll(s)")
+                if int(diceroll[id]) < 100:
+                    diceroll[id] = int(diceroll[id])+1
+                    write_challenges(challenges, diceroll)
+                    await channel.send(id + " now has " + str(diceroll[id]) + " Dice Roll(s)")
+                else:
+                    await channel.send(id + " already has 100 Dice Rolls. Please use your challenges to acquire more")
                 log("Award Dice Roll " + get_member(ctx, id))
     else:
         await channel.send("Admin Permissions Required")
@@ -755,8 +865,8 @@ async def awardwarwin(ctx):
         for entry in diceroll:
             optedids = load_ids()
             if entry in optedids:
-                diceroll[entry] = int(diceroll[entry])+1
-
+                if int(diceroll[entry]) < 100:
+                    diceroll[entry] = int(diceroll[entry])+1
         write_challenges(challenges, diceroll)
         await channel.send("**War Win!** Everyone gets a Dice Roll")
         log("Award War Win " + str(ctx.message.author))
@@ -771,8 +881,8 @@ async def awarddailydicerolls(ctx):
         for entry in diceroll:
             optedids = load_ids()
             if entry in optedids:
-                diceroll[entry] = int(diceroll[entry])+1
-
+                if int(diceroll[entry]) < 100:
+                    diceroll[entry] = int(diceroll[entry])+1
         write_challenges(challenges, diceroll)
         await channel.send("**Daily Dice Rolls** Everyone gets a Dice Roll")
         log("Award Daily Dice Rolls " + str(ctx.message.author))
@@ -787,9 +897,12 @@ async def awardwarmvp(ctx, id):
         id = id.replace('!','')
         optedids = load_ids()
         if id in optedids:
-            challenges[id] = int(challenges[id])+2
-            write_challenges(challenges, diceroll)
-            await channel.send(id + " now has " + str(challenges[id]) + " Challenge(s)")
+            if int(challenges[id]) < 19:
+                challenges[id] = int(challenges[id])+2
+                write_challenges(challenges, diceroll)
+                await channel.send(id + " now has " + str(challenges[id]) + " Challenge(s)")
+            else:
+                    await channel.send(id + " already has 20 Challenges. Please use your challenges to acquire more")
             log("Award War MVP " + get_member(ctx, id))
     else:
         await channel.send("Admin Permissions Required")
@@ -819,7 +932,7 @@ class Timer:
 async def start_active_challenge_timer(ctx):
     log("Active Challenge Timer Start")
     global actimer
-    time = 8 * 3600
+    time = 6 * 3600
     actimer = Timer(time, ac_timeout_callback, ctx)
     await asyncio.sleep(time + 0.5)
 
@@ -846,13 +959,13 @@ async def ac_timeout_callback(ctx):
     await asyncio.sleep(0.1)
     log("AC Timeout")
     role = get(ctx.message.guild.roles, name="GMAdmin")
-    await channel.send("{} Timer has ended. Award Winner".format(role.mention))
+    await channel.send("*{} Timer has ended. Award Winner*".format(role.mention))
 
 async def nc_timeout_callback(ctx):
     await asyncio.sleep(0.1)
     log("NC Timeout")
-    await channel.send("No Challenge Timer Ended")
-    await new_challenger(ctx)
+    await channel.send("*No Challenge Timer Ended*")
+    await new_challenger(ctx, True)
 
 @bot.command(pass_context = True)
 async def startACT(ctx):
@@ -886,12 +999,16 @@ async def change_role(server, memberID, operation, role_name):
         await member.remove_roles(role)
 
 async def run_category(log_message):
-    category = categories[random.randint(0,len(categories)-1)]
-    if category == "Random Character Power Level (Level)":
+    pvp = random.randint(1,10)
+    if pvp == 1:
+        category = "PVP!"
+    else:
+        category = categories[random.randint(0,len(categories)-1)]
+    if category == "Random Character Power Level [Level]":
         amount = random.randint(0,70000)
         await channel.send("*Category: " + category + "* **" + str(amount) + "**")
         category += " " + str(amount)
-    elif category == "Random Character Power Level (Character)":
+    elif category == "Random Character Power Level [Character]":
         character = characters[random.randint(0,len(characters)-1)]
         await channel.send("*Category: " + category + "* \n**" + character + "**")
         category += " " + character
@@ -913,7 +1030,7 @@ async def run_category(log_message):
                     output += character + "\n"
                     charlist.append(character)
         await channel.send("*Category: " + category + ":* **" + output + "**")
-        category += " " + output
+        category += " " + output.replace("\n",",")
     elif category == "10 Avatar Challenge [#]":
         output = "\n"
         charlist = []
@@ -925,8 +1042,13 @@ async def run_category(log_message):
             else:
                 x -= 1
         await channel.send("*Category: " + category + ":* **" + output + "**")
+    elif category == "Strongest 'X' Team":
+        category = category.replace(""'X'"", traits[random.randint(0,len(traits)-1)])
+        await channel.send("*Category: " + category +"*")
     else:
         await channel.send("*Category: " + category +"*")
+        if category == "PVP!":
+            await channel.send(gifs[random.randint(0,len(gifs)-1)])
     log(log_message + " " + category)
     write_cat(category)
 
