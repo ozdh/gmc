@@ -967,14 +967,14 @@ class Timer:
 async def start_active_challenge_timer(ctx):
     log("Active Challenge Timer Start")
     global actimer
-    time = 6 * 3600
+    time = 8 * 3600
     actimer = Timer(time, ac_timeout_callback, ctx)
     await asyncio.sleep(time + 0.5)
 
 async def start_no_challenge_timer(ctx):
     log("No Challenge Timer Start")
     global nctimer
-    time = 1 * 3600
+    time = 3 * 3600
     nctimer = Timer(time, nc_timeout_callback, ctx)
     await asyncio.sleep(time + 0.5)
 

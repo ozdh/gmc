@@ -2679,3 +2679,1823 @@ Rhino
 2020-05-16 16:50:23.011647 : Startup : Logged in as Grandmaster
 2020-05-16 16:50:48.800650 : Stats OzDH#3266
 2020-05-16 16:53:53.519610 : Stats OzDH#3266
+2020-05-16 17:09:49.360107 : Dice Roll candidme#0528 13 False False
+2020-05-16 17:09:54.576088 : Dice Roll candidme#0528 8 False False
+2020-05-16 17:09:59.801014 : Dice Roll candidme#0528 8 False False
+2020-05-16 17:10:08.006813 : Claim Challenge candidme#0528 Strongest War Defence [#]
+2020-05-16 17:10:08.159321 : Active Challenge Timer Start
+2020-05-16 17:13:26.999710 : Defence OzDH#3266 candidme#0528
+2020-05-16 17:13:27.000688 : Cancelling Active Challenge Timer
+2020-05-16 17:13:27.000688 : No Challenge Timer Start
+2020-05-16 17:13:35.830359 : Longest Reign candidme#0528
+2020-05-16 17:14:31.573555 : Get History OzDH#3266
+2020-05-16 17:21:26.617347 : Claim Challenge calmskitzo#9471 Strongest Random Team ,Kree Reaper,Blackbolt,Green Goblin,Hydra Rifle Trooper,America Chavez,
+2020-05-16 17:21:26.883258 : Cancelling No Challenge Timer
+2020-05-16 17:21:26.883258 : Active Challenge Timer Start
+2020-05-16 17:40:44.435667 : New Champ calmskitzo#9471
+2020-05-16 17:40:44.435667 : Cancelling Active Challenge Timer
+2020-05-16 17:40:44.436645 : No Challenge Timer Start
+2020-05-16 18:40:44.533475 : NC Timeout
+2020-05-16 18:40:45.651959 : New Challenger GeauxRagnar#8795 Characters at 10K+
+2020-05-16 18:40:45.906140 : Cancelling No Challenge Timer
+2020-05-16 18:40:45.906140 : Active Challenge Timer Start
+2020-05-16 19:12:16.150979 : Defence calmskitzo#9471 GeauxRagnar#8795
+2020-05-16 19:12:16.151956 : Cancelling Active Challenge Timer
+2020-05-16 19:12:16.151956 : No Challenge Timer Start
+2020-05-16 20:12:16.247690 : NC Timeout
+2020-05-16 20:12:17.182220 : New Challenger OzDH#3266 Highest Power non-6664
+2020-05-16 20:12:17.332773 : Cancelling No Challenge Timer
+2020-05-16 20:12:17.332773 : Active Challenge Timer Start
+2020-05-16 20:27:05.880814 : Defence calmskitzo#9471 OzDH#3266
+2020-05-16 20:27:05.880814 : Cancelling Active Challenge Timer
+2020-05-16 20:27:05.881792 : No Challenge Timer Start
+2020-05-16 21:27:06.024220 : NC Timeout
+2020-05-16 21:27:06.986799 : New Challenger Wagon King#7785 Strongest Random Team ,Yo-Yo,Blob,Carnage,Green Goblin,SHIELD Security,
+2020-05-16 21:27:07.172545 : Cancelling No Challenge Timer
+2020-05-16 21:27:07.173523 : Active Challenge Timer Start
+2020-05-17 00:13:27.787085 : Defence calmskitzo#9471 Wagon King#7785
+2020-05-17 00:13:27.879959 : Cancelling Active Challenge Timer
+2020-05-17 00:13:27.888757 : No Challenge Timer Start
+2020-05-17 01:13:27.986133 : NC Timeout
+2020-05-17 01:13:28.865985 : New Challenger Wagon King#7785 Random Character Power Level [Character] Agent Coulson
+2020-05-17 01:13:29.065419 : Cancelling No Challenge Timer
+2020-05-17 01:13:29.067374 : Active Challenge Timer Start
+2020-05-17 05:32:15.794330 : Defence calmskitzo#9471 Wagon King#7785
+2020-05-17 05:32:15.795309 : Cancelling Active Challenge Timer
+2020-05-17 05:32:15.795309 : No Challenge Timer Start
+2020-05-17 06:32:15.885977 : NC Timeout
+2020-05-17 06:32:16.924191 : New Challenger Shad0w VI#1698 Characters at 20K+
+2020-05-17 06:32:17.094297 : Cancelling No Challenge Timer
+2020-05-17 06:32:17.095275 : Active Challenge Timer Start
+2020-05-17 09:19:50.469650 : Defence calmskitzo#9471 Shad0w VI#1698
+2020-05-17 09:19:50.470627 : Cancelling Active Challenge Timer
+2020-05-17 09:19:50.474538 : No Challenge Timer Start
+2020-05-17 10:19:50.579198 : NC Timeout
+2020-05-17 10:19:51.425800 : New Challenger FatMichael#7853 Random Character Power Level [Character] Cyclops
+2020-05-17 10:19:51.601772 : Cancelling No Challenge Timer
+2020-05-17 10:19:51.602749 : Active Challenge Timer Start
+2020-05-17 14:36:25.492114 : New Champ FatMichael#7853
+2020-05-17 14:36:25.572279 : Cancelling Active Challenge Timer
+2020-05-17 14:36:25.573256 : No Challenge Timer Start
+2020-05-17 15:36:25.673321 : NC Timeout
+2020-05-17 15:36:26.817875 : New Challenger Wagon King#7785 Random Character Power Level [Character] Phoenix
+2020-05-17 15:36:27.031974 : Cancelling No Challenge Timer
+2020-05-17 15:36:27.032951 : Active Challenge Timer Start
+2020-05-17 19:46:00.275660 : Defence FatMichael#7853 Wagon King#7785
+2020-05-17 19:46:00.307921 : Cancelling Active Challenge Timer
+2020-05-17 19:46:00.311832 : No Challenge Timer Start
+2020-05-17 19:46:17.349625 : Award Daily Dice Rolls OzDH#3266
+2020-05-17 20:27:12.652687 : Dice Roll Shadowsrisen#0269 11 False False
+2020-05-17 20:27:19.700397 : Claim Challenge Shadowsrisen#0269 Power Core Hoarder
+2020-05-17 20:27:19.858771 : Cancelling No Challenge Timer
+2020-05-17 20:27:19.859749 : Active Challenge Timer Start
+2020-05-17 20:47:14.901322 : New Champ Shadowsrisen#0269
+2020-05-17 20:47:14.901322 : Cancelling Active Challenge Timer
+2020-05-17 20:47:14.902299 : No Challenge Timer Start
+2020-05-17 20:56:02.707246 : Award War Win FatMichael#7853
+2020-05-17 20:56:16.008694 : Award War MVP GeauxRagnar#8795
+2020-05-17 20:57:15.710114 : Award Challenge FatMichael#7853
+2020-05-17 20:57:15.948158 : Award Challenge TYfighter#7937
+2020-05-17 20:57:16.168263 : Award Challenge calmskitzo#9471
+2020-05-17 20:57:16.352057 : Award Challenge OzDH#3266
+2020-05-17 20:57:16.535847 : Award Challenge KyReezy#2003
+2020-05-17 20:57:20.891475 : Award Challenge GeauxRagnar#8795
+2020-05-17 20:59:14.693456 : Award Dice Roll FatMichael#7853
+2020-05-17 20:59:14.940795 : Award Dice Roll TYfighter#7937
+2020-05-17 20:59:15.129474 : Award Dice Roll calmskitzo#9471
+2020-05-17 20:59:15.298603 : Award Dice Roll OzDH#3266
+2020-05-17 20:59:15.481417 : Award Dice Roll KyReezy#2003
+2020-05-17 20:59:19.945820 : Award Dice Roll GeauxRagnar#8795
+2020-05-17 20:59:20.189247 : Award Dice Roll Randy Savage#5425
+2020-05-17 20:59:20.403346 : Award Dice Roll ColbysGotMoore#1776
+2020-05-17 20:59:20.674146 : Award Dice Roll Shadowsrisen#0269
+2020-05-17 20:59:20.866986 : Award Dice Roll Artikhopper#2517
+2020-05-17 20:59:25.084899 : Award Dice Roll candidme#0528
+2020-05-17 20:59:25.376852 : Award Dice Roll Wagon King#7785
+2020-05-17 20:59:25.624189 : Award Dice Roll Talon#7280
+2020-05-17 20:59:25.980043 : Award Dice Roll Shev1#1918
+2020-05-17 20:59:26.225425 : Award Dice Roll heet3r#7274
+2020-05-17 20:59:55.357060 : Award Challenge FatMichael#7853
+2020-05-17 21:08:42.655964 : Dice Roll KyReezy#2003 14 False False
+2020-05-17 21:08:51.157110 : Dice Roll KyReezy#2003 11 False False
+2020-05-17 21:08:56.302986 : Dice Roll KyReezy#2003 14 False False
+2020-05-17 21:09:01.518539 : Dice Roll KyReezy#2003 9 False False
+2020-05-17 21:09:06.734759 : Dice Roll KyReezy#2003 7 False False
+2020-05-17 21:09:11.854749 : Dice Roll KyReezy#2003 12 False False
+2020-05-17 21:09:30.996785 : Reminder 465324594597986304
+2020-05-17 21:09:38.940065 : Claim Challenge KyReezy#2003 Strongest Inhuman Team
+2020-05-17 21:09:39.142431 : Cancelling No Challenge Timer
+2020-05-17 21:09:39.143408 : Active Challenge Timer Start
+2020-05-17 21:10:03.507515 : New Champ KyReezy#2003
+2020-05-17 21:10:03.508491 : Cancelling Active Challenge Timer
+2020-05-17 21:10:03.508491 : No Challenge Timer Start
+2020-05-17 22:10:03.613451 : NC Timeout
+2020-05-17 22:10:04.646718 : New Challenger ColbysGotMoore#1776 T3s Hoarder
+2020-05-17 22:10:04.805091 : Cancelling No Challenge Timer
+2020-05-17 22:10:04.805091 : Active Challenge Timer Start
+2020-05-18 04:10:04.915900 : AC Timeout
+2020-05-18 04:10:20.509247 : Defence KyReezy#2003 ColbysGotMoore#1776
+2020-05-18 04:10:20.509247 : Cancelling Active Challenge Timer
+2020-05-18 04:10:20.510225 : No Challenge Timer Start
+2020-05-18 05:10:20.616992 : NC Timeout
+2020-05-18 05:10:21.782314 : New Challenger FatMichael#7853 Highest Power 0 T4s
+2020-05-18 05:10:21.961239 : Cancelling No Challenge Timer
+2020-05-18 05:10:21.966125 : Active Challenge Timer Start
+2020-05-18 05:37:56.764536 : Defence KyReezy#2003 FatMichael#7853
+2020-05-18 05:37:56.765514 : Cancelling Active Challenge Timer
+2020-05-18 05:37:56.766492 : No Challenge Timer Start
+2020-05-18 05:38:59.493205 : Claim Challenge FatMichael#7853 Blitz Credits Hoarder
+2020-05-18 05:38:59.638869 : Cancelling No Challenge Timer
+2020-05-18 05:38:59.640824 : Active Challenge Timer Start
+2020-05-18 05:40:30.873380 : Defence KyReezy#2003 FatMichael#7853
+2020-05-18 05:40:30.875335 : Cancelling Active Challenge Timer
+2020-05-18 05:40:30.908574 : No Challenge Timer Start
+2020-05-18 06:40:31.011029 : NC Timeout
+2020-05-18 06:40:32.109826 : New Challenger fatshady#7716 Power Core Hoarder
+2020-05-18 06:40:32.303398 : Cancelling No Challenge Timer
+2020-05-18 06:40:32.304372 : Active Challenge Timer Start
+2020-05-18 12:40:32.409219 : AC Timeout
+2020-05-18 12:41:33.693289 : Defence KyReezy#2003 fatshady#7716
+2020-05-18 12:41:33.694350 : Cancelling Active Challenge Timer
+2020-05-18 12:41:33.698177 : No Challenge Timer Start
+2020-05-18 13:35:53.506945 : Startup : Logged in as Grandmaster
+2020-05-18 15:08:32.069882 : New Challenger Wagon King#7785 Strongest Random Team ,Okoye,Mordo,Thanos,M'Baku,AIM Assaulter,
+2020-05-18 15:08:32.211824 : Active Challenge Timer Start
+2020-05-18 15:32:07.475254 : Dice Roll Shev1#1918 11 False False
+2020-05-18 15:32:12.881127 : Dice Roll Shev1#1918 8 False False
+2020-05-18 15:32:17.941922 : Dice Roll Shev1#1918 7 False False
+2020-05-18 15:32:23.147402 : Dice Roll Shev1#1918 8 False False
+2020-05-18 15:32:28.331572 : Dice Roll Shev1#1918 6 False False
+2020-05-18 17:40:06.837456 : Defence KyReezy#2003 Wagon King#7785
+2020-05-18 17:40:06.841366 : Cancelling Active Challenge Timer
+2020-05-18 17:40:06.841366 : No Challenge Timer Start
+2020-05-18 18:04:54.485711 : Award Challenge Wagon King#7785
+2020-05-18 18:23:34.532216 : Claim Challenge Wagon King#7785 Random Character Shards AIM Researcher
+2020-05-18 18:23:34.709191 : Cancelling No Challenge Timer
+2020-05-18 18:23:34.710168 : Active Challenge Timer Start
+2020-05-18 18:24:06.870583 : New Champ Wagon King#7785
+2020-05-18 18:24:06.871561 : Cancelling Active Challenge Timer
+2020-05-18 18:24:06.871561 : No Challenge Timer Start
+2020-05-18 19:24:06.970158 : NC Timeout
+2020-05-18 19:24:08.061162 : New Challenger TrickJames#9614 Strongest Hand Team
+2020-05-18 19:24:08.224424 : Cancelling No Challenge Timer
+2020-05-18 19:24:08.224424 : Active Challenge Timer Start
+2020-05-18 21:22:05.100284 : New Champ TrickJames#9614
+2020-05-18 21:22:05.100284 : Cancelling Active Challenge Timer
+2020-05-18 21:22:05.103217 : No Challenge Timer Start
+2020-05-18 22:22:05.203343 : NC Timeout
+2020-05-18 22:22:06.456638 : New Challenger GeauxRagnar#8795 Characters Unlocked [#]
+2020-05-18 22:22:06.647274 : Cancelling No Challenge Timer
+2020-05-18 22:22:06.650206 : Active Challenge Timer Start
+2020-05-19 00:39:11.104245 : New Champ GeauxRagnar#8795
+2020-05-19 00:39:11.105222 : Cancelling Active Challenge Timer
+2020-05-19 00:39:11.106201 : No Challenge Timer Start
+2020-05-19 01:39:11.215171 : NC Timeout
+2020-05-19 01:39:12.173226 : New Challenger TrickJames#9614 Highest Power Character
+2020-05-19 01:39:12.322801 : Cancelling No Challenge Timer
+2020-05-19 01:39:12.323778 : Active Challenge Timer Start
+2020-05-19 05:48:51.742434 : Defence GeauxRagnar#8795 TrickJames#9614
+2020-05-19 05:48:51.744390 : Cancelling Active Challenge Timer
+2020-05-19 05:48:51.744390 : No Challenge Timer Start
+2020-05-19 06:48:51.839626 : NC Timeout
+2020-05-19 06:48:53.216102 : New Challenger Shev1#1918 Discord Leaderboard [#]
+2020-05-19 06:48:53.373499 : Cancelling No Challenge Timer
+2020-05-19 06:48:53.377409 : Active Challenge Timer Start
+2020-05-19 07:25:45.079542 : Defence GeauxRagnar#8795 Shev1#1918
+2020-05-19 07:25:45.084429 : Cancelling Active Challenge Timer
+2020-05-19 07:25:45.086383 : No Challenge Timer Start
+2020-05-19 08:25:45.188134 : NC Timeout
+2020-05-19 08:25:46.378871 : New Challenger FatMichael#7853 PVP!
+2020-05-19 08:25:46.567550 : Cancelling No Challenge Timer
+2020-05-19 08:25:46.568528 : Active Challenge Timer Start
+2020-05-19 14:25:46.671164 : AC Timeout
+2020-05-19 14:26:08.557084 : Defence GeauxRagnar#8795 FatMichael#7853
+2020-05-19 14:26:08.558062 : Cancelling Active Challenge Timer
+2020-05-19 14:26:08.559040 : No Challenge Timer Start
+2020-05-19 14:38:04.098791 : Award Challenge FatMichael#7853
+2020-05-19 14:40:37.030161 : Claim Challenge FatMichael#7853 Random Character Power Level [Character] Wolverine
+2020-05-19 14:40:37.175853 : Cancelling No Challenge Timer
+2020-05-19 14:40:37.177807 : Active Challenge Timer Start
+2020-05-19 15:19:47.101333 : Defence GeauxRagnar#8795 FatMichael#7853
+2020-05-19 15:19:47.102312 : Cancelling Active Challenge Timer
+2020-05-19 15:19:47.103290 : No Challenge Timer Start
+2020-05-19 16:19:47.201976 : NC Timeout
+2020-05-19 16:19:48.304728 : New Challenger OzDH#3266 Gold + Red Stars [Single Character]
+2020-05-19 16:19:48.471899 : Cancelling No Challenge Timer
+2020-05-19 16:19:48.472878 : Active Challenge Timer Start
+2020-05-19 16:20:29.792379 : Category OzDH#3266 War Credits Hoarder
+2020-05-19 22:15:55.459591 : New Champ OzDH#3266
+2020-05-19 22:15:55.473289 : Cancelling Active Challenge Timer
+2020-05-19 22:15:55.474256 : No Challenge Timer Start
+2020-05-19 22:38:08.785346 : Claim Challenge Shadowsrisen#0269 Current Arena Rank [#]
+2020-05-19 22:38:08.951840 : Cancelling No Challenge Timer
+2020-05-19 22:38:08.952817 : Active Challenge Timer Start
+2020-05-19 22:39:02.120511 : Defence OzDH#3266 Shadowsrisen#0269
+2020-05-19 22:39:02.121479 : Cancelling Active Challenge Timer
+2020-05-19 22:39:02.121479 : No Challenge Timer Start
+2020-05-19 22:46:46.139773 : Claim Challenge candidme#0528 All Time Arena Rank [#]
+2020-05-19 22:46:46.336300 : Cancelling No Challenge Timer
+2020-05-19 22:46:46.338255 : Active Challenge Timer Start
+2020-05-19 22:48:02.565361 : Defence OzDH#3266 candidme#0528
+2020-05-19 22:48:02.566305 : Cancelling Active Challenge Timer
+2020-05-19 22:48:02.567282 : No Challenge Timer Start
+2020-05-19 22:48:15.103696 : Dice Roll candidme#0528 12 False False
+2020-05-19 22:48:20.145389 : Dice Roll candidme#0528 4 False False
+2020-05-19 22:48:26.660560 : Dice Roll candidme#0528 13 False False
+2020-05-19 23:01:14.953515 : Dice Roll ColbysGotMoore#1776 8 False False
+2020-05-19 23:01:23.873517 : Dice Roll ColbysGotMoore#1776 11 False False
+2020-05-19 23:01:29.160864 : Dice Roll ColbysGotMoore#1776 8 False False
+2020-05-19 23:01:34.476162 : Dice Roll ColbysGotMoore#1776 13 False False
+2020-05-19 23:01:39.599213 : Dice Roll ColbysGotMoore#1776 6 False False
+2020-05-19 23:01:47.933076 : Dice Roll ColbysGotMoore#1776 11 False False
+2020-05-19 23:01:55.476614 : Dice Roll ColbysGotMoore#1776 11 False False
+2020-05-19 23:02:00.664567 : Dice Roll ColbysGotMoore#1776 9 False False
+2020-05-19 23:02:05.859495 : Dice Roll ColbysGotMoore#1776 7 False False
+2020-05-19 23:02:11.131405 : Dice Roll ColbysGotMoore#1776 10 False False
+2020-05-19 23:02:19.550965 : Dice Roll ColbysGotMoore#1776 11 False False
+2020-05-19 23:02:23.834710 : Dice Roll ColbysGotMoore#1776 7 False False
+2020-05-19 23:02:28.911690 : Dice Roll ColbysGotMoore#1776 8 False False
+2020-05-19 23:02:34.105756 : Dice Roll ColbysGotMoore#1776 7 False False
+2020-05-19 23:02:42.516647 : Dice Roll ColbysGotMoore#1776 11 False False
+2020-05-19 23:02:46.598033 : Dice Roll ColbysGotMoore#1776 9 False False
+2020-05-19 23:02:51.827921 : Dice Roll ColbysGotMoore#1776 10 False False
+2020-05-19 23:02:57.037818 : Dice Roll ColbysGotMoore#1776 9 False False
+2020-05-19 23:03:02.520832 : Dice Roll ColbysGotMoore#1776 15 False False
+2020-05-19 23:03:28.460180 : Claim Challenge ColbysGotMoore#1776 Random Character Power Level [Level] 69200
+2020-05-19 23:03:28.623515 : Cancelling No Challenge Timer
+2020-05-19 23:03:28.624485 : Active Challenge Timer Start
+2020-05-19 23:32:51.331573 : Defence OzDH#3266 ColbysGotMoore#1776
+2020-05-19 23:32:51.332551 : Cancelling Active Challenge Timer
+2020-05-19 23:32:51.335484 : No Challenge Timer Start
+2020-05-19 23:33:28.301433 : Award Daily Dice Rolls OzDH#3266
+2020-05-19 23:35:28.358097 : Claim Challenge ColbysGotMoore#1776 Random Character Power Level [Character] Iron Man
+2020-05-19 23:35:28.528202 : Cancelling No Challenge Timer
+2020-05-19 23:35:28.577083 : Active Challenge Timer Start
+2020-05-19 23:35:40.341504 : Defence OzDH#3266 ColbysGotMoore#1776
+2020-05-19 23:35:40.342482 : Cancelling Active Challenge Timer
+2020-05-19 23:35:40.343469 : No Challenge Timer Start
+2020-05-19 23:36:05.255897 : Claim Challenge ColbysGotMoore#1776 Days Logged In
+2020-05-19 23:36:05.412314 : Cancelling No Challenge Timer
+2020-05-19 23:36:05.413292 : Active Challenge Timer Start
+2020-05-19 23:38:48.959410 : New Champ ColbysGotMoore#1776
+2020-05-19 23:38:48.960383 : Cancelling Active Challenge Timer
+2020-05-19 23:38:48.960383 : No Challenge Timer Start
+2020-05-19 23:41:25.615620 : Dice Roll Shadowsrisen#0269 8 False False
+2020-05-19 23:41:42.471394 : Dice Roll Shadowsrisen#0269 11 False False
+2020-05-19 23:41:46.743816 : Dice Roll Shadowsrisen#0269 13 False False
+2020-05-20 00:38:49.066355 : NC Timeout
+2020-05-20 00:38:49.987158 : New Challenger Artikhopper#2517 Strongest Random Team ,Graviton,Mordo,Star-Lord,AIM Monstrosity,Captain America,
+2020-05-20 00:38:50.178780 : Cancelling No Challenge Timer
+2020-05-20 00:38:50.179751 : Active Challenge Timer Start
+2020-05-20 00:42:39.770896 : Defence ColbysGotMoore#1776 Artikhopper#2517
+2020-05-20 00:42:39.777739 : Cancelling Active Challenge Timer
+2020-05-20 00:42:39.781650 : No Challenge Timer Start
+2020-05-20 01:42:39.909831 : NC Timeout
+2020-05-20 01:42:40.871914 : New Challenger Shadowsrisen#0269 Challengers Choice
+2020-05-20 01:42:41.013662 : Cancelling No Challenge Timer
+2020-05-20 01:42:41.014636 : Active Challenge Timer Start
+2020-05-20 01:44:39.211133 : New Champ Shadowsrisen#0269
+2020-05-20 01:44:39.212109 : Cancelling Active Challenge Timer
+2020-05-20 01:44:39.212109 : No Challenge Timer Start
+2020-05-20 02:44:39.310566 : NC Timeout
+2020-05-20 02:44:40.237445 : New Challenger KyReezy#2003 Lowest Power Character
+2020-05-20 02:44:40.407557 : Cancelling No Challenge Timer
+2020-05-20 02:44:40.408527 : Active Challenge Timer Start
+2020-05-20 04:10:48.899990 : New Champ KyReezy#2003
+2020-05-20 04:10:48.899990 : Cancelling Active Challenge Timer
+2020-05-20 04:10:48.900962 : No Challenge Timer Start
+2020-05-20 05:10:48.996934 : NC Timeout
+2020-05-20 05:10:50.009820 : New Challenger OzDH#3266 Strongest Random Team ,Merc Sniper,Nick Fury,Human Torch,Mordo,Mysterio,
+2020-05-20 05:10:50.194963 : Cancelling No Challenge Timer
+2020-05-20 05:10:50.195940 : Active Challenge Timer Start
+2020-05-20 09:49:00.585683 : New Champ OzDH#3266
+2020-05-20 09:49:00.585683 : Cancelling Active Challenge Timer
+2020-05-20 09:49:00.587641 : No Challenge Timer Start
+2020-05-20 10:49:00.684025 : NC Timeout
+2020-05-20 10:49:01.708299 : New Challenger candidme#0528 Last Ultimus Raid Ranking
+2020-05-20 10:49:01.852964 : Cancelling No Challenge Timer
+2020-05-20 10:49:01.853941 : Active Challenge Timer Start
+2020-05-20 13:25:09.538360 : Defence OzDH#3266 candidme#0528
+2020-05-20 13:25:09.539335 : Cancelling Active Challenge Timer
+2020-05-20 13:25:09.541291 : No Challenge Timer Start
+2020-05-20 14:25:09.634504 : NC Timeout
+2020-05-20 14:25:10.886592 : New Challenger ColbysGotMoore#1776 Champions Choice
+2020-05-20 14:25:11.118502 : Cancelling No Challenge Timer
+2020-05-20 14:25:11.119469 : Active Challenge Timer Start
+2020-05-20 15:30:47.089136 : Defence OzDH#3266 ColbysGotMoore#1776
+2020-05-20 15:30:47.096945 : Cancelling Active Challenge Timer
+2020-05-20 15:30:47.097924 : No Challenge Timer Start
+2020-05-20 16:06:29.290389 : Claim Challenge Shadowsrisen#0269 Characters at 7 Stars [#]
+2020-05-20 16:06:29.447107 : Cancelling No Challenge Timer
+2020-05-20 16:06:29.448086 : Active Challenge Timer Start
+2020-05-20 16:07:48.101930 : New Champ Shadowsrisen#0269
+2020-05-20 16:07:48.102916 : Cancelling Active Challenge Timer
+2020-05-20 16:07:48.102916 : No Challenge Timer Start
+2020-05-20 16:14:17.730555 : Stats OzDH#3266
+2020-05-20 16:16:16.224500 : Award Daily Dice Rolls OzDH#3266
+2020-05-20 16:44:32.730803 : Dice Roll Shadowsrisen#0269 6 False False
+2020-05-20 17:07:48.205036 : NC Timeout
+2020-05-20 17:07:49.242066 : New Challenger fatshady#7716 Lowest Power Character
+2020-05-20 17:07:49.403500 : Cancelling No Challenge Timer
+2020-05-20 17:07:49.404477 : Active Challenge Timer Start
+2020-05-20 22:38:44.945932 : Reminder 468054768502439947
+2020-05-20 23:07:49.507357 : AC Timeout
+2020-05-20 23:07:57.162153 : Defence Shadowsrisen#0269 fatshady#7716
+2020-05-20 23:07:57.163130 : Cancelling Active Challenge Timer
+2020-05-20 23:07:57.163130 : No Challenge Timer Start
+2020-05-21 00:07:57.256161 : NC Timeout
+2020-05-21 00:07:58.140904 : New Challenger calmskitzo#9471 Challengers Choice
+2020-05-21 00:07:58.282659 : Cancelling No Challenge Timer
+2020-05-21 00:07:58.282659 : Active Challenge Timer Start
+2020-05-21 00:09:47.146752 : Print Categories candidme#0528
+2020-05-21 00:12:40.090107 : Category calmskitzo#9471 Raid Credits Hoarder
+2020-05-21 00:57:08.197786 : New Champ calmskitzo#9471
+2020-05-21 00:57:08.198768 : Cancelling Active Challenge Timer
+2020-05-21 00:57:08.198768 : No Challenge Timer Start
+2020-05-21 01:57:08.288633 : NC Timeout
+2020-05-21 01:57:09.201815 : New Challenger TrickJames#9614 Strongest Random Team ,Yo-Yo,SHIELD Assault,Yondu,America Chavez,Mysterio,
+2020-05-21 01:57:09.360190 : Cancelling No Challenge Timer
+2020-05-21 01:57:09.360190 : Active Challenge Timer Start
+2020-05-21 04:23:40.603670 : Defence calmskitzo#9471 TrickJames#9614
+2020-05-21 04:23:40.604648 : Cancelling Active Challenge Timer
+2020-05-21 04:23:40.605626 : No Challenge Timer Start
+2020-05-21 04:24:55.505086 : Award War Win FatMichael#7853
+2020-05-21 04:25:06.229296 : Award War MVP FatMichael#7853
+2020-05-21 04:25:44.419579 : Award Challenge Talon#7280
+2020-05-21 04:25:44.797915 : Award Challenge Wagon King#7785
+2020-05-21 04:25:45.037308 : Award Challenge OzDH#3266
+2020-05-21 04:25:45.285786 : Award Challenge Randy Savage#5425
+2020-05-21 04:25:45.563431 : Award Challenge FatMichael#7853
+2020-05-21 04:28:15.273199 : Award Dice Roll Talon#7280
+2020-05-21 04:28:15.517633 : Award Dice Roll Wagon King#7785
+2020-05-21 04:28:15.706993 : Award Dice Roll OzDH#3266
+2020-05-21 04:28:15.895127 : Award Dice Roll Randy Savage#5425
+2020-05-21 04:28:16.082833 : Award Dice Roll FatMichael#7853
+2020-05-21 04:28:19.747493 : Award Dice Roll TrickJames#9614
+2020-05-21 04:28:19.931285 : Award Dice Roll KyReezy#2003
+2020-05-21 04:28:20.150903 : Award Dice Roll candidme#0528
+2020-05-21 04:28:20.346518 : Award Dice Roll heet3r#7274
+2020-05-21 04:28:20.587012 : Award Dice Roll Artikhopper#2517
+2020-05-21 04:28:24.996387 : Award Dice Roll Shev1#1918
+2020-05-21 04:28:25.193863 : Award Dice Roll Shad0w VI#1698
+2020-05-21 04:28:25.420696 : Award Dice Roll calmskitzo#9471
+2020-05-21 04:28:25.613286 : Award Dice Roll ColbysGotMoore#1776
+2020-05-21 04:28:25.844005 : Award Dice Roll Shadowsrisen#0269
+2020-05-21 04:28:30.285153 : Award Dice Roll GeauxRagnar#8795
+2020-05-21 05:23:40.703798 : NC Timeout
+2020-05-21 05:23:41.582664 : New Challenger FatMichael#7853 Most Campaign Energy
+2020-05-21 05:23:41.772352 : Cancelling No Challenge Timer
+2020-05-21 05:23:41.773330 : Active Challenge Timer Start
+2020-05-21 11:23:41.864690 : AC Timeout
+2020-05-21 13:00:46.256117 : Defence calmskitzo#9471 FatMichael#7853
+2020-05-21 13:00:46.256117 : Cancelling Active Challenge Timer
+2020-05-21 13:00:46.263939 : No Challenge Timer Start
+2020-05-21 14:00:46.378615 : NC Timeout
+2020-05-21 14:00:47.550711 : New Challenger Randy Savage#5425 PVP!
+2020-05-21 14:00:47.777872 : Cancelling No Challenge Timer
+2020-05-21 14:00:47.778840 : Active Challenge Timer Start
+2020-05-21 15:03:31.956659 : Dice Roll Shev1#1918 11 False False
+2020-05-21 15:03:37.179554 : Dice Roll Shev1#1918 14 False False
+2020-05-21 15:03:42.534246 : Dice Roll Shev1#1918 14 False False
+2020-05-21 15:03:47.759909 : Dice Roll Shev1#1918 12 False False
+2020-05-21 20:00:47.882857 : AC Timeout
+2020-05-21 20:01:14.121803 : Defence calmskitzo#9471 Randy Savage#5425
+2020-05-21 20:01:14.121803 : Cancelling Active Challenge Timer
+2020-05-21 20:01:14.122780 : No Challenge Timer Start
+2020-05-21 21:01:14.244376 : NC Timeout
+2020-05-21 21:01:15.211115 : New Challenger candidme#0528 Random Character Power Level [Level] 12247
+2020-05-21 21:01:15.362961 : Cancelling No Challenge Timer
+2020-05-21 21:01:15.362961 : Active Challenge Timer Start
+2020-05-21 22:01:01.202919 : New Champ candidme#0528
+2020-05-21 22:01:01.203894 : Cancelling Active Challenge Timer
+2020-05-21 22:01:01.205849 : No Challenge Timer Start
+2020-05-21 22:03:32.720654 : Claim Challenge Shadowsrisen#0269 Characters at 100K+
+2020-05-21 22:03:32.923770 : Cancelling No Challenge Timer
+2020-05-21 22:03:32.924748 : Active Challenge Timer Start
+2020-05-21 22:03:42.643618 : New Champ Shadowsrisen#0269
+2020-05-21 22:03:42.644654 : Cancelling Active Challenge Timer
+2020-05-21 22:03:42.648506 : No Challenge Timer Start
+2020-05-21 22:05:42.007034 : Dice Roll candidme#0528 10 False False
+2020-05-21 22:05:48.258105 : Dice Roll candidme#0528 16 False False
+2020-05-21 22:05:52.828829 : Dice Roll candidme#0528 9 False False
+2020-05-21 22:05:58.423882 : Dice Roll candidme#0528 7 False False
+2020-05-21 22:46:21.465825 : Dice Roll GeauxRagnar#8795 11 False False
+2020-05-21 22:46:29.884314 : Dice Roll GeauxRagnar#8795 11 False False
+2020-05-21 22:46:33.954325 : Dice Roll GeauxRagnar#8795 13 False False
+2020-05-21 22:46:39.315538 : Dice Roll GeauxRagnar#8795 14 False False
+2020-05-21 22:46:44.609461 : Dice Roll GeauxRagnar#8795 17 False False
+2020-05-21 22:46:49.745198 : Dice Roll GeauxRagnar#8795 12 False False
+2020-05-21 22:46:54.962486 : Dice Roll GeauxRagnar#8795 9 False False
+2020-05-21 22:47:00.104807 : Dice Roll GeauxRagnar#8795 8 False False
+2020-05-21 22:47:05.325357 : Dice Roll GeauxRagnar#8795 16 False False
+2020-05-21 22:47:10.681640 : Dice Roll GeauxRagnar#8795 9 False False
+2020-05-21 22:47:15.917061 : Dice Roll GeauxRagnar#8795 12 False False
+2020-05-21 22:47:21.223982 : Dice Roll GeauxRagnar#8795 9 True False
+2020-05-21 22:47:26.318129 : Dice Roll GeauxRagnar#8795 9 False False
+2020-05-21 22:47:31.680504 : Dice Roll GeauxRagnar#8795 12 False False
+2020-05-21 22:47:36.786875 : Dice Roll GeauxRagnar#8795 8 False False
+2020-05-21 22:47:42.227090 : Dice Roll GeauxRagnar#8795 13 False False
+2020-05-21 22:47:50.945526 : Dice Roll GeauxRagnar#8795 11 False False
+2020-05-21 22:47:55.204242 : Dice Roll GeauxRagnar#8795 8 False False
+2020-05-21 22:48:04.957569 : Dice Roll GeauxRagnar#8795 13 False False
+2020-05-21 22:48:10.096998 : Dice Roll GeauxRagnar#8795 14 False False
+2020-05-21 22:48:15.471636 : Dice Roll GeauxRagnar#8795 10 False False
+2020-05-21 22:48:24.218121 : Dice Roll GeauxRagnar#8795 11 False False
+2020-05-21 22:48:29.303216 : Dice Roll GeauxRagnar#8795 13 False False
+2020-05-21 22:48:37.911708 : Dice Roll GeauxRagnar#8795 11 False False
+2020-05-21 23:03:42.749866 : NC Timeout
+2020-05-21 23:03:44.194509 : New Challenger ColbysGotMoore#1776 PVP!
+2020-05-21 23:03:44.378302 : Cancelling No Challenge Timer
+2020-05-21 23:03:44.382212 : Active Challenge Timer Start
+2020-05-21 23:53:54.990040 : New Champ ColbysGotMoore#1776
+2020-05-21 23:53:54.991023 : Cancelling Active Challenge Timer
+2020-05-21 23:53:54.994919 : No Challenge Timer Start
+2020-05-22 00:53:55.097927 : NC Timeout
+2020-05-22 00:53:56.062957 : New Challenger GeauxRagnar#8795 Strongest War Defence [#]
+2020-05-22 00:53:56.230129 : Cancelling No Challenge Timer
+2020-05-22 00:53:56.230129 : Active Challenge Timer Start
+2020-05-22 00:58:12.356285 : Defence ColbysGotMoore#1776 GeauxRagnar#8795
+2020-05-22 00:58:12.356285 : Cancelling Active Challenge Timer
+2020-05-22 00:58:12.357263 : No Challenge Timer Start
+2020-05-22 01:58:12.462171 : NC Timeout
+2020-05-22 01:58:13.446631 : New Challenger Artikhopper#2517 Lowest Power Character
+2020-05-22 01:58:13.596206 : Cancelling No Challenge Timer
+2020-05-22 01:58:13.599140 : Active Challenge Timer Start
+2020-05-22 02:58:54.342984 : Defence ColbysGotMoore#1776 Artikhopper#2517
+2020-05-22 02:58:54.342984 : Cancelling Active Challenge Timer
+2020-05-22 02:58:54.343985 : No Challenge Timer Start
+2020-05-22 03:58:54.446100 : NC Timeout
+2020-05-22 03:58:55.648455 : New Challenger TrickJames#9614 PVP!
+2020-05-22 03:58:55.831729 : Cancelling No Challenge Timer
+2020-05-22 03:58:55.832230 : Active Challenge Timer Start
+2020-05-22 07:14:16.604278 : Category KyReezy#2003 Lowest Power Character
+2020-05-22 09:58:55.940788 : AC Timeout
+2020-05-22 10:25:55.438521 : Defence ColbysGotMoore#1776 TrickJames#9614
+2020-05-22 10:25:55.438521 : Cancelling Active Challenge Timer
+2020-05-22 10:25:55.440476 : No Challenge Timer Start
+2020-05-22 11:25:55.544645 : NC Timeout
+2020-05-22 11:25:56.620338 : New Challenger calmskitzo#9471 Characters at 40K+
+2020-05-22 11:25:56.766179 : Cancelling No Challenge Timer
+2020-05-22 11:25:56.767174 : Active Challenge Timer Start
+2020-05-22 11:40:31.822544 : Startup : Logged in as Grandmaster
+2020-05-22 17:07:54.426606 : New Champ calmskitzo#9471
+2020-05-22 17:07:54.432472 : No Challenge Timer Start
+2020-05-22 17:08:19.845784 : Claim Challenge Talon#7280 PVP!
+2020-05-22 17:08:20.053040 : Cancelling No Challenge Timer
+2020-05-22 17:08:20.054016 : Active Challenge Timer Start
+2020-05-22 17:08:34.856980 : Category Talon#7280 Gold + Red Stars [Single Character]
+2020-05-22 17:31:19.536867 : Defence calmskitzo#9471 Talon#7280
+2020-05-22 17:31:19.537834 : Cancelling Active Challenge Timer
+2020-05-22 17:31:19.538829 : No Challenge Timer Start
+2020-05-22 18:38:11.016683 : Award Daily Dice Rolls OzDH#3266
+2020-05-22 19:21:15.530713 : Dice Roll Shadowsrisen#0269 7 False False
+2020-05-22 19:21:20.530444 : Dice Roll Shadowsrisen#0269 16 False False
+2020-05-22 19:21:25.777068 : Dice Roll Shadowsrisen#0269 10 False False
+2020-05-22 19:31:19.640584 : NC Timeout
+2020-05-22 19:31:20.646623 : New Challenger Randy Savage#5425 Strongest Random Team ,Merc Sniper,Venom,AIM Researcher,Hand Blademaster,Falcon,
+2020-05-22 19:31:20.835299 : Cancelling No Challenge Timer
+2020-05-22 19:31:20.836276 : Active Challenge Timer Start
+2020-05-23 01:31:20.941991 : AC Timeout
+2020-05-23 02:00:13.468493 : Defence calmskitzo#9471 Randy Savage#5425
+2020-05-23 02:00:13.469470 : Cancelling Active Challenge Timer
+2020-05-23 02:00:13.469470 : No Challenge Timer Start
+2020-05-23 03:17:56.324553 : New Challenger TYfighter#7937 Random Character Power Level [Level] 14137
+2020-05-23 03:17:56.491446 : Cancelling No Challenge Timer
+2020-05-23 03:17:56.492425 : Active Challenge Timer Start
+2020-05-23 09:17:56.591321 : AC Timeout
+2020-05-23 09:20:47.502212 : Defence calmskitzo#9471 TYfighter#7937
+2020-05-23 09:20:47.503190 : Cancelling Active Challenge Timer
+2020-05-23 09:20:47.504168 : No Challenge Timer Start
+2020-05-23 09:28:32.324144 : Award War Win FatMichael#7853
+2020-05-23 09:29:08.005854 : Award War MVP FatMichael#7853
+2020-05-23 09:29:24.930468 : Award Challenge Shadowsrisen#0269
+2020-05-23 09:31:29.155452 : Award Dice Roll Shadowsrisen#0269
+2020-05-23 09:31:29.321663 : Award Dice Roll Randy Savage#5425
+2020-05-23 09:31:29.492970 : Award Dice Roll FatMichael#7853
+2020-05-23 09:31:29.685688 : Award Dice Roll Talon#7280
+2020-05-23 09:31:29.862685 : Award Dice Roll GeauxRagnar#8795
+2020-05-23 09:31:34.270634 : Award Dice Roll OzDH#3266
+2020-05-23 09:31:34.606022 : Award Dice Roll candidme#0528
+2020-05-23 09:31:34.802683 : Award Dice Roll Wagon King#7785
+2020-05-23 09:31:35.029199 : Award Dice Roll TrickJames#9614
+2020-05-23 09:31:35.270771 : Award Dice Roll calmskitzo#9471
+2020-05-23 09:31:39.580695 : Award Dice Roll Artikhopper#2517
+2020-05-23 09:31:39.766677 : Award Dice Roll ColbysGotMoore#1776
+2020-05-23 09:31:40.345904 : Award Dice Roll heet3r#7274
+2020-05-23 10:17:31.983840 : Dice Roll FatMichael#7853 12 False False
+2020-05-23 10:17:37.530913 : Dice Roll FatMichael#7853 9 False False
+2020-05-23 10:17:42.526122 : Dice Roll FatMichael#7853 7 False False
+2020-05-23 10:17:48.289884 : Dice Roll FatMichael#7853 10 False False
+2020-05-23 10:17:53.295233 : Dice Roll FatMichael#7853 9 False False
+2020-05-23 10:17:58.322427 : Dice Roll FatMichael#7853 10 False False
+2020-05-23 10:18:06.971077 : Dice Roll FatMichael#7853 11 False False
+2020-05-23 10:18:12.284825 : Dice Roll FatMichael#7853 12 False False
+2020-05-23 10:18:17.523759 : Dice Roll FatMichael#7853 8 False False
+2020-05-23 10:18:22.698540 : Dice Roll FatMichael#7853 13 False False
+2020-05-23 11:20:47.606882 : NC Timeout
+2020-05-23 11:20:48.768889 : New Challenger Talon#7280 Strongest Brotherhood Team
+2020-05-23 11:20:48.911015 : Cancelling No Challenge Timer
+2020-05-23 11:20:48.911982 : Active Challenge Timer Start
+2020-05-23 12:34:04.373705 : New Champ Talon#7280
+2020-05-23 12:34:04.374683 : Cancelling Active Challenge Timer
+2020-05-23 12:34:04.374683 : No Challenge Timer Start
+2020-05-23 14:34:04.484100 : NC Timeout
+2020-05-23 14:34:05.626965 : New Challenger Wagon King#7785 Gold Hoarder
+2020-05-23 14:34:05.868208 : Cancelling No Challenge Timer
+2020-05-23 14:34:05.879939 : Active Challenge Timer Start
+2020-05-23 16:37:06.251235 : New Champ Wagon King#7785
+2020-05-23 16:37:06.252205 : Cancelling Active Challenge Timer
+2020-05-23 16:37:06.255129 : No Challenge Timer Start
+2020-05-23 16:37:25.592848 : My Info Talon#7280
+2020-05-23 17:13:32.450765 : Dice Roll Shadowsrisen#0269 14 False False
+2020-05-23 17:13:37.583183 : Dice Roll Shadowsrisen#0269 10 False False
+2020-05-23 17:15:30.221566 : Claim Challenge Talon#7280 Un-opened Orbs
+2020-05-23 17:15:30.380974 : Cancelling No Challenge Timer
+2020-05-23 17:15:30.381952 : Active Challenge Timer Start
+2020-05-23 17:18:03.567078 : New Champ Talon#7280
+2020-05-23 17:18:03.568056 : Cancelling Active Challenge Timer
+2020-05-23 17:18:03.568056 : No Challenge Timer Start
+2020-05-23 19:18:03.661693 : NC Timeout
+2020-05-23 19:18:04.738183 : New Challenger Artikhopper#2517 Strongest Bio Team
+2020-05-23 19:18:04.928817 : Cancelling No Challenge Timer
+2020-05-23 19:18:04.929794 : Active Challenge Timer Start
+2020-05-23 19:32:47.263821 : Defence Talon#7280 Artikhopper#2517
+2020-05-23 19:32:47.265777 : Cancelling Active Challenge Timer
+2020-05-23 19:32:47.266753 : No Challenge Timer Start
+2020-05-23 19:34:31.442282 : Claim Challenge ColbysGotMoore#1776 Last/Current War Battles [#]
+2020-05-23 19:34:31.609455 : Cancelling No Challenge Timer
+2020-05-23 19:34:31.610432 : Active Challenge Timer Start
+2020-05-23 19:35:05.366981 : Category OzDH#3266 Strongest Minion Team
+2020-05-23 19:37:23.299327 : Defence Talon#7280 ColbysGotMoore#1776
+2020-05-23 19:37:23.301282 : Cancelling Active Challenge Timer
+2020-05-23 19:37:23.303238 : No Challenge Timer Start
+2020-05-23 19:52:22.821485 : My Info KyReezy#2003
+2020-05-23 19:52:33.077683 : Dice Roll KyReezy#2003 10 False False
+2020-05-23 19:52:38.661401 : Dice Roll KyReezy#2003 14 False False
+2020-05-23 19:52:43.866058 : Dice Roll KyReezy#2003 13 False False
+2020-05-23 19:52:49.071752 : Dice Roll KyReezy#2003 6 False False
+2020-05-23 19:52:54.348478 : Dice Roll KyReezy#2003 16 False False
+2020-05-23 19:52:59.404044 : Dice Roll KyReezy#2003 15 False False
+2020-05-23 19:53:37.315310 : Claim Challenge KyReezy#2003 Strongest Random Team ,Hawkeye,Kingpin,Hydra Scientist,Ant-Man,Human Torch,
+2020-05-23 19:53:37.478570 : Cancelling No Challenge Timer
+2020-05-23 19:53:37.479547 : Active Challenge Timer Start
+2020-05-24 01:53:37.567697 : AC Timeout
+2020-05-24 01:53:58.881715 : New Champ KyReezy#2003
+2020-05-24 01:53:58.883671 : Cancelling Active Challenge Timer
+2020-05-24 01:53:58.884649 : No Challenge Timer Start
+2020-05-24 02:02:34.240324 : Claim Challenge candidme#0528 Alliance MVP Ranking [#]
+2020-05-24 02:02:34.414339 : Cancelling No Challenge Timer
+2020-05-24 02:02:34.415317 : Active Challenge Timer Start
+2020-05-24 02:10:18.765146 : Defence KyReezy#2003 candidme#0528
+2020-05-24 02:10:18.786654 : Cancelling Active Challenge Timer
+2020-05-24 02:10:18.788610 : No Challenge Timer Start
+2020-05-24 04:10:18.885899 : NC Timeout
+2020-05-24 04:10:19.818535 : New Challenger ColbysGotMoore#1776 Challengers Choice
+2020-05-24 04:10:19.982775 : Cancelling No Challenge Timer
+2020-05-24 04:10:19.982775 : Active Challenge Timer Start
+2020-05-24 10:10:20.096911 : AC Timeout
+2020-05-24 14:23:09.911240 : Defence KyReezy#2003 ColbysGotMoore#1776
+2020-05-24 14:23:09.912219 : Cancelling Active Challenge Timer
+2020-05-24 14:23:09.920040 : No Challenge Timer Start
+2020-05-24 14:59:41.836909 : Claim Challenge Talon#7280 Collection Power [#]
+2020-05-24 14:59:42.026566 : Cancelling No Challenge Timer
+2020-05-24 14:59:42.027545 : Active Challenge Timer Start
+2020-05-24 14:59:56.921760 : Defence KyReezy#2003 Talon#7280
+2020-05-24 14:59:56.960864 : Cancelling Active Challenge Timer
+2020-05-24 14:59:56.962819 : No Challenge Timer Start
+2020-05-24 15:00:21.587019 : Dice Roll Talon#7280 12 False False
+2020-05-24 15:00:39.561550 : Dice Roll Talon#7280 17 False False
+2020-05-24 16:59:57.061670 : NC Timeout
+2020-05-24 17:00:02.912467 : New Challenger Wagon King#7785 Characters Unlocked [#]
+2020-05-24 17:00:03.412055 : Cancelling No Challenge Timer
+2020-05-24 17:00:03.415965 : Active Challenge Timer Start
+2020-05-24 19:44:41.907406 : Category KyReezy#2003 Random Character Power Level [Level] 4816
+2020-05-24 21:33:46.494207 : Award War MVP FatMichael#7853
+2020-05-24 21:35:30.215138 : Award Challenge OzDH#3266
+2020-05-24 21:35:30.414571 : Award Challenge KyReezy#2003
+2020-05-24 21:35:30.698080 : Award Challenge TYfighter#7937
+2020-05-24 21:35:30.931732 : Award Challenge calmskitzo#9471
+2020-05-24 21:35:31.188895 : Award Challenge Shadowsrisen#0269
+2020-05-24 21:35:35.504457 : Award Challenge Randy Savage#5425
+2020-05-24 21:35:35.773303 : Award Challenge ColbysGotMoore#1776
+2020-05-24 21:35:36.011840 : Award Challenge Talon#7280
+2020-05-24 21:35:36.194654 : Award Challenge FatMichael#7853
+2020-05-24 21:37:56.877709 : Award Dice Roll OzDH#3266
+2020-05-24 21:37:57.154405 : Award Dice Roll KyReezy#2003
+2020-05-24 21:37:57.382189 : Award Dice Roll TYfighter#7937
+2020-05-24 21:37:57.689161 : Award Dice Roll calmskitzo#9471
+2020-05-24 21:37:57.901304 : Award Dice Roll Shadowsrisen#0269
+2020-05-24 21:38:02.091497 : Award Dice Roll Randy Savage#5425
+2020-05-24 21:38:02.272356 : Award Dice Roll ColbysGotMoore#1776
+2020-05-24 21:38:02.495253 : Award Dice Roll Talon#7280
+2020-05-24 21:38:02.676180 : Award Dice Roll FatMichael#7853
+2020-05-24 21:38:02.902009 : Award Dice Roll Wagon King#7785
+2020-05-24 21:38:07.322420 : Award Dice Roll GeauxRagnar#8795
+2020-05-24 21:38:07.584421 : Award Dice Roll Shev1#1918
+2020-05-24 21:38:07.838603 : Award Dice Roll Shad0w VI#1698
+2020-05-24 21:38:08.020480 : Award Dice Roll candidme#0528
+2020-05-24 21:38:08.243376 : Award Dice Roll Artikhopper#2517
+2020-05-24 21:38:12.486411 : Award Dice Roll TrickJames#9614
+2020-05-24 22:59:56.816914 : AC Timeout
+2020-05-24 23:00:30.364517 : New Champ Wagon King#7785
+2020-05-24 23:00:30.365495 : Cancelling Active Challenge Timer
+2020-05-24 23:00:30.369405 : No Challenge Timer Start
+2020-05-25 00:30:37.261301 : Dice Roll Shev1#1918 14 False False
+2020-05-25 00:30:42.531593 : Dice Roll Shev1#1918 5 False False
+2020-05-25 00:30:47.695043 : Dice Roll Shev1#1918 12 False False
+2020-05-25 00:30:58.817162 : Claim Challenge Shev1#1918 Characters at 5+ Stars
+2020-05-25 00:30:58.960873 : Cancelling No Challenge Timer
+2020-05-25 00:30:58.962828 : Active Challenge Timer Start
+2020-05-25 00:43:05.440051 : New Champ Shev1#1918
+2020-05-25 00:43:05.441029 : Cancelling Active Challenge Timer
+2020-05-25 00:43:05.441029 : No Challenge Timer Start
+2020-05-25 02:43:05.543689 : NC Timeout
+2020-05-25 02:43:06.600174 : New Challenger ColbysGotMoore#1776 Strongest Random Team ,Agent Coulson,Scientist Supreme,Ravager Stitcher,Toad,Killmonger,
+2020-05-25 02:43:06.822159 : Cancelling No Challenge Timer
+2020-05-25 02:43:06.822159 : Active Challenge Timer Start
+2020-05-25 08:43:06.921324 : AC Timeout
+2020-05-25 09:08:57.138206 : Defence Shev1#1918 ColbysGotMoore#1776
+2020-05-25 09:08:57.139183 : Cancelling Active Challenge Timer
+2020-05-25 09:08:57.141139 : No Challenge Timer Start
+2020-05-25 11:08:57.247566 : NC Timeout
+2020-05-25 11:08:58.283902 : New Challenger Artikhopper#2517 T3s Hoarder
+2020-05-25 11:08:58.479797 : Cancelling No Challenge Timer
+2020-05-25 11:08:58.480750 : Active Challenge Timer Start
+2020-05-25 17:08:58.596181 : AC Timeout
+2020-05-25 17:10:58.249601 : Defence Shev1#1918 Artikhopper#2517
+2020-05-25 17:10:58.250583 : Cancelling Active Challenge Timer
+2020-05-25 17:10:58.250583 : No Challenge Timer Start
+2020-05-25 19:10:58.355028 : NC Timeout
+2020-05-25 19:10:59.242507 : New Challenger FatMichael#7853 Character Rank Ups
+2020-05-25 19:10:59.431915 : Cancelling No Challenge Timer
+2020-05-25 19:10:59.431915 : Active Challenge Timer Start
+2020-05-25 22:36:05.734781 : New Champ FatMichael#7853
+2020-05-25 22:36:05.824775 : Cancelling Active Challenge Timer
+2020-05-25 22:36:05.825753 : No Challenge Timer Start
+2020-05-25 22:39:39.145613 : My Info OzDH#3266
+2020-05-25 22:39:43.736907 : Claim Challenge OzDH#3266 DD1 Timed
+2020-05-25 22:39:43.914149 : Cancelling No Challenge Timer
+2020-05-25 22:39:43.915141 : Active Challenge Timer Start
+2020-05-25 23:01:18.501550 : New Champ OzDH#3266
+2020-05-25 23:01:18.501550 : Cancelling Active Challenge Timer
+2020-05-25 23:01:18.505460 : No Challenge Timer Start
+2020-05-25 23:11:30.825723 : Award Challenge Artikhopper#2517
+2020-05-25 23:11:39.312247 : Award Daily Dice Rolls OzDH#3266
+2020-05-26 01:01:18.609575 : NC Timeout
+2020-05-26 01:01:19.946189 : New Challenger heet3r#7274 Raid Credits Hoarder
+2020-05-26 01:01:20.107489 : Cancelling No Challenge Timer
+2020-05-26 01:01:20.115308 : Active Challenge Timer Start
+2020-05-26 07:01:20.218842 : AC Timeout
+2020-05-26 07:02:02.767564 : Defence OzDH#3266 heet3r#7274
+2020-05-26 07:02:02.771567 : Cancelling Active Challenge Timer
+2020-05-26 07:02:02.772556 : No Challenge Timer Start
+2020-05-26 09:02:02.872047 : NC Timeout
+2020-05-26 09:02:05.488918 : New Challenger Shadowsrisen#0269 Highest Power Character
+2020-05-26 09:02:05.630038 : Cancelling No Challenge Timer
+2020-05-26 09:02:05.631039 : Active Challenge Timer Start
+2020-05-26 14:06:10.204477 : Defence OzDH#3266 Shadowsrisen#0269
+2020-05-26 14:06:10.205477 : Cancelling Active Challenge Timer
+2020-05-26 14:06:10.206496 : No Challenge Timer Start
+2020-05-26 14:20:39.020445 : Claim Challenge FatMichael#7853 Random Character Shards Elektra
+2020-05-26 14:20:39.210241 : Cancelling No Challenge Timer
+2020-05-26 14:20:39.210241 : Active Challenge Timer Start
+2020-05-26 14:24:05.583818 : Category OzDH#3266 Strongest Random Team ,Gamora,Kree Cyborg,Proxima,Hydra Rifle Trooper,SHIELD Trooper,
+2020-05-26 14:31:45.551178 : Defence OzDH#3266 FatMichael#7853
+2020-05-26 14:31:45.552164 : Cancelling Active Challenge Timer
+2020-05-26 14:31:45.552164 : No Challenge Timer Start
+2020-05-26 16:31:45.657248 : NC Timeout
+2020-05-26 16:31:46.591650 : New Challenger TYfighter#7937 T4s Hoarder
+2020-05-26 16:31:46.768693 : Cancelling No Challenge Timer
+2020-05-26 16:31:46.769684 : Active Challenge Timer Start
+2020-05-26 22:31:46.864887 : AC Timeout
+2020-05-26 22:47:21.420247 : Defence OzDH#3266 TYfighter#7937
+2020-05-26 22:47:21.421239 : Cancelling Active Challenge Timer
+2020-05-26 22:47:21.423241 : No Challenge Timer Start
+2020-05-26 22:47:27.510342 : My Info KyReezy#2003
+2020-05-26 22:47:37.728112 : Claim Challenge KyReezy#2003 Characters at 7 Stars [#]
+2020-05-26 22:47:37.928936 : Cancelling No Challenge Timer
+2020-05-26 22:47:37.929938 : Active Challenge Timer Start
+2020-05-26 22:47:51.069154 : Defence OzDH#3266 KyReezy#2003
+2020-05-26 22:47:51.069154 : Cancelling Active Challenge Timer
+2020-05-26 22:47:51.070139 : No Challenge Timer Start
+2020-05-26 22:47:57.833826 : Claim Challenge KyReezy#2003 Characters at 40K+
+2020-05-26 22:47:58.001969 : Cancelling No Challenge Timer
+2020-05-26 22:47:58.005971 : Active Challenge Timer Start
+2020-05-27 01:23:48.485485 : Defence OzDH#3266 KyReezy#2003
+2020-05-27 01:23:48.488418 : Cancelling Active Challenge Timer
+2020-05-27 01:23:48.489395 : No Challenge Timer Start
+2020-05-27 03:23:48.585522 : NC Timeout
+2020-05-27 03:23:49.794477 : New Challenger heet3r#7274 Alliance MVP Ranking [#]
+2020-05-27 03:23:49.940424 : Cancelling No Challenge Timer
+2020-05-27 03:23:49.941385 : Active Challenge Timer Start
+2020-05-27 08:27:13.669546 : Defence OzDH#3266 heet3r#7274
+2020-05-27 08:27:13.670513 : Cancelling Active Challenge Timer
+2020-05-27 08:27:13.670513 : No Challenge Timer Start
+2020-05-27 10:27:13.783049 : NC Timeout
+2020-05-27 10:27:14.778282 : New Challenger Shadowsrisen#0269 Random Character Power Level [Character] Killmonger
+2020-05-27 10:27:14.958474 : Cancelling No Challenge Timer
+2020-05-27 10:27:14.959451 : Active Challenge Timer Start
+2020-05-27 15:31:09.594353 : Defence OzDH#3266 Shadowsrisen#0269
+2020-05-27 15:31:09.595314 : Cancelling Active Challenge Timer
+2020-05-27 15:31:09.599225 : No Challenge Timer Start
+2020-05-27 16:06:42.905308 : Claim Challenge ColbysGotMoore#1776 Power Core Hoarder
+2020-05-27 16:06:43.063863 : Cancelling No Challenge Timer
+2020-05-27 16:06:43.064841 : Active Challenge Timer Start
+2020-05-27 16:15:16.393361 : New Champ ColbysGotMoore#1776
+2020-05-27 16:15:16.394328 : Cancelling Active Challenge Timer
+2020-05-27 16:15:16.394328 : No Challenge Timer Start
+2020-05-27 18:15:16.502223 : NC Timeout
+2020-05-27 18:15:17.926596 : New Challenger TYfighter#7937 PVP!
+2020-05-27 18:15:18.133850 : Cancelling No Challenge Timer
+2020-05-27 18:15:18.134827 : Active Challenge Timer Start
+2020-05-27 20:18:12.582316 : Defence ColbysGotMoore#1776 TYfighter#7937
+2020-05-27 20:18:12.583285 : Cancelling Active Challenge Timer
+2020-05-27 20:18:12.583285 : No Challenge Timer Start
+2020-05-27 22:18:12.686023 : NC Timeout
+2020-05-27 22:18:13.739333 : New Challenger Shad0w VI#1698 Characters at 6+ Stars
+2020-05-27 22:18:13.897707 : Cancelling No Challenge Timer
+2020-05-27 22:18:13.897707 : Active Challenge Timer Start
+2020-05-27 22:24:59.083493 : Award War Win FatMichael#7853
+2020-05-27 22:25:08.515261 : Award War MVP OzDH#3266
+2020-05-27 22:25:56.002607 : Award Challenge KyReezy#2003
+2020-05-27 22:25:56.213086 : Award Challenge Randy Savage#5425
+2020-05-27 22:25:56.584076 : Award Challenge OzDH#3266
+2020-05-27 22:25:56.790700 : Award Challenge TrickJames#9614
+2020-05-27 22:25:56.984334 : Award Challenge FatMichael#7853
+2020-05-27 22:28:21.018485 : Award Dice Roll KyReezy#2003
+2020-05-27 22:28:21.351023 : Award Dice Roll Randy Savage#5425
+2020-05-27 22:28:21.527225 : Award Dice Roll OzDH#3266
+2020-05-27 22:28:21.729803 : Award Dice Roll TrickJames#9614
+2020-05-27 22:28:21.928375 : Award Dice Roll FatMichael#7853
+2020-05-27 22:28:26.225073 : Award Dice Roll Shadowsrisen#0269
+2020-05-27 22:28:26.488053 : Award Dice Roll fatshady#7716
+2020-05-27 22:28:26.743259 : Award Dice Roll Shad0w VI#1698
+2020-05-27 22:28:27.117686 : Award Dice Roll TYfighter#7937
+2020-05-27 22:28:27.581076 : Award Dice Roll GeauxRagnar#8795
+2020-05-27 22:28:31.796028 : Award Dice Roll calmskitzo#9471
+2020-05-27 22:28:31.997535 : Award Dice Roll candidme#0528
+2020-05-27 22:28:32.268616 : Award Dice Roll ColbysGotMoore#1776
+2020-05-27 22:28:32.503645 : Award Dice Roll heet3r#7274
+2020-05-27 22:28:33.101396 : Award Dice Roll Artikhopper#2517
+2020-05-27 23:02:10.945911 : Dice Roll Shadowsrisen#0269 9 False False
+2020-05-27 23:02:16.415288 : Dice Roll Shadowsrisen#0269 7 False False
+2020-05-27 23:02:21.465577 : Dice Roll Shadowsrisen#0269 10 False False
+2020-05-27 23:02:26.717004 : Dice Roll Shadowsrisen#0269 14 False False
+2020-05-27 23:02:56.234309 : Reminder 266447975146848257
+2020-05-27 23:24:01.908021 : Defence ColbysGotMoore#1776 Shad0w VI#1698
+2020-05-27 23:24:01.910955 : Cancelling Active Challenge Timer
+2020-05-27 23:24:01.911933 : No Challenge Timer Start
+2020-05-27 23:24:20.983600 : Claim Challenge Shad0w VI#1698 PVP!
+2020-05-27 23:24:21.140995 : Cancelling No Challenge Timer
+2020-05-27 23:24:21.141973 : Active Challenge Timer Start
+2020-05-27 23:25:00.328389 : My Info Shad0w VI#1698
+2020-05-27 23:25:16.613534 : Dice Roll Shad0w VI#1698 13 False False
+2020-05-27 23:35:13.919764 : Dice Roll heet3r#7274 12 False False
+2020-05-27 23:35:19.352493 : Dice Roll heet3r#7274 5 False False
+2020-05-27 23:35:24.559087 : Dice Roll heet3r#7274 10 False False
+2020-05-27 23:35:32.831640 : Dice Roll heet3r#7274 11 False False
+2020-05-27 23:35:38.151409 : Dice Roll heet3r#7274 15 False False
+2020-05-27 23:35:46.615877 : Dice Roll heet3r#7274 11 False False
+2020-05-27 23:35:50.609549 : Dice Roll heet3r#7274 10 False False
+2020-05-27 23:35:55.788222 : Dice Roll heet3r#7274 13 False False
+2020-05-27 23:36:00.985975 : Dice Roll heet3r#7274 10 False False
+2020-05-27 23:36:06.270157 : Dice Roll heet3r#7274 10 False False
+2020-05-27 23:36:11.522258 : Dice Roll heet3r#7274 16 False False
+2020-05-27 23:36:16.791299 : Dice Roll heet3r#7274 10 False False
+2020-05-27 23:36:22.681175 : Dice Roll heet3r#7274 15 False False
+2020-05-27 23:36:27.286900 : Dice Roll heet3r#7274 12 False False
+2020-05-27 23:36:35.565902 : Dice Roll heet3r#7274 11 False False
+2020-05-27 23:36:39.579903 : Dice Roll heet3r#7274 13 False False
+2020-05-27 23:36:44.886293 : Dice Roll heet3r#7274 9 False False
+2020-05-27 23:36:50.202026 : Dice Roll heet3r#7274 6 False False
+2020-05-27 23:36:58.666541 : Dice Roll heet3r#7274 11 False False
+2020-05-27 23:37:03.866038 : Dice Roll heet3r#7274 12 False False
+2020-05-27 23:37:09.225190 : Dice Roll heet3r#7274 16 False False
+2020-05-27 23:37:14.362953 : Dice Roll heet3r#7274 12 False False
+2020-05-27 23:37:19.540171 : Dice Roll heet3r#7274 12 False False
+2020-05-27 23:37:27.995129 : Dice Roll heet3r#7274 11 False False
+2020-05-27 23:37:36.773329 : New Champ Shad0w VI#1698
+2020-05-27 23:37:36.775285 : Cancelling Active Challenge Timer
+2020-05-27 23:37:36.778218 : No Challenge Timer Start
+2020-05-28 01:37:36.893914 : NC Timeout
+2020-05-28 01:37:38.249221 : New Challenger candidme#0528 Characters at 5+ Stars
+2020-05-28 01:37:38.439904 : Cancelling No Challenge Timer
+2020-05-28 01:37:38.440881 : Active Challenge Timer Start
+2020-05-28 01:58:01.813609 : New Champ candidme#0528
+2020-05-28 01:58:01.813609 : Cancelling Active Challenge Timer
+2020-05-28 01:58:01.814596 : No Challenge Timer Start
+2020-05-28 03:58:01.912684 : NC Timeout
+2020-05-28 03:58:02.742961 : New Challenger FatMichael#7853 Gear 1 Characters
+2020-05-28 03:58:02.898402 : Cancelling No Challenge Timer
+2020-05-28 03:58:02.899380 : Active Challenge Timer Start
+2020-05-28 04:25:51.525356 : Defence candidme#0528 FatMichael#7853
+2020-05-28 04:25:51.526334 : Cancelling Active Challenge Timer
+2020-05-28 04:25:51.527312 : No Challenge Timer Start
+2020-05-28 04:26:40.046163 : Award Challenge Shadowsrisen#0269
+2020-05-28 04:27:22.974871 : Award Dice Roll Randy Savage#5425
+2020-05-28 04:27:23.170472 : Award Dice Roll KyReezy#2003
+2020-05-28 04:27:23.353394 : Award Dice Roll OzDH#3266
+2020-05-28 04:27:23.587267 : Award Dice Roll FatMichael#7853
+2020-05-28 06:25:51.638769 : NC Timeout
+2020-05-28 06:25:52.470981 : New Challenger fatshady#7716 Random Character Shards Gamora
+2020-05-28 06:25:52.653990 : Cancelling No Challenge Timer
+2020-05-28 06:25:52.654967 : Active Challenge Timer Start
+2020-05-28 12:25:52.754081 : AC Timeout
+2020-05-28 13:57:35.850812 : Defence candidme#0528 fatshady#7716
+2020-05-28 13:57:35.851775 : Cancelling Active Challenge Timer
+2020-05-28 13:57:35.851775 : No Challenge Timer Start
+2020-05-28 14:27:26.397627 : Claim Challenge KyReezy#2003 Highest Power 0 T4s
+2020-05-28 14:27:26.581445 : Cancelling No Challenge Timer
+2020-05-28 14:27:26.582423 : Active Challenge Timer Start
+2020-05-28 14:29:32.785908 : New Champ KyReezy#2003
+2020-05-28 14:29:32.788841 : Cancelling Active Challenge Timer
+2020-05-28 14:29:32.793729 : No Challenge Timer Start
+2020-05-28 16:29:32.896801 : NC Timeout
+2020-05-28 16:29:33.986602 : New Challenger heet3r#7274 Last Ultimus Raid Ranking
+2020-05-28 16:29:34.167855 : Cancelling No Challenge Timer
+2020-05-28 16:29:34.170788 : Active Challenge Timer Start
+2020-05-28 17:00:48.491934 : Defence KyReezy#2003 heet3r#7274
+2020-05-28 17:00:48.492901 : Cancelling Active Challenge Timer
+2020-05-28 17:00:48.492901 : No Challenge Timer Start
+2020-05-28 17:01:13.824339 : Claim Challenge heet3r#7274 Strongest Random Team ,SHIELD Assault,Nebula,Hydra Scientist,Ravager Stitcher,Mantis,
+2020-05-28 17:01:14.077767 : Cancelling No Challenge Timer
+2020-05-28 17:01:14.078745 : Active Challenge Timer Start
+2020-05-28 17:03:14.953368 : Defence KyReezy#2003 heet3r#7274
+2020-05-28 17:03:14.954345 : Cancelling Active Challenge Timer
+2020-05-28 17:03:14.955324 : No Challenge Timer Start
+2020-05-28 19:03:15.058843 : NC Timeout
+2020-05-28 19:03:15.949837 : New Challenger Artikhopper#2517 Random Character Power Level [Level] 46385
+2020-05-28 19:03:16.101577 : Cancelling No Challenge Timer
+2020-05-28 19:03:16.101577 : Active Challenge Timer Start
+2020-05-28 20:20:26.724475 : Defence KyReezy#2003 Artikhopper#2517
+2020-05-28 20:20:26.725441 : Cancelling Active Challenge Timer
+2020-05-28 20:20:26.726418 : No Challenge Timer Start
+2020-05-28 22:20:26.825061 : NC Timeout
+2020-05-28 22:20:28.362695 : New Challenger ColbysGotMoore#1776 Lowest Power Character
+2020-05-28 22:20:28.632928 : Cancelling No Challenge Timer
+2020-05-28 22:20:28.633942 : Active Challenge Timer Start
+2020-05-29 00:47:12.202939 : New Champ ColbysGotMoore#1776
+2020-05-29 00:47:12.242041 : Cancelling Active Challenge Timer
+2020-05-29 00:47:12.242041 : No Challenge Timer Start
+2020-05-29 02:47:12.344603 : NC Timeout
+2020-05-29 02:47:13.221872 : New Challenger calmskitzo#9471 Characters at 20K+
+2020-05-29 02:47:13.399892 : Cancelling No Challenge Timer
+2020-05-29 02:47:13.400880 : Active Challenge Timer Start
+2020-05-29 02:58:36.350306 : New Champ calmskitzo#9471
+2020-05-29 02:58:36.353216 : Cancelling Active Challenge Timer
+2020-05-29 02:58:36.354195 : No Challenge Timer Start
+2020-05-29 04:58:36.453312 : NC Timeout
+2020-05-29 04:58:37.463113 : New Challenger TYfighter#7937 Blitz Wins [#]
+2020-05-29 04:58:37.613962 : Cancelling No Challenge Timer
+2020-05-29 04:58:37.614940 : Active Challenge Timer Start
+2020-05-29 10:58:37.706964 : AC Timeout
+2020-05-29 11:39:29.618888 : Defence calmskitzo#9471 TYfighter#7937
+2020-05-29 11:39:29.622799 : Cancelling Active Challenge Timer
+2020-05-29 11:39:29.628664 : No Challenge Timer Start
+2020-05-29 13:39:29.730437 : NC Timeout
+2020-05-29 13:39:30.700458 : New Challenger Wagon King#7785 Characters at 7 Stars [#]
+2020-05-29 13:39:30.854957 : Cancelling No Challenge Timer
+2020-05-29 13:39:30.854957 : Active Challenge Timer Start
+2020-05-29 13:40:07.917364 : Stats OzDH#3266
+2020-05-29 17:14:55.687060 : Defence calmskitzo#9471 Wagon King#7785
+2020-05-29 17:14:55.688038 : Cancelling Active Challenge Timer
+2020-05-29 17:14:55.689016 : No Challenge Timer Start
+2020-05-29 17:16:25.788966 : Claim Challenge KyReezy#2003 Strongest Random Team ,Kree Noble,Merc Sniper,Rocket,Elsa,Vulture,
+2020-05-29 17:16:25.973735 : Cancelling No Challenge Timer
+2020-05-29 17:16:25.975692 : Active Challenge Timer Start
+2020-05-29 19:56:08.077231 : Defence calmskitzo#9471 KyReezy#2003
+2020-05-29 19:56:08.103627 : Cancelling Active Challenge Timer
+2020-05-29 19:56:08.105581 : No Challenge Timer Start
+2020-05-29 21:56:08.211009 : NC Timeout
+2020-05-29 21:56:09.265664 : New Challenger Randy Savage#5425 10 Avatar Challenge [#]
+2020-05-29 21:56:09.436151 : Cancelling No Challenge Timer
+2020-05-29 21:56:09.437135 : Active Challenge Timer Start
+2020-05-29 22:27:12.935957 : Category calmskitzo#9471 Raid Credits Hoarder
+2020-05-30 03:56:09.547411 : AC Timeout
+2020-05-30 04:20:50.638596 : Defence calmskitzo#9471 Randy Savage#5425
+2020-05-30 04:20:50.638596 : Cancelling Active Challenge Timer
+2020-05-30 04:20:50.639564 : No Challenge Timer Start
+2020-05-30 06:20:50.740592 : NC Timeout
+2020-05-30 06:20:51.744244 : New Challenger Shad0w VI#1698 Characters at 70K+
+2020-05-30 06:20:51.907568 : Cancelling No Challenge Timer
+2020-05-30 06:20:51.908546 : Active Challenge Timer Start
+2020-05-30 12:20:52.011495 : AC Timeout
+2020-05-30 13:11:17.564238 : Defence calmskitzo#9471 Shad0w VI#1698
+2020-05-30 13:11:17.564238 : Cancelling Active Challenge Timer
+2020-05-30 13:11:17.565215 : No Challenge Timer Start
+2020-05-30 15:11:17.664752 : NC Timeout
+2020-05-30 15:11:18.687668 : New Challenger Randy Savage#5425 Gear 13+ Characters
+2020-05-30 15:11:23.221694 : Cancelling No Challenge Timer
+2020-05-30 15:11:23.222671 : Active Challenge Timer Start
+2020-05-30 20:02:38.464533 : Defence calmskitzo#9471 Randy Savage#5425
+2020-05-30 20:02:38.501686 : Cancelling Active Challenge Timer
+2020-05-30 20:02:38.502655 : No Challenge Timer Start
+2020-05-30 22:02:38.603243 : NC Timeout
+2020-05-30 22:02:39.714504 : New Challenger KyReezy#2003 Champions Choice
+2020-05-30 22:02:39.873846 : Cancelling No Challenge Timer
+2020-05-30 22:02:39.873846 : Active Challenge Timer Start
+2020-05-31 04:02:39.985257 : AC Timeout
+2020-05-31 04:33:43.115798 : Category KyReezy#2003 Raid Credits Hoarder
+2020-05-31 04:34:14.228190 : New Champ KyReezy#2003
+2020-05-31 04:34:14.229168 : Cancelling Active Challenge Timer
+2020-05-31 04:34:14.233078 : No Challenge Timer Start
+2020-05-31 06:34:14.341188 : NC Timeout
+2020-05-31 06:34:19.506664 : New Challenger Shad0w VI#1698 Challengers Choice
+2020-05-31 06:34:19.675001 : Cancelling No Challenge Timer
+2020-05-31 06:34:19.675980 : Active Challenge Timer Start
+2020-05-31 12:34:19.776541 : AC Timeout
+2020-05-31 13:47:49.609720 : Defence KyReezy#2003 Shad0w VI#1698
+2020-05-31 13:47:49.610687 : Cancelling Active Challenge Timer
+2020-05-31 13:47:49.610687 : No Challenge Timer Start
+2020-05-31 15:47:49.716750 : NC Timeout
+2020-05-31 15:47:50.946977 : New Challenger ColbysGotMoore#1776 Strongest Random Team ,Invisible Woman,Hand Archer,Karnak,Shocker,AIM Monstrosity,
+2020-05-31 15:47:51.126119 : Cancelling No Challenge Timer
+2020-05-31 15:47:51.126119 : Active Challenge Timer Start
+2020-05-31 21:20:58.066820 : Defence KyReezy#2003 ColbysGotMoore#1776
+2020-05-31 21:20:58.096199 : Cancelling Active Challenge Timer
+2020-05-31 21:20:58.098155 : No Challenge Timer Start
+2020-05-31 21:57:17.821657 : Award War MVP OzDH#3266
+2020-05-31 21:57:36.891183 : Award Challenge FatMichael#7853
+2020-05-31 21:59:24.614775 : Award Dice Roll FatMichael#7853
+2020-05-31 21:59:24.850495 : Award Dice Roll Shadowsrisen#0269
+2020-05-31 21:59:25.051874 : Award Dice Roll KyReezy#2003
+2020-05-31 21:59:25.274779 : Award Dice Roll OzDH#3266
+2020-05-31 21:59:25.492780 : Award Dice Roll Artikhopper#2517
+2020-05-31 21:59:29.837140 : Award Dice Roll GeauxRagnar#8795
+2020-05-31 21:59:30.118146 : Award Dice Roll TYfighter#7937
+2020-05-31 21:59:30.300164 : Award Dice Roll ColbysGotMoore#1776
+2020-05-31 21:59:30.507057 : Award Dice Roll candidme#0528
+2020-05-31 21:59:30.724089 : Award Dice Roll heet3r#7274
+2020-05-31 21:59:35.024326 : Award Dice Roll Shev1#1918
+2020-05-31 21:59:35.235775 : Award Dice Roll Shad0w VI#1698
+2020-05-31 23:20:58.185467 : NC Timeout
+2020-05-31 23:20:59.239207 : New Challenger Shadowsrisen#0269 Characters at 40K+
+2020-05-31 23:20:59.385849 : Cancelling No Challenge Timer
+2020-05-31 23:20:59.387806 : Active Challenge Timer Start
+2020-06-01 05:20:59.493912 : AC Timeout
+2020-06-01 05:33:14.214607 : Defence KyReezy#2003 Shadowsrisen#0269
+2020-06-01 05:33:14.215581 : Cancelling Active Challenge Timer
+2020-06-01 05:33:14.215581 : No Challenge Timer Start
+2020-06-01 05:33:28.264252 : New Challenger fatshady#7716 Strongest Team Power [#]
+2020-06-01 05:33:28.467035 : Cancelling No Challenge Timer
+2020-06-01 05:33:28.467035 : Active Challenge Timer Start
+2020-06-01 09:39:16.617759 : Defence KyReezy#2003 fatshady#7716
+2020-06-01 09:39:16.647298 : Cancelling Active Challenge Timer
+2020-06-01 09:39:16.649253 : No Challenge Timer Start
+2020-06-01 09:56:04.343435 : Claim Challenge FatMichael#7853 Highest Power Character
+2020-06-01 09:56:04.512782 : Cancelling No Challenge Timer
+2020-06-01 09:56:04.513760 : Active Challenge Timer Start
+2020-06-01 13:57:51.222047 : New Champ FatMichael#7853
+2020-06-01 13:57:51.223024 : Cancelling Active Challenge Timer
+2020-06-01 13:57:51.223024 : No Challenge Timer Start
+2020-06-01 15:57:51.324332 : NC Timeout
+2020-06-01 15:57:52.252213 : New Challenger ColbysGotMoore#1776 Strongest Random Team ,SHIELD Trooper,Merc Riot Guard,Black Widow,Kree Noble,Elektra,
+2020-06-01 15:57:52.419530 : Cancelling No Challenge Timer
+2020-06-01 15:57:52.420504 : Active Challenge Timer Start
+2020-06-01 21:38:25.741985 : Defence FatMichael#7853 ColbysGotMoore#1776
+2020-06-01 21:38:25.743939 : Cancelling Active Challenge Timer
+2020-06-01 21:38:25.743939 : No Challenge Timer Start
+2020-06-01 23:38:25.855373 : NC Timeout
+2020-06-01 23:38:26.821118 : New Challenger fatshady#7716 Gear 14 Characters
+2020-06-01 23:38:27.002953 : Cancelling No Challenge Timer
+2020-06-01 23:38:27.002953 : Active Challenge Timer Start
+2020-06-02 05:38:27.101345 : AC Timeout
+2020-06-02 06:54:44.905873 : Defence FatMichael#7853 fatshady#7716
+2020-06-02 06:54:44.906850 : Cancelling Active Challenge Timer
+2020-06-02 06:54:44.906850 : No Challenge Timer Start
+2020-06-02 08:54:45.014131 : NC Timeout
+2020-06-02 08:54:45.906766 : New Challenger Artikhopper#2517 Highest Power 0 T4s
+2020-06-02 08:54:46.054387 : Cancelling No Challenge Timer
+2020-06-02 08:54:46.055391 : Active Challenge Timer Start
+2020-06-02 12:09:40.526377 : Defence FatMichael#7853 Artikhopper#2517
+2020-06-02 12:09:40.558638 : Cancelling Active Challenge Timer
+2020-06-02 12:09:40.561573 : No Challenge Timer Start
+2020-06-02 14:09:40.660280 : NC Timeout
+2020-06-02 14:09:41.671700 : New Challenger fatshady#7716 Random Character Power Level [Level] 7399
+2020-06-02 14:09:41.811510 : Cancelling No Challenge Timer
+2020-06-02 14:09:41.812486 : Active Challenge Timer Start
+2020-06-02 20:09:41.911990 : AC Timeout
+2020-06-02 20:10:18.283202 : Defence FatMichael#7853 fatshady#7716
+2020-06-02 20:10:18.283202 : Cancelling Active Challenge Timer
+2020-06-02 20:10:18.284179 : No Challenge Timer Start
+2020-06-02 22:10:18.378646 : NC Timeout
+2020-06-02 22:10:24.425821 : New Challenger candidme#0528 Current Blitz Score
+2020-06-02 22:10:24.645606 : Cancelling No Challenge Timer
+2020-06-02 22:10:24.646585 : Active Challenge Timer Start
+2020-06-02 22:11:29.275280 : Defence FatMichael#7853 candidme#0528
+2020-06-02 22:11:29.287989 : Cancelling Active Challenge Timer
+2020-06-02 22:11:29.290921 : No Challenge Timer Start
+2020-06-03 00:11:29.395960 : NC Timeout
+2020-06-03 00:11:30.402296 : New Challenger ColbysGotMoore#1776 Characters at 50K+
+2020-06-03 00:11:30.571446 : Cancelling No Challenge Timer
+2020-06-03 00:11:30.573393 : Active Challenge Timer Start
+2020-06-03 01:25:30.027168 : Defence FatMichael#7853 ColbysGotMoore#1776
+2020-06-03 01:25:30.036941 : Cancelling Active Challenge Timer
+2020-06-03 01:25:30.036941 : No Challenge Timer Start
+2020-06-03 03:25:30.126032 : NC Timeout
+2020-06-03 03:25:31.035816 : New Challenger Shadowsrisen#0269 Characters at 4+ Stars
+2020-06-03 03:25:31.195333 : Cancelling No Challenge Timer
+2020-06-03 03:25:31.197298 : Active Challenge Timer Start
+2020-06-03 03:29:43.828596 : New Champ Shadowsrisen#0269
+2020-06-03 03:29:43.829573 : Cancelling Active Challenge Timer
+2020-06-03 03:29:43.829573 : No Challenge Timer Start
+2020-06-03 05:29:43.925168 : NC Timeout
+2020-06-03 05:29:44.870981 : New Challenger calmskitzo#9471 Characters at 70K+
+2020-06-03 05:29:45.069284 : Cancelling No Challenge Timer
+2020-06-03 05:29:45.069284 : Active Challenge Timer Start
+2020-06-03 11:29:45.158230 : AC Timeout
+2020-06-03 11:35:31.450472 : Reminder 468054768502439947
+2020-06-03 15:41:51.677898 : Defence Shadowsrisen#0269 calmskitzo#9471
+2020-06-03 15:41:51.705304 : Cancelling Active Challenge Timer
+2020-06-03 15:41:51.706249 : No Challenge Timer Start
+2020-06-03 17:41:51.805804 : NC Timeout
+2020-06-03 17:41:52.880161 : New Challenger TrickJames#9614 Strongest Protector Team
+2020-06-03 17:41:53.084107 : Cancelling No Challenge Timer
+2020-06-03 17:41:53.085085 : Active Challenge Timer Start
+2020-06-03 18:16:08.528693 : New Champ TrickJames#9614
+2020-06-03 18:16:08.529671 : Cancelling Active Challenge Timer
+2020-06-03 18:16:08.529671 : No Challenge Timer Start
+2020-06-03 18:19:09.048870 : My Info KyReezy#2003
+2020-06-03 18:19:23.879872 : Dice Roll KyReezy#2003 16 False False
+2020-06-03 18:19:28.986746 : Dice Roll KyReezy#2003 14 False False
+2020-06-03 18:19:34.176194 : Dice Roll KyReezy#2003 7 False False
+2020-06-03 18:19:39.448071 : Dice Roll KyReezy#2003 9 False False
+2020-06-03 18:19:44.554967 : Dice Roll KyReezy#2003 9 False False
+2020-06-03 18:19:50.150198 : Dice Roll KyReezy#2003 6 False False
+2020-06-03 18:20:08.650331 : My Info TrickJames#9614
+2020-06-03 18:20:52.889749 : Dice Roll TrickJames#9614 14 False False
+2020-06-03 18:21:01.299603 : Dice Roll TrickJames#9614 11 False False
+2020-06-03 18:21:06.522919 : Dice Roll TrickJames#9614 6 False False
+2020-06-03 18:21:11.773618 : Dice Roll TrickJames#9614 4 False False
+2020-06-03 18:21:20.239561 : Dice Roll TrickJames#9614 11 False False
+2020-06-03 18:21:24.351281 : Dice Roll TrickJames#9614 15 False False
+2020-06-03 18:21:29.549803 : Dice Roll TrickJames#9614 16 False False
+2020-06-03 18:21:34.716221 : Dice Roll TrickJames#9614 13 False False
+2020-06-03 18:21:39.965399 : Dice Roll TrickJames#9614 7 False False
+2020-06-03 18:21:45.177860 : Dice Roll TrickJames#9614 9 False False
+2020-06-03 18:21:50.331220 : Dice Roll TrickJames#9614 9 False False
+2020-06-03 18:21:55.613171 : Dice Roll TrickJames#9614 10 False False
+2020-06-03 18:22:04.141359 : Dice Roll TrickJames#9614 11 False False
+2020-06-03 18:22:11.418725 : Dice Roll TrickJames#9614 11 False False
+2020-06-03 18:22:16.557971 : Dice Roll TrickJames#9614 6 False False
+2020-06-03 18:22:21.778540 : Dice Roll TrickJames#9614 7 False False
+2020-06-03 18:22:26.950114 : Dice Roll TrickJames#9614 17 False False
+2020-06-03 18:22:32.229024 : Dice Roll TrickJames#9614 14 False False
+2020-06-03 18:22:40.630966 : Dice Roll TrickJames#9614 11 False False
+2020-06-03 18:22:44.847609 : Dice Roll TrickJames#9614 8 False False
+2020-06-03 18:22:50.186681 : Dice Roll TrickJames#9614 7 False False
+2020-06-03 18:22:55.288910 : Dice Roll TrickJames#9614 10 False False
+2020-06-03 18:23:00.381153 : Dice Roll TrickJames#9614 7 False False
+2020-06-03 18:23:05.673136 : Dice Roll TrickJames#9614 9 False False
+2020-06-03 18:23:11.063011 : Dice Roll TrickJames#9614 14 False False
+2020-06-03 18:23:16.015440 : Dice Roll TrickJames#9614 8 False False
+2020-06-03 18:23:24.589105 : Dice Roll TrickJames#9614 11 False False
+2020-06-03 18:23:31.830105 : Dice Roll TrickJames#9614 11 False False
+2020-06-03 18:23:37.036886 : Dice Roll TrickJames#9614 10 False False
+2020-06-03 18:23:42.156467 : Dice Roll TrickJames#9614 8 False False
+2020-06-03 18:23:47.605050 : Dice Roll TrickJames#9614 8 False False
+2020-06-03 18:23:52.788780 : Dice Roll TrickJames#9614 8 False False
+2020-06-03 18:23:57.950715 : Dice Roll TrickJames#9614 9 False False
+2020-06-03 18:24:06.400687 : Dice Roll TrickJames#9614 11 False False
+2020-06-03 18:24:10.412349 : Dice Roll TrickJames#9614 8 False False
+2020-06-03 18:24:15.652608 : Dice Roll TrickJames#9614 9 False False
+2020-06-03 18:24:20.833445 : Dice Roll TrickJames#9614 14 False False
+2020-06-03 18:24:26.095322 : Dice Roll TrickJames#9614 14 False False
+2020-06-03 18:24:31.312105 : Dice Roll TrickJames#9614 5 False False
+2020-06-03 18:24:39.716406 : Dice Roll TrickJames#9614 11 False False
+2020-06-03 18:24:43.869282 : Dice Roll TrickJames#9614 8 False False
+2020-06-03 18:24:49.032887 : Dice Roll TrickJames#9614 13 False False
+2020-06-03 18:24:54.268639 : Dice Roll TrickJames#9614 15 False False
+2020-06-03 18:25:09.398186 : My Info TrickJames#9614
+2020-06-03 20:16:08.640724 : NC Timeout
+2020-06-03 20:16:09.650481 : New Challenger Randy Savage#5425 Last/Current War Battles [#]
+2020-06-03 20:16:09.797459 : Cancelling No Challenge Timer
+2020-06-03 20:16:09.798437 : Active Challenge Timer Start
+2020-06-03 20:31:42.991102 : New Champ Randy Savage#5425
+2020-06-03 20:31:42.992071 : Cancelling Active Challenge Timer
+2020-06-03 20:31:42.992071 : No Challenge Timer Start
+2020-06-03 22:31:43.093888 : NC Timeout
+2020-06-03 22:31:44.119366 : New Challenger Wagon King#7785 Most Campaign Energy
+2020-06-03 22:31:44.281678 : Cancelling No Challenge Timer
+2020-06-03 22:31:44.282656 : Active Challenge Timer Start
+2020-06-04 04:31:44.383624 : AC Timeout
+2020-06-04 04:50:11.927142 : New Champ Wagon King#7785
+2020-06-04 04:50:11.928120 : Cancelling Active Challenge Timer
+2020-06-04 04:50:11.928120 : No Challenge Timer Start
+2020-06-04 06:50:12.020225 : NC Timeout
+2020-06-04 06:50:17.019873 : New Challenger Talon#7280 Characters at 30K+
+2020-06-04 06:50:17.186067 : Cancelling No Challenge Timer
+2020-06-04 06:50:17.187045 : Active Challenge Timer Start
+2020-06-04 06:55:51.909410 : Award War Win FatMichael#7853
+2020-06-04 06:56:02.622411 : Award War MVP Artikhopper#2517
+2020-06-04 06:56:44.459146 : Award Challenge KyReezy#2003
+2020-06-04 06:56:44.688896 : Award Challenge Artikhopper#2517
+2020-06-04 06:56:44.890425 : Award Challenge Randy Savage#5425
+2020-06-04 06:56:45.052710 : Award Challenge FatMichael#7853
+2020-06-04 06:58:59.748742 : Award Dice Roll KyReezy#2003
+2020-06-04 06:59:00.008830 : Award Dice Roll Artikhopper#2517
+2020-06-04 06:59:00.220062 : Award Dice Roll Randy Savage#5425
+2020-06-04 06:59:00.388213 : Award Dice Roll FatMichael#7853
+2020-06-04 06:59:00.578858 : Award Dice Roll OzDH#3266
+2020-06-04 06:59:04.753963 : Award Dice Roll TrickJames#9614
+2020-06-04 06:59:04.993480 : Award Dice Roll Shad0w VI#1698
+2020-06-04 06:59:05.183137 : Award Dice Roll ColbysGotMoore#1776
+2020-06-04 06:59:05.410951 : Award Dice Roll calmskitzo#9471
+2020-06-04 06:59:05.642702 : Award Dice Roll Wagon King#7785
+2020-06-04 06:59:09.952329 : Award Dice Roll GeauxRagnar#8795
+2020-06-04 06:59:10.237895 : Award Dice Roll Shadowsrisen#0269
+2020-06-04 06:59:10.451775 : Award Dice Roll candidme#0528
+2020-06-04 06:59:10.651527 : Award Dice Roll heet3r#7274
+2020-06-04 06:59:27.487908 : Dice Roll FatMichael#7853 7 False False
+2020-06-04 06:59:35.976529 : Dice Roll FatMichael#7853 11 False False
+2020-06-04 06:59:44.445804 : Dice Roll FatMichael#7853 11 False False
+2020-06-04 06:59:48.472288 : Dice Roll FatMichael#7853 18 True False
+2020-06-04 06:59:53.605336 : Dice Roll FatMichael#7853 13 False False
+2020-06-04 06:59:58.823313 : Dice Roll FatMichael#7853 10 False False
+2020-06-04 07:00:04.293895 : Dice Roll FatMichael#7853 9 False False
+2020-06-04 07:00:09.388235 : Dice Roll FatMichael#7853 5 False False
+2020-06-04 07:00:23.699378 : Reminder 473691876680269824
+2020-06-04 09:11:28.721126 : Defence Wagon King#7785 Talon#7280
+2020-06-04 09:11:28.721126 : Cancelling Active Challenge Timer
+2020-06-04 09:11:28.722104 : No Challenge Timer Start
+2020-06-04 11:11:28.812446 : NC Timeout
+2020-06-04 11:11:29.931015 : New Challenger Artikhopper#2517 Characters with Multiple T4s
+2020-06-04 11:11:30.080590 : Cancelling No Challenge Timer
+2020-06-04 11:11:30.081568 : Active Challenge Timer Start
+2020-06-04 14:01:29.641973 : New Champ Artikhopper#2517
+2020-06-04 14:01:29.665437 : Cancelling Active Challenge Timer
+2020-06-04 14:01:29.666414 : No Challenge Timer Start
+2020-06-04 16:01:29.780086 : NC Timeout
+2020-06-04 16:01:31.259490 : New Challenger FatMichael#7853 Characters at 10K+
+2020-06-04 16:01:31.436439 : Cancelling No Challenge Timer
+2020-06-04 16:01:31.437417 : Active Challenge Timer Start
+2020-06-04 21:29:22.435518 : New Champ FatMichael#7853
+2020-06-04 21:29:22.467780 : Cancelling Active Challenge Timer
+2020-06-04 21:29:22.468757 : No Challenge Timer Start
+2020-06-04 23:29:22.572516 : NC Timeout
+2020-06-04 23:29:23.545961 : New Challenger heet3r#7274 Strongest Random Team ,Doctor Strange,Graviton,Cable,Ms. Marvel,Mystique,
+2020-06-04 23:29:23.723921 : Cancelling No Challenge Timer
+2020-06-04 23:29:23.724898 : Active Challenge Timer Start
+2020-06-04 23:48:21.866495 : New Champ heet3r#7274
+2020-06-04 23:48:21.866495 : Cancelling Active Challenge Timer
+2020-06-04 23:48:21.867472 : No Challenge Timer Start
+2020-06-05 00:06:40.022269 : Claim Challenge Shev1#1918 Last/Current War Battles [#]
+2020-06-05 00:06:40.187862 : Cancelling No Challenge Timer
+2020-06-05 00:06:40.187862 : Active Challenge Timer Start
+2020-06-05 01:47:10.706079 : Defence heet3r#7274 Shev1#1918
+2020-06-05 01:47:10.706079 : Cancelling Active Challenge Timer
+2020-06-05 01:47:10.708034 : No Challenge Timer Start
+2020-06-05 01:47:43.605373 : Claim Challenge Shev1#1918 Random Character Shards AIM Monstrosity
+2020-06-05 01:47:43.793230 : Cancelling No Challenge Timer
+2020-06-05 01:47:43.795185 : Active Challenge Timer Start
+2020-06-05 02:19:03.501668 : Category FatMichael#7853 Strongest Villain Team
+2020-06-05 07:47:43.908243 : AC Timeout
+2020-06-05 07:53:39.625597 : Defence heet3r#7274 Shev1#1918
+2020-06-05 07:53:39.625597 : Cancelling Active Challenge Timer
+2020-06-05 07:53:39.626575 : No Challenge Timer Start
+2020-06-05 09:53:39.731176 : NC Timeout
+2020-06-05 09:53:40.684339 : New Challenger GeauxRagnar#8795 Strongest Team Power [#]
+2020-06-05 09:53:40.850533 : Cancelling No Challenge Timer
+2020-06-05 09:53:44.604806 : Active Challenge Timer Start
+2020-06-05 09:54:00.410260 : New Champ GeauxRagnar#8795
+2020-06-05 09:54:00.410260 : Cancelling Active Challenge Timer
+2020-06-05 09:54:00.410260 : No Challenge Timer Start
+2020-06-05 11:54:00.502435 : NC Timeout
+2020-06-05 11:54:01.543265 : New Challenger fatshady#7716 Random Character Power Level [Level] 42
+2020-06-05 11:54:01.699752 : Cancelling No Challenge Timer
+2020-06-05 11:54:01.700729 : Active Challenge Timer Start
+2020-06-05 17:54:01.796385 : AC Timeout
+2020-06-05 18:03:53.105864 : Defence GeauxRagnar#8795 fatshady#7716
+2020-06-05 18:03:53.106841 : Cancelling Active Challenge Timer
+2020-06-05 18:03:53.106841 : No Challenge Timer Start
+2020-06-05 20:03:53.208434 : NC Timeout
+2020-06-05 20:03:54.214401 : New Challenger heet3r#7274 Characters at 100K+
+2020-06-05 20:03:54.379618 : Cancelling No Challenge Timer
+2020-06-05 20:03:54.380595 : Active Challenge Timer Start
+2020-06-05 20:08:03.006145 : Category Stats OzDH#3266
+2020-06-05 20:08:41.589126 : Stats OzDH#3266
+2020-06-06 02:03:54.480341 : AC Timeout
+2020-06-06 03:41:41.777514 : Defence GeauxRagnar#8795 heet3r#7274
+2020-06-06 03:41:41.778494 : Cancelling Active Challenge Timer
+2020-06-06 03:41:41.779469 : No Challenge Timer Start
+2020-06-06 05:24:14.026702 : Award War MVP OzDH#3266
+2020-06-06 05:25:01.693415 : Award Challenge FatMichael#7853
+2020-06-06 05:25:01.921333 : Award Challenge OzDH#3266
+2020-06-06 05:25:02.096447 : Award Challenge calmskitzo#9471
+2020-06-06 05:26:49.170391 : Award Dice Roll FatMichael#7853
+2020-06-06 05:26:49.373032 : Award Dice Roll OzDH#3266
+2020-06-06 05:26:49.589547 : Award Dice Roll calmskitzo#9471
+2020-06-06 05:26:49.831678 : Award Dice Roll Randy Savage#5425
+2020-06-06 05:26:50.034353 : Award Dice Roll GeauxRagnar#8795
+2020-06-06 05:26:54.330988 : Award Dice Roll candidme#0528
+2020-06-06 05:26:54.517933 : Award Dice Roll ColbysGotMoore#1776
+2020-06-06 05:26:54.705930 : Award Dice Roll TrickJames#9614
+2020-06-06 05:26:54.907657 : Award Dice Roll Shadowsrisen#0269
+2020-06-06 05:41:41.879743 : NC Timeout
+2020-06-06 05:41:42.731947 : New Challenger TrickJames#9614 War Credits Hoarder
+2020-06-06 05:41:42.886853 : Cancelling No Challenge Timer
+2020-06-06 05:41:42.887820 : Active Challenge Timer Start
+2020-06-06 11:41:42.991530 : AC Timeout
+2020-06-06 12:35:32.592125 : Reminder 468054768502439947
+2020-06-06 17:26:34.126275 : New Champ TrickJames#9614
+2020-06-06 17:26:34.137028 : Cancelling Active Challenge Timer
+2020-06-06 17:26:34.142894 : No Challenge Timer Start
+2020-06-06 19:26:34.237984 : NC Timeout
+2020-06-06 19:26:35.482439 : New Challenger FatMichael#7853 Strongest Random Team ,Rocket,Doctor Strange,Ant-Man,Hand Archer,SHIELD Operative,
+2020-06-06 19:26:35.652544 : Cancelling No Challenge Timer
+2020-06-06 19:26:35.653522 : Active Challenge Timer Start
+2020-06-07 01:26:35.758435 : AC Timeout
+2020-06-07 02:23:47.155724 : New Champ FatMichael#7853
+2020-06-07 02:23:47.156701 : Cancelling Active Challenge Timer
+2020-06-07 02:23:47.157689 : No Challenge Timer Start
+2020-06-07 04:23:39.670326 : NC Timeout
+2020-06-07 04:23:40.703439 : New Challenger fatshady#7716 10+ Gold & Red Stars [Total Characters]
+2020-06-07 04:23:40.844236 : Cancelling No Challenge Timer
+2020-06-07 04:23:40.845193 : Active Challenge Timer Start
+2020-06-07 10:23:40.953003 : AC Timeout
+2020-06-07 10:24:26.692892 : Defence FatMichael#7853 fatshady#7716
+2020-06-07 10:24:26.693869 : Cancelling Active Challenge Timer
+2020-06-07 10:24:26.694830 : No Challenge Timer Start
+2020-06-07 12:24:26.785023 : NC Timeout
+2020-06-07 12:24:27.667068 : New Challenger GeauxRagnar#8795 World Warrior Placement [#]
+2020-06-07 12:24:27.844066 : Cancelling No Challenge Timer
+2020-06-07 12:24:27.846021 : Active Challenge Timer Start
+2020-06-07 12:25:43.316652 : Defence FatMichael#7853 GeauxRagnar#8795
+2020-06-07 12:25:43.316652 : Cancelling Active Challenge Timer
+2020-06-07 12:25:43.317620 : No Challenge Timer Start
+2020-06-07 14:25:43.411041 : NC Timeout
+2020-06-07 14:25:44.516756 : New Challenger TYfighter#7937 Collection Power [#]
+2020-06-07 14:25:44.681973 : Cancelling No Challenge Timer
+2020-06-07 14:25:44.683932 : Active Challenge Timer Start
+2020-06-07 14:26:23.682881 : Defence FatMichael#7853 TYfighter#7937
+2020-06-07 14:26:23.683843 : Cancelling Active Challenge Timer
+2020-06-07 14:26:23.683843 : No Challenge Timer Start
+2020-06-07 14:49:28.337370 : Claim Challenge OzDH#3266 Strongest Random Team ,Elektra,Crystal,Hand Assassin,Night Nurse,Mordo,
+2020-06-07 14:49:28.528007 : Cancelling No Challenge Timer
+2020-06-07 14:49:28.529962 : Active Challenge Timer Start
+2020-06-07 14:52:50.489679 : New Champ OzDH#3266
+2020-06-07 14:52:50.491634 : Cancelling Active Challenge Timer
+2020-06-07 14:52:50.495545 : No Challenge Timer Start
+2020-06-07 16:52:50.588858 : NC Timeout
+2020-06-07 16:52:51.882255 : New Challenger Artikhopper#2517 10+ Gold & Red Stars [Total Characters]
+2020-06-07 16:52:52.049489 : Cancelling No Challenge Timer
+2020-06-07 16:52:52.050467 : Active Challenge Timer Start
+2020-06-07 18:54:09.061290 : Defence OzDH#3266 Artikhopper#2517
+2020-06-07 18:54:09.074979 : Cancelling Active Challenge Timer
+2020-06-07 18:54:09.105284 : No Challenge Timer Start
+2020-06-07 20:53:51.805960 : Award War Win FatMichael#7853
+2020-06-07 20:53:58.901558 : Award War MVP FatMichael#7853
+2020-06-07 20:54:09.216885 : NC Timeout
+2020-06-07 20:54:10.018822 : New Challenger TYfighter#7937 Random Character Power Level [Character] Drax
+2020-06-07 20:54:10.173279 : Cancelling No Challenge Timer
+2020-06-07 20:54:10.177179 : Active Challenge Timer Start
+2020-06-07 20:55:32.893251 : Award Challenge Randy Savage#5425
+2020-06-07 20:55:33.103846 : Award Challenge OzDH#3266
+2020-06-07 20:55:33.275949 : Award Challenge calmskitzo#9471
+2020-06-07 20:58:02.563826 : Award Dice Roll Randy Savage#5425
+2020-06-07 20:58:02.739797 : Award Dice Roll OzDH#3266
+2020-06-07 20:58:02.960815 : Award Dice Roll calmskitzo#9471
+2020-06-07 20:58:03.143644 : Award Dice Roll candidme#0528
+2020-06-07 20:58:03.411502 : Award Dice Roll ColbysGotMoore#1776
+2020-06-07 20:58:07.806422 : Award Dice Roll Shadowsrisen#0269
+2020-06-07 20:58:08.022018 : Award Dice Roll Artikhopper#2517
+2020-06-07 20:58:08.250010 : Award Dice Roll FatMichael#7853
+2020-06-07 20:58:08.474861 : Award Dice Roll GeauxRagnar#8795
+2020-06-07 20:58:08.771126 : Award Dice Roll Shad0w VI#1698
+2020-06-07 20:58:13.432329 : Award Dice Roll heet3r#7274
+2020-06-07 20:58:13.707109 : Award Dice Roll KyReezy#2003
+2020-06-07 20:58:13.947766 : Award Dice Roll Shev1#1918
+2020-06-07 20:59:12.932537 : Reminder 473691876680269824
+2020-06-07 21:09:51.248327 : Dice Roll Shev1#1918 11 False False
+2020-06-07 21:09:56.567344 : Dice Roll Shev1#1918 10 False False
+2020-06-07 21:10:01.651956 : Dice Roll Shev1#1918 14 False False
+2020-06-07 21:10:06.896507 : Dice Roll Shev1#1918 5 False False
+2020-06-07 21:10:12.091461 : Dice Roll Shev1#1918 12 False False
+2020-06-07 21:10:17.303525 : Dice Roll Shev1#1918 10 False False
+2020-06-07 22:35:22.584930 : Defence OzDH#3266 TYfighter#7937
+2020-06-07 22:35:22.592752 : Cancelling Active Challenge Timer
+2020-06-07 22:35:22.603505 : No Challenge Timer Start
+2020-06-07 22:37:04.341372 : Claim Challenge FatMichael#7853 PVP!
+2020-06-07 22:37:04.562313 : Cancelling No Challenge Timer
+2020-06-07 22:37:04.563291 : Active Challenge Timer Start
+2020-06-07 23:02:18.046575 : Defence OzDH#3266 FatMichael#7853
+2020-06-07 23:02:18.048530 : Cancelling Active Challenge Timer
+2020-06-07 23:02:18.052441 : No Challenge Timer Start
+2020-06-08 01:02:18.150574 : NC Timeout
+2020-06-08 01:02:19.182017 : New Challenger Shev1#1918 Strongest Random Team ,Toad,Minn-Erva,Psylocke,Shuri,Cable,
+2020-06-08 01:02:19.334908 : Cancelling No Challenge Timer
+2020-06-08 01:02:19.335887 : Active Challenge Timer Start
+2020-06-08 07:02:19.429945 : AC Timeout
+2020-06-08 07:31:05.116224 : Defence OzDH#3266 Shev1#1918
+2020-06-08 07:31:05.127955 : Cancelling Active Challenge Timer
+2020-06-08 07:31:05.127955 : No Challenge Timer Start
+2020-06-08 09:31:05.233107 : NC Timeout
+2020-06-08 09:31:06.302445 : New Challenger Randy Savage#5425 Strongest Random Team ,Falcon,M'Baku,Rocket,Agent Coulson,Daredevil,
+2020-06-08 09:31:06.453036 : Cancelling No Challenge Timer
+2020-06-08 09:31:06.454992 : Active Challenge Timer Start
+2020-06-08 11:17:05.213015 : Defence OzDH#3266 Randy Savage#5425
+2020-06-08 11:17:05.217904 : Cancelling Active Challenge Timer
+2020-06-08 11:17:05.218880 : No Challenge Timer Start
+2020-06-08 12:16:50.501202 : Claim Challenge FatMichael#7853 Strongest War Defence [#]
+2020-06-08 12:16:50.704650 : Cancelling No Challenge Timer
+2020-06-08 12:16:50.705629 : Active Challenge Timer Start
+2020-06-08 12:18:38.263709 : Defence OzDH#3266 FatMichael#7853
+2020-06-08 12:18:38.267619 : Cancelling Active Challenge Timer
+2020-06-08 12:18:38.268596 : No Challenge Timer Start
+2020-06-08 14:18:38.362971 : NC Timeout
+2020-06-08 14:18:39.377888 : New Challenger fatshady#7716 Strongest Random Team ,Captain America,AIM Researcher,Vision,Red Skull,America Chavez,
+2020-06-08 14:18:39.541141 : Cancelling No Challenge Timer
+2020-06-08 14:18:39.541141 : Active Challenge Timer Start
+2020-06-08 20:18:39.649264 : AC Timeout
+2020-06-09 21:38:57.000047 : Reminder 223982068131037185
+2020-06-09 21:40:07.571901 : Defence OzDH#3266 fatshady#7716
+2020-06-09 21:40:07.590476 : Cancelling Active Challenge Timer
+2020-06-09 21:40:07.601230 : No Challenge Timer Start
+2020-06-09 21:40:19.089483 : Claim Challenge candidme#0528 War Credits Hoarder
+2020-06-09 21:40:19.235206 : Cancelling No Challenge Timer
+2020-06-09 21:40:19.236192 : Active Challenge Timer Start
+2020-06-09 21:42:45.071433 : New Champ candidme#0528
+2020-06-09 21:42:45.073400 : Cancelling Active Challenge Timer
+2020-06-09 21:42:45.075343 : No Challenge Timer Start
+2020-06-09 21:42:56.352618 : My Info KyReezy#2003
+2020-06-09 21:43:09.645937 : Dice Roll KyReezy#2003 12 False False
+2020-06-09 21:43:14.658166 : Dice Roll KyReezy#2003 9 False False
+2020-06-09 21:43:19.890409 : Dice Roll KyReezy#2003 13 False False
+2020-06-09 21:43:28.249307 : Dice Roll KyReezy#2003 11 False False
+2020-06-09 21:43:53.488594 : Claim Challenge KyReezy#2003 Strongest Hand Team
+2020-06-09 21:43:53.671715 : Cancelling No Challenge Timer
+2020-06-09 21:43:53.672692 : Active Challenge Timer Start
+2020-06-09 21:59:07.113772 : Defence candidme#0528 KyReezy#2003
+2020-06-09 21:59:07.115728 : Cancelling Active Challenge Timer
+2020-06-09 21:59:07.155809 : No Challenge Timer Start
+2020-06-09 22:00:18.791341 : Claim Challenge KyReezy#2003 Gold + Red Stars [Single Character]
+2020-06-09 22:00:18.979130 : Cancelling No Challenge Timer
+2020-06-09 22:00:18.981084 : Active Challenge Timer Start
+2020-06-09 22:00:53.280969 : New Champ KyReezy#2003
+2020-06-09 22:00:53.281946 : Cancelling Active Challenge Timer
+2020-06-09 22:00:53.281946 : No Challenge Timer Start
+2020-06-09 22:01:57.175100 : Claim Challenge candidme#0528 Highest Power Character
+2020-06-09 22:01:57.338363 : Cancelling No Challenge Timer
+2020-06-09 22:01:57.339342 : Active Challenge Timer Start
+2020-06-09 22:05:26.177715 : Defence KyReezy#2003 candidme#0528
+2020-06-09 22:05:26.178693 : Cancelling Active Challenge Timer
+2020-06-09 22:05:26.178693 : No Challenge Timer Start
+2020-06-10 00:04:06.001002 : Claim Challenge candidme#0528 T3s Hoarder
+2020-06-10 00:04:06.228829 : Cancelling No Challenge Timer
+2020-06-10 00:04:06.234694 : Active Challenge Timer Start
+2020-06-10 00:23:35.308451 : New Champ candidme#0528
+2020-06-10 00:23:35.312363 : Cancelling Active Challenge Timer
+2020-06-10 00:23:35.316273 : No Challenge Timer Start
+2020-06-10 00:30:19.549335 : Claim Challenge KyReezy#2003 Random Character Shards Kingpin
+2020-06-10 00:30:19.718644 : Cancelling No Challenge Timer
+2020-06-10 00:30:19.719632 : Active Challenge Timer Start
+2020-06-10 00:31:09.403765 : New Champ KyReezy#2003
+2020-06-10 00:31:09.403765 : Cancelling Active Challenge Timer
+2020-06-10 00:31:09.404743 : No Challenge Timer Start
+2020-06-10 00:31:18.990862 : Claim Challenge candidme#0528 Characters at 60K+
+2020-06-10 00:31:19.154123 : Cancelling No Challenge Timer
+2020-06-10 00:31:19.154123 : Active Challenge Timer Start
+2020-06-10 00:32:10.608662 : My Info candidme#0528
+2020-06-10 00:32:50.701830 : Defence KyReezy#2003 candidme#0528
+2020-06-10 00:32:50.702808 : Cancelling Active Challenge Timer
+2020-06-10 00:32:50.702808 : No Challenge Timer Start
+2020-06-10 00:33:58.750488 : Claim Challenge candidme#0528 Strongest Skill Team
+2020-06-10 00:33:58.925480 : Cancelling No Challenge Timer
+2020-06-10 00:33:58.945033 : Active Challenge Timer Start
+2020-06-10 00:35:37.922993 : Defence KyReezy#2003 candidme#0528
+2020-06-10 00:35:37.923957 : Cancelling Active Challenge Timer
+2020-06-10 00:35:37.924943 : No Challenge Timer Start
+2020-06-10 02:35:38.027605 : NC Timeout
+2020-06-10 02:35:38.979869 : New Challenger Shev1#1918 Random Character Shards Yondu
+2020-06-10 02:35:39.128467 : Cancelling No Challenge Timer
+2020-06-10 02:35:39.132377 : Active Challenge Timer Start
+2020-06-10 08:35:39.234572 : AC Timeout
+2020-06-10 09:46:59.648495 : Defence KyReezy#2003 Shev1#1918
+2020-06-10 09:46:59.649482 : Cancelling Active Challenge Timer
+2020-06-10 09:46:59.650440 : No Challenge Timer Start
+2020-06-10 11:46:59.760055 : NC Timeout
+2020-06-10 11:47:01.202191 : New Challenger Talon#7280 Un-opened Orbs
+2020-06-10 11:47:01.388916 : Cancelling No Challenge Timer
+2020-06-10 11:47:01.422152 : Active Challenge Timer Start
+2020-06-10 11:47:40.774164 : Defence KyReezy#2003 Talon#7280
+2020-06-10 11:47:40.816200 : Cancelling Active Challenge Timer
+2020-06-10 11:47:41.006836 : No Challenge Timer Start
+2020-06-10 13:47:41.154872 : NC Timeout
+2020-06-10 13:47:46.671994 : New Challenger Shad0w VI#1698 DD1 Timed
+2020-06-10 13:47:46.820847 : Cancelling No Challenge Timer
+2020-06-10 13:47:46.821815 : Active Challenge Timer Start
+2020-06-10 15:21:17.037428 : Defence KyReezy#2003 Shad0w VI#1698
+2020-06-10 15:21:17.038406 : Cancelling Active Challenge Timer
+2020-06-10 15:21:17.040362 : No Challenge Timer Start
+2020-06-10 17:21:17.127492 : NC Timeout
+2020-06-10 17:21:18.179013 : New Challenger fatshady#7716 Strongest Random Team ,Daredevil,Psylocke,Hand Sorceress,Invisible Woman,Scarlet Witch,
+2020-06-10 17:21:18.394302 : Cancelling No Challenge Timer
+2020-06-10 17:21:18.395312 : Active Challenge Timer Start
+2020-06-10 21:38:21.527072 : Award War Win FatMichael#7853
+2020-06-10 21:38:31.815190 : Award War MVP OzDH#3266
+2020-06-10 21:40:16.108335 : Award Challenge FatMichael#7853
+2020-06-10 21:40:16.375859 : Award Challenge Randy Savage#5425
+2020-06-10 21:40:16.686743 : Award Challenge OzDH#3266
+2020-06-10 21:40:16.877377 : Award Challenge candidme#0528
+2020-06-10 21:40:17.059213 : Award Challenge calmskitzo#9471
+2020-06-10 21:42:49.416781 : Award Dice Roll FatMichael#7853
+2020-06-10 21:42:49.681715 : Award Dice Roll Randy Savage#5425
+2020-06-10 21:42:49.937851 : Award Dice Roll OzDH#3266
+2020-06-10 21:42:50.240912 : Award Dice Roll candidme#0528
+2020-06-10 21:42:50.519533 : Award Dice Roll calmskitzo#9471
+2020-06-10 21:42:54.599433 : Award Dice Roll Shadowsrisen#0269
+2020-06-10 21:42:54.872188 : Award Dice Roll Wagon King#7785
+2020-06-10 21:42:55.157653 : Award Dice Roll GeauxRagnar#8795
+2020-06-10 21:42:55.377616 : Award Dice Roll Shad0w VI#1698
+2020-06-10 21:42:55.624503 : Award Dice Roll Shev1#1918
+2020-06-10 21:42:59.990419 : Award Dice Roll KyReezy#2003
+2020-06-10 21:43:16.535154 : Reminder 473691876680269824
+2020-06-10 23:21:18.501508 : AC Timeout
+2020-06-11 00:34:25.559638 : Defence KyReezy#2003 fatshady#7716
+2020-06-11 00:34:25.559638 : Cancelling Active Challenge Timer
+2020-06-11 00:34:25.560616 : No Challenge Timer Start
+2020-06-11 01:36:25.323113 : Claim Challenge Shadowsrisen#0269 Random Character Power Level [Level] 53985
+2020-06-11 01:36:25.465516 : Cancelling No Challenge Timer
+2020-06-11 01:36:25.466494 : Active Challenge Timer Start
+2020-06-11 01:42:18.969349 : Defence KyReezy#2003 Shadowsrisen#0269
+2020-06-11 01:42:18.970326 : Cancelling Active Challenge Timer
+2020-06-11 01:42:18.971305 : No Challenge Timer Start
+2020-06-11 01:42:35.013052 : Claim Challenge Shadowsrisen#0269 Strongest Shield Team
+2020-06-11 01:42:35.160672 : Cancelling No Challenge Timer
+2020-06-11 01:42:35.161650 : Active Challenge Timer Start
+2020-06-11 01:42:52.913763 : Defence KyReezy#2003 Shadowsrisen#0269
+2020-06-11 01:42:52.914741 : Cancelling Active Challenge Timer
+2020-06-11 01:42:52.914741 : No Challenge Timer Start
+2020-06-11 01:42:57.804614 : Claim Challenge Shadowsrisen#0269 Strongest Random Team ,Scientist Supreme,Hydra Armored Guard,Mystique,Crossbones,Colossus,
+2020-06-11 01:42:57.984620 : Cancelling No Challenge Timer
+2020-06-11 01:42:57.984620 : Active Challenge Timer Start
+2020-06-11 07:42:58.092165 : AC Timeout
+2020-06-11 09:50:48.868356 : New Champ Shadowsrisen#0269
+2020-06-11 09:50:48.869324 : Cancelling Active Challenge Timer
+2020-06-11 09:50:48.870302 : No Challenge Timer Start
+2020-06-11 11:50:48.976542 : NC Timeout
+2020-06-11 11:50:50.044731 : New Challenger Artikhopper#2517 Gear 11+ Characters
+2020-06-11 11:50:50.186486 : Cancelling No Challenge Timer
+2020-06-11 11:50:50.187463 : Active Challenge Timer Start
+2020-06-11 12:40:45.462169 : New Champ Artikhopper#2517
+2020-06-11 12:40:45.463146 : Cancelling Active Challenge Timer
+2020-06-11 12:40:45.466079 : No Challenge Timer Start
+2020-06-11 14:40:45.573780 : NC Timeout
+2020-06-11 14:40:46.559050 : New Challenger Shad0w VI#1698 Characters at 5+ Stars
+2020-06-11 14:40:46.712536 : Cancelling No Challenge Timer
+2020-06-11 14:40:46.713513 : Active Challenge Timer Start
+2020-06-11 20:40:46.819770 : AC Timeout
+2020-06-11 20:46:05.651848 : Defence Artikhopper#2517 Shad0w VI#1698
+2020-06-11 20:46:05.652816 : Cancelling Active Challenge Timer
+2020-06-11 20:46:05.652816 : No Challenge Timer Start
+2020-06-11 22:16:49.439364 : Claim Challenge Shev1#1918 PVP!
+2020-06-11 22:16:49.582088 : Cancelling No Challenge Timer
+2020-06-11 22:16:49.583082 : Active Challenge Timer Start
+2020-06-11 22:37:04.456473 : Defence Artikhopper#2517 Shev1#1918
+2020-06-11 22:37:04.456473 : Cancelling Active Challenge Timer
+2020-06-11 22:37:04.457451 : No Challenge Timer Start
+2020-06-12 00:37:04.557826 : NC Timeout
+2020-06-12 00:37:05.380018 : New Challenger Wagon King#7785 Collection Power [#]
+2020-06-12 00:37:05.524709 : Cancelling No Challenge Timer
+2020-06-12 00:37:05.525684 : Active Challenge Timer Start
+2020-06-12 05:34:27.271864 : Defence Artikhopper#2517 Wagon King#7785
+2020-06-12 05:34:27.296315 : Cancelling Active Challenge Timer
+2020-06-12 05:34:27.297284 : No Challenge Timer Start
+2020-06-12 07:34:27.394560 : NC Timeout
+2020-06-12 07:34:28.591898 : New Challenger TrickJames#9614 PVP!
+2020-06-12 07:34:28.743469 : Cancelling No Challenge Timer
+2020-06-12 07:34:28.744452 : Active Challenge Timer Start
+2020-06-12 13:34:28.843644 : AC Timeout
+2020-06-12 13:36:13.576948 : Defence Artikhopper#2517 TrickJames#9614
+2020-06-12 13:36:13.577926 : Cancelling Active Challenge Timer
+2020-06-12 13:36:13.577926 : No Challenge Timer Start
+2020-06-12 15:36:13.680640 : NC Timeout
+2020-06-12 15:36:14.888538 : New Challenger heet3r#7274 Strongest Random Team ,Black Widow,M'Baku,Shuri,The Thing,Hydra Grenadier,
+2020-06-12 15:36:15.080952 : Cancelling No Challenge Timer
+2020-06-12 15:36:15.081969 : Active Challenge Timer Start
+2020-06-12 21:36:15.181919 : AC Timeout
+2020-06-12 21:41:46.870874 : Defence Artikhopper#2517 heet3r#7274
+2020-06-12 21:41:46.871836 : Cancelling Active Challenge Timer
+2020-06-12 21:41:46.872815 : No Challenge Timer Start
+2020-06-12 23:41:46.985975 : NC Timeout
+2020-06-12 23:41:47.874630 : New Challenger Shad0w VI#1698 Blitz Wins [#]
+2020-06-12 23:41:52.091939 : Cancelling No Challenge Timer
+2020-06-12 23:41:52.092913 : Active Challenge Timer Start
+2020-06-13 05:41:52.193611 : AC Timeout
+2020-06-13 13:03:46.837456 : Startup : Logged in as Grandmaster
+2020-06-13 13:09:05.989612 : Defence Artikhopper#2517 Shad0w VI#1698
+2020-06-13 13:09:05.991568 : No Challenge Timer Start
+2020-06-13 15:09:06.092171 : NC Timeout
+2020-06-13 15:09:07.078762 : New Challenger TYfighter#7937 Level 1 Characters
+2020-06-13 15:09:07.213672 : Cancelling No Challenge Timer
+2020-06-13 15:09:07.214640 : Active Challenge Timer Start
+2020-06-13 21:09:07.308770 : AC Timeout
+2020-06-13 21:47:20.100746 : Defence Artikhopper#2517 TYfighter#7937
+2020-06-13 21:47:20.103677 : Cancelling Active Challenge Timer
+2020-06-13 21:47:20.103677 : No Challenge Timer Start
+2020-06-13 23:47:20.194932 : NC Timeout
+2020-06-13 23:47:21.117803 : New Challenger calmskitzo#9471 Characters at 100K+
+2020-06-13 23:47:21.291847 : Cancelling No Challenge Timer
+2020-06-13 23:47:21.291847 : Active Challenge Timer Start
+2020-06-13 23:51:27.985905 : Category OzDH#3266 T2s Hoarder
+2020-06-13 23:57:54.896245 : New Champ calmskitzo#9471
+2020-06-13 23:57:54.897227 : Cancelling Active Challenge Timer
+2020-06-13 23:57:54.898217 : No Challenge Timer Start
+2020-06-14 01:57:54.996560 : NC Timeout
+2020-06-14 01:57:55.911737 : New Challenger Shad0w VI#1698 Gear 11+ Characters
+2020-06-14 01:57:56.046261 : Cancelling No Challenge Timer
+2020-06-14 01:57:56.046261 : Active Challenge Timer Start
+2020-06-14 07:58:15.730516 : AC Timeout
+2020-06-14 18:28:37.584252 : Defence calmskitzo#9471 Shad0w VI#1698
+2020-06-14 18:28:37.585228 : Cancelling Active Challenge Timer
+2020-06-14 18:28:37.592073 : No Challenge Timer Start
+2020-06-14 20:28:37.695437 : NC Timeout
+2020-06-14 20:28:38.625931 : New Challenger Shadowsrisen#0269 Strongest Avengers Team
+2020-06-14 20:28:38.806165 : Cancelling No Challenge Timer
+2020-06-14 20:28:38.818870 : Active Challenge Timer Start
+2020-06-14 22:39:21.395841 : Defence calmskitzo#9471 Shadowsrisen#0269
+2020-06-14 22:39:21.396833 : Cancelling Active Challenge Timer
+2020-06-14 22:39:21.399750 : No Challenge Timer Start
+2020-06-15 00:39:21.513174 : NC Timeout
+2020-06-15 00:39:22.354502 : New Challenger Artikhopper#2517 Strongest Random Team ,Korath,Hydra Rifle Trooper,Quake,Scarlet Witch,Phoenix,
+2020-06-15 00:39:22.544397 : Cancelling No Challenge Timer
+2020-06-15 00:39:22.545907 : Active Challenge Timer Start
+2020-06-15 01:26:36.674695 : Defence calmskitzo#9471 Artikhopper#2517
+2020-06-15 01:26:36.674695 : Cancelling Active Challenge Timer
+2020-06-15 01:26:36.674695 : No Challenge Timer Start
+2020-06-15 03:26:36.768618 : NC Timeout
+2020-06-15 03:26:37.661388 : New Challenger TYfighter#7937 Strongest Team Power [#]
+2020-06-15 03:26:37.844332 : Cancelling No Challenge Timer
+2020-06-15 03:26:37.844332 : Active Challenge Timer Start
+2020-06-15 04:46:43.120950 : Defence calmskitzo#9471 TYfighter#7937
+2020-06-15 04:46:46.983648 : Cancelling Active Challenge Timer
+2020-06-15 04:46:46.984612 : No Challenge Timer Start
+2020-06-15 06:46:47.081161 : NC Timeout
+2020-06-15 06:46:48.001271 : New Challenger Shev1#1918 Strongest Random Team ,Black Panther,SHIELD Medic,Okoye,Gamora,Hand Blademaster,
+2020-06-15 06:46:48.162999 : Cancelling No Challenge Timer
+2020-06-15 06:46:48.163977 : Active Challenge Timer Start
+2020-06-15 12:46:48.267196 : AC Timeout
+2020-06-15 12:48:21.051475 : Startup : Logged in as Grandmaster
+2020-06-15 12:48:29.382951 : Reminder 468054768502439947
+2020-06-15 15:20:22.154341 : Defence calmskitzo#9471 Shev1#1918
+2020-06-15 15:20:22.155318 : No Challenge Timer Start
+2020-06-15 17:39:02.287543 : Startup : Logged in as Grandmaster
+2020-06-15 20:08:14.277202 : Startup : Logged in as Grandmaster
+2020-06-16 13:57:26.663649 : Startup : Logged in as Grandmaster
+2020-06-16 14:07:40.960854 : Startup : Logged in as Grandmaster
+2020-06-16 21:25:24.435754 : New Challenger heet3r#7274 Strongest Random Team ,M'Baku,Venom,Rhino,Graviton,Green Goblin,
+2020-06-16 21:25:24.596250 : Active Challenge Timer Start
+2020-06-16 23:57:59.374662 : Defence calmskitzo#9471 heet3r#7274
+2020-06-16 23:57:59.375640 : Cancelling Active Challenge Timer
+2020-06-16 23:57:59.375640 : No Challenge Timer Start
+2020-06-17 02:57:59.475506 : NC Timeout
+2020-06-17 02:58:00.443102 : New Challenger candidme#0528 Strongest Avengers Team
+2020-06-17 02:58:00.602773 : Cancelling No Challenge Timer
+2020-06-17 02:58:00.602773 : Active Challenge Timer Start
+2020-06-17 03:16:53.362267 : Defence calmskitzo#9471 candidme#0528
+2020-06-17 03:16:53.363228 : Cancelling Active Challenge Timer
+2020-06-17 03:16:53.363228 : No Challenge Timer Start
+2020-06-17 06:16:53.467555 : NC Timeout
+2020-06-17 06:16:54.345201 : New Challenger Shev1#1918 World Warrior Placement [#]
+2020-06-17 06:16:58.479854 : Cancelling No Challenge Timer
+2020-06-17 06:16:58.480844 : Active Challenge Timer Start
+2020-06-17 09:44:50.623565 : New Champ Shev1#1918
+2020-06-17 09:44:50.623565 : Cancelling Active Challenge Timer
+2020-06-17 09:44:50.623565 : No Challenge Timer Start
+2020-06-17 12:44:50.735770 : NC Timeout
+2020-06-17 12:44:51.747729 : New Challenger Talon#7280 Strongest Inhuman Team
+2020-06-17 12:44:51.896629 : Cancelling No Challenge Timer
+2020-06-17 12:44:51.897594 : Active Challenge Timer Start
+2020-06-17 20:44:51.997196 : AC Timeout
+2020-06-17 20:49:43.286543 : Defence Shev1#1918 Talon#7280
+2020-06-17 20:49:43.287520 : Cancelling Active Challenge Timer
+2020-06-17 20:49:43.287520 : No Challenge Timer Start
+2020-06-17 23:49:43.389243 : NC Timeout
+2020-06-17 23:49:44.577473 : New Challenger Wagon King#7785 Random Character Power Level [Level] 69864
+2020-06-17 23:49:44.753429 : Cancelling No Challenge Timer
+2020-06-17 23:49:44.754446 : Active Challenge Timer Start
+2020-06-18 07:49:44.849090 : AC Timeout
+2020-06-18 08:30:19.444533 : Defence Shev1#1918 Wagon King#7785
+2020-06-18 08:30:19.444533 : Cancelling Active Challenge Timer
+2020-06-18 08:30:19.445520 : No Challenge Timer Start
+2020-06-18 11:30:19.537287 : NC Timeout
+2020-06-18 11:30:20.807160 : New Challenger Wagon King#7785 Strongest Random Team ,Daredevil,Ultron,Cable,Scarlet Witch,Hydra Grenadier,
+2020-06-18 11:30:20.992536 : Cancelling No Challenge Timer
+2020-06-18 11:30:20.995469 : Active Challenge Timer Start
+2020-06-18 16:24:43.395466 : New Champ Wagon King#7785
+2020-06-18 16:24:43.396444 : Cancelling Active Challenge Timer
+2020-06-18 16:24:43.398401 : No Challenge Timer Start
+2020-06-18 17:18:52.997631 : Dice Roll Shev1#1918 12 False False
+2020-06-18 17:18:58.165322 : Dice Roll Shev1#1918 10 False False
+2020-06-18 17:19:12.133440 : Claim Challenge Shev1#1918 T4s Hoarder
+2020-06-18 17:19:12.306098 : Cancelling No Challenge Timer
+2020-06-18 17:19:12.311964 : Active Challenge Timer Start
+2020-06-19 01:19:12.438770 : AC Timeout
+2020-06-19 01:23:36.542397 : New Champ Shev1#1918
+2020-06-19 01:23:36.543365 : Cancelling Active Challenge Timer
+2020-06-19 01:23:36.544360 : No Challenge Timer Start
+2020-06-19 04:23:36.654606 : NC Timeout
+2020-06-19 04:23:37.641694 : New Challenger Shad0w VI#1698 Gear 13+ Characters
+2020-06-19 04:23:37.844076 : Cancelling No Challenge Timer
+2020-06-19 04:23:37.845053 : Active Challenge Timer Start
+2020-06-19 12:23:37.942729 : AC Timeout
+2020-06-19 12:39:42.063562 : Defence Shev1#1918 Shad0w VI#1698
+2020-06-19 12:39:42.064524 : Cancelling Active Challenge Timer
+2020-06-19 12:39:42.064524 : No Challenge Timer Start
+2020-06-19 15:39:42.163304 : NC Timeout
+2020-06-19 15:39:43.168755 : New Challenger OzDH#3266 Strongest Random Team ,Gamora,Ultimus,AIM Infector,Hawkeye,AIM Monstrosity,
+2020-06-19 15:39:43.332995 : Cancelling No Challenge Timer
+2020-06-19 15:39:43.343748 : Active Challenge Timer Start
+2020-06-19 17:44:23.643488 : New Champ OzDH#3266
+2020-06-19 17:44:23.644466 : Cancelling Active Challenge Timer
+2020-06-19 17:44:23.646421 : No Challenge Timer Start
+2020-06-19 20:44:23.749994 : NC Timeout
+2020-06-19 20:44:25.406714 : New Challenger Randy Savage#5425 Random Character Power Level [Level] 217
+2020-06-19 20:44:25.599318 : Cancelling No Challenge Timer
+2020-06-19 20:44:25.600819 : Active Challenge Timer Start
+2020-06-20 01:33:46.403134 : New Champ Randy Savage#5425
+2020-06-20 01:33:46.404111 : Cancelling Active Challenge Timer
+2020-06-20 01:33:46.408021 : No Challenge Timer Start
+2020-06-20 04:33:46.516838 : NC Timeout
+2020-06-20 04:33:47.459341 : New Challenger fatshady#7716 World Warrior Placement [#]
+2020-06-20 04:33:47.623742 : Cancelling No Challenge Timer
+2020-06-20 04:33:47.624719 : Active Challenge Timer Start
+2020-06-20 04:40:11.988120 : Defence Randy Savage#5425 fatshady#7716
+2020-06-20 04:40:11.988120 : Cancelling Active Challenge Timer
+2020-06-20 04:40:11.989087 : No Challenge Timer Start
+2020-06-20 04:40:53.498842 : Award War Win FatMichael#7853
+2020-06-20 04:41:04.932228 : Award War MVP OzDH#3266
+2020-06-20 04:42:46.980833 : Award Challenge KyReezy#2003
+2020-06-20 04:42:47.181655 : Award Challenge Randy Savage#5425
+2020-06-20 04:42:47.381948 : Award Challenge FatMichael#7853
+2020-06-20 04:42:47.586040 : Award Challenge Shadowsrisen#0269
+2020-06-20 04:42:47.827336 : Award Challenge candidme#0528
+2020-06-20 04:42:52.279351 : Award Challenge ColbysGotMoore#1776
+2020-06-20 04:42:52.484890 : Award Challenge calmskitzo#9471
+2020-06-20 04:42:52.718644 : Award Challenge OzDH#3266
+2020-06-20 04:44:57.924649 : Award Dice Roll KyReezy#2003
+2020-06-20 04:44:58.164447 : Award Dice Roll Randy Savage#5425
+2020-06-20 04:44:58.348207 : Award Dice Roll FatMichael#7853
+2020-06-20 04:44:58.632957 : Award Dice Roll Shadowsrisen#0269
+2020-06-20 04:44:58.853403 : Award Dice Roll candidme#0528
+2020-06-20 04:45:03.098698 : Award Dice Roll ColbysGotMoore#1776
+2020-06-20 04:45:03.365140 : Award Dice Roll calmskitzo#9471
+2020-06-20 04:45:03.540260 : Award Dice Roll OzDH#3266
+2020-06-20 04:45:03.748159 : Award Dice Roll Shad0w VI#1698
+2020-06-20 04:45:04.098311 : Award Dice Roll Shev1#1918
+2020-06-20 04:45:08.457888 : Award Dice Roll heet3r#7274
+2020-06-20 04:45:08.717918 : Award Dice Roll Artikhopper#2517
+2020-06-20 04:45:25.297396 : Claim Challenge FatMichael#7853 Days Logged In
+2020-06-20 04:45:25.451999 : Cancelling No Challenge Timer
+2020-06-20 04:45:25.451999 : Active Challenge Timer Start
+2020-06-20 08:27:58.031006 : New Champ FatMichael#7853
+2020-06-20 08:27:58.031985 : Cancelling Active Challenge Timer
+2020-06-20 08:27:58.031985 : No Challenge Timer Start
+2020-06-20 11:27:58.139322 : NC Timeout
+2020-06-20 11:27:59.276035 : New Challenger Shev1#1918 Character Rank Ups
+2020-06-20 11:27:59.448317 : Cancelling No Challenge Timer
+2020-06-20 11:27:59.449281 : Active Challenge Timer Start
+2020-06-20 12:32:57.459883 : Defence FatMichael#7853 Shev1#1918
+2020-06-20 12:32:57.460847 : Cancelling Active Challenge Timer
+2020-06-20 12:32:57.460847 : No Challenge Timer Start
+2020-06-20 15:32:57.550703 : NC Timeout
+2020-06-20 15:32:58.622887 : New Challenger Talon#7280 War Credits Hoarder
+2020-06-20 15:32:58.782372 : Cancelling No Challenge Timer
+2020-06-20 15:32:58.785308 : Active Challenge Timer Start
+2020-06-20 23:32:58.882451 : AC Timeout
+2020-06-21 01:09:25.156528 : Defence FatMichael#7853 Talon#7280
+2020-06-21 01:09:25.157506 : Cancelling Active Challenge Timer
+2020-06-21 01:09:25.157506 : No Challenge Timer Start
+2020-06-21 01:13:03.312651 : Claim Challenge Shev1#1918 Characters at 100K+
+2020-06-21 01:13:03.479518 : Cancelling No Challenge Timer
+2020-06-21 01:13:03.480496 : Active Challenge Timer Start
+2020-06-21 01:26:08.738128 : Category FatMichael#7853 Strongest Random Team ,Black Widow,Mysterio,Wasp,Star-Lord,SHIELD Trooper,
+2020-06-21 04:36:35.973637 : Defence FatMichael#7853 Shev1#1918
+2020-06-21 04:36:35.973637 : Cancelling Active Challenge Timer
+2020-06-21 04:36:35.974615 : No Challenge Timer Start
+2020-06-21 07:36:36.083923 : NC Timeout
+2020-06-21 07:36:37.058578 : New Challenger Wagon King#7785 Strongest Protector Team
+2020-06-21 07:36:37.210672 : Cancelling No Challenge Timer
+2020-06-21 07:36:37.211650 : Active Challenge Timer Start
+2020-06-21 12:24:14.491188 : Defence FatMichael#7853 Wagon King#7785
+2020-06-21 12:24:14.491878 : Cancelling Active Challenge Timer
+2020-06-21 12:24:14.494812 : No Challenge Timer Start
+2020-06-21 12:28:05.505572 : Claim Challenge Shev1#1918 Characters at 6+ Stars
+2020-06-21 12:28:05.684057 : Cancelling No Challenge Timer
+2020-06-21 12:28:05.685037 : Active Challenge Timer Start
+2020-06-21 13:36:00.604916 : Defence FatMichael#7853 Shev1#1918
+2020-06-21 13:36:00.607865 : Cancelling Active Challenge Timer
+2020-06-21 13:36:00.609805 : No Challenge Timer Start
+2020-06-21 13:52:51.343834 : Claim Challenge OzDH#3266 Champions Choice
+2020-06-21 13:52:51.562339 : Cancelling No Challenge Timer
+2020-06-21 13:52:51.563317 : Active Challenge Timer Start
+2020-06-21 14:31:49.409183 : Defence FatMichael#7853 OzDH#3266
+2020-06-21 14:31:49.414071 : Cancelling Active Challenge Timer
+2020-06-21 14:31:49.414071 : No Challenge Timer Start
+2020-06-21 17:31:49.522427 : NC Timeout
+2020-06-21 17:31:50.682440 : New Challenger heet3r#7274 Highest Power 0 T4s
+2020-06-21 17:31:50.835918 : Cancelling No Challenge Timer
+2020-06-21 17:31:50.836895 : Active Challenge Timer Start
+2020-06-21 18:15:59.221845 : Defence FatMichael#7853 heet3r#7274
+2020-06-21 18:15:59.223797 : Cancelling Active Challenge Timer
+2020-06-21 18:15:59.225752 : No Challenge Timer Start
+2020-06-21 21:15:59.335944 : NC Timeout
+2020-06-21 21:16:00.539910 : New Challenger TYfighter#7937 Strongest Random Team ,Rescue,SHIELD Medic,Hand Blademaster,Hand Sorceress,Vision,
+2020-06-21 21:16:00.701806 : Cancelling No Challenge Timer
+2020-06-21 21:16:00.702768 : Active Challenge Timer Start
+2020-06-22 05:16:00.806121 : AC Timeout
+2020-06-22 05:44:10.148063 : Defence FatMichael#7853 TYfighter#7937
+2020-06-22 05:44:10.149030 : Cancelling Active Challenge Timer
+2020-06-22 05:44:10.150018 : No Challenge Timer Start
+2020-06-22 08:14:22.417080 : Claim Challenge OzDH#3266 Characters at 60K+
+2020-06-22 08:14:22.576426 : Cancelling No Challenge Timer
+2020-06-22 08:14:22.577404 : Active Challenge Timer Start
+2020-06-22 08:41:09.354368 : New Champ OzDH#3266
+2020-06-22 08:41:09.354368 : Cancelling Active Challenge Timer
+2020-06-22 08:41:09.355335 : No Challenge Timer Start
+2020-06-22 09:02:48.955810 : Startup : Logged in as Grandmaster
+2020-06-22 11:41:09.461270 : NC Timeout
+2020-06-22 11:41:10.401678 : New Challenger TrickJames#9614 Current Arena Rank [#]
+2020-06-22 11:41:10.586735 : Cancelling No Challenge Timer
+2020-06-22 11:41:10.587712 : Active Challenge Timer Start
+2020-06-22 19:41:10.689384 : AC Timeout
+2020-06-22 19:43:14.254321 : Defence OzDH#3266 TrickJames#9614
+2020-06-22 19:43:14.255300 : Cancelling Active Challenge Timer
+2020-06-22 19:43:14.256287 : No Challenge Timer Start
+2020-06-22 22:43:14.360153 : NC Timeout
+2020-06-22 22:43:15.758037 : New Challenger ColbysGotMoore#1776 Characters at 60K+
+2020-06-22 22:43:15.928158 : Cancelling No Challenge Timer
+2020-06-22 22:43:15.929120 : Active Challenge Timer Start
+2020-06-22 22:50:04.524914 : Defence OzDH#3266 ColbysGotMoore#1776
+2020-06-22 22:50:04.525891 : Cancelling Active Challenge Timer
+2020-06-22 22:50:04.537624 : No Challenge Timer Start
+2020-06-22 22:50:21.620746 : My Info ColbysGotMoore#1776
+2020-06-22 22:50:31.985975 : Claim Challenge ColbysGotMoore#1776 Highest Power Character
+2020-06-22 22:50:32.165862 : Cancelling No Challenge Timer
+2020-06-22 22:50:32.166839 : Active Challenge Timer Start
+2020-06-22 22:50:47.828167 : Defence OzDH#3266 ColbysGotMoore#1776
+2020-06-22 22:50:47.829144 : Cancelling Active Challenge Timer
+2020-06-22 22:50:47.829144 : No Challenge Timer Start
+2020-06-22 22:51:43.535598 : Claim Challenge ColbysGotMoore#1776 Strongest Minion Team
+2020-06-22 22:51:43.692017 : Cancelling No Challenge Timer
+2020-06-22 22:51:43.692994 : Active Challenge Timer Start
+2020-06-22 22:56:25.522548 : New Champ ColbysGotMoore#1776
+2020-06-22 22:56:25.524503 : Cancelling Active Challenge Timer
+2020-06-22 22:56:25.524503 : No Challenge Timer Start
+2020-06-23 01:56:25.632885 : NC Timeout
+2020-06-23 01:56:27.049549 : New Challenger GeauxRagnar#8795 PVP!
+2020-06-23 01:56:27.204238 : Cancelling No Challenge Timer
+2020-06-23 01:56:27.205226 : Active Challenge Timer Start
+2020-06-23 02:07:34.147843 : Defence ColbysGotMoore#1776 GeauxRagnar#8795
+2020-06-23 02:07:34.147843 : Cancelling Active Challenge Timer
+2020-06-23 02:07:34.148824 : No Challenge Timer Start
+2020-06-23 05:07:34.254130 : NC Timeout
+2020-06-23 05:07:35.308996 : New Challenger Talon#7280 Random Character Power Level [Level] 68965
+2020-06-23 05:07:35.449537 : Cancelling No Challenge Timer
+2020-06-23 05:07:35.450503 : Active Challenge Timer Start
+2020-06-23 06:21:12.057237 : Defence ColbysGotMoore#1776 Talon#7280
+2020-06-23 06:21:12.058214 : Cancelling Active Challenge Timer
+2020-06-23 06:21:12.058214 : No Challenge Timer Start
+2020-06-23 09:21:12.160433 : NC Timeout
+2020-06-23 09:21:13.300897 : New Challenger Randy Savage#5425 All Time Arena Rank [#]
+2020-06-23 09:21:13.475350 : Cancelling No Challenge Timer
+2020-06-23 09:21:13.475850 : Active Challenge Timer Start
+2020-06-23 15:58:50.186942 : Defence ColbysGotMoore#1776 Randy Savage#5425
+2020-06-23 15:58:50.214314 : Cancelling Active Challenge Timer
+2020-06-23 15:58:50.214314 : No Challenge Timer Start
+2020-06-23 16:05:32.744715 : Opt Out candidme#0528
+2020-06-23 18:58:50.320248 : NC Timeout
+2020-06-23 18:58:55.942615 : New Challenger candidme#0528 Current Arena Rank [#]
+2020-06-23 18:58:56.136796 : Cancelling No Challenge Timer
+2020-06-23 18:58:56.136796 : Active Challenge Timer Start
+2020-06-23 19:16:27.885999 : Defence ColbysGotMoore#1776 candidme#0528
+2020-06-23 19:16:27.885999 : Cancelling Active Challenge Timer
+2020-06-23 19:16:27.886967 : No Challenge Timer Start
+2020-06-23 22:16:27.990051 : NC Timeout
+2020-06-23 22:16:29.158274 : New Challenger TrickJames#9614 Gear 1 Characters
+2020-06-23 22:16:29.300677 : Cancelling No Challenge Timer
+2020-06-23 22:16:29.301659 : Active Challenge Timer Start
+2020-06-23 23:35:24.397485 : Defence ColbysGotMoore#1776 TrickJames#9614
+2020-06-23 23:35:24.425836 : Cancelling Active Challenge Timer
+2020-06-23 23:35:24.426814 : No Challenge Timer Start
+2020-06-24 02:35:24.531497 : NC Timeout
+2020-06-24 02:35:25.595976 : New Challenger TYfighter#7937 Characters at 40K+
+2020-06-24 02:35:25.856868 : Cancelling No Challenge Timer
+2020-06-24 02:35:25.857836 : Active Challenge Timer Start
+2020-06-24 10:35:25.961822 : AC Timeout
+2020-06-24 14:00:26.531473 : Defence ColbysGotMoore#1776 TYfighter#7937
+2020-06-24 14:00:26.597951 : Cancelling Active Challenge Timer
+2020-06-24 14:00:26.629236 : No Challenge Timer Start
+2020-06-24 17:00:26.758918 : NC Timeout
+2020-06-24 17:00:27.976596 : New Challenger Shadowsrisen#0269 Challengers Choice
+2020-06-24 17:00:28.287656 : Cancelling No Challenge Timer
+2020-06-24 17:00:28.287656 : Active Challenge Timer Start
+2020-06-24 17:57:50.966043 : Defence ColbysGotMoore#1776 Shadowsrisen#0269
+2020-06-24 17:57:50.967020 : Cancelling Active Challenge Timer
+2020-06-24 17:57:50.967998 : No Challenge Timer Start
+2020-06-24 17:57:55.759004 : Opt Out Shadowsrisen#0269
+2020-06-24 20:57:51.065831 : NC Timeout
+2020-06-24 20:57:55.974097 : New Challenger heet3r#7274 PVP!
+2020-06-24 20:57:56.148624 : Cancelling No Challenge Timer
+2020-06-24 20:57:56.149607 : Active Challenge Timer Start
+2020-06-25 04:57:56.250326 : AC Timeout
